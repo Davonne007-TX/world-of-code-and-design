@@ -1,9 +1,12 @@
+import Home from "./components/Home";
 import "./App.css";
 
 function App() {
   return (
     <>
-      <h1>2025</h1>
+      <main>
+        <Home />
+      </main>
     </>
   );
 }
