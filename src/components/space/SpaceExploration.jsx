@@ -1,5 +1,9 @@
-import React from "react";
+import Nav from "./Nav";
 
 export default function SpaceExploration() {
-  return <div>Space Exploration</div>;
+  return (
+    <main className="bg-[url('images/space.jpg')] bg-cover min-h-screen">
+      <Nav />
+    </main>
+  );
 }
