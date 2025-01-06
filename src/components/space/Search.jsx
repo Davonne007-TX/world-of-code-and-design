@@ -3,7 +3,7 @@ import Button from "./Button";
 export default function Search() {
   return (
     <section>
-      <p className="font-thin mt-4 lg:mt-8 text-md lg:text-2xl">
+      <p className="font-thin mt-2 lg:mt-4 text-md lg:text-2xl">
         Combing our forces to bring together a group of individuals who care
         about humanity's survival of the apocalypse. Bring your family and
         friends and lets surive the end together.
