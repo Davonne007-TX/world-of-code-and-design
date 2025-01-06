@@ -14,20 +14,20 @@ export default function Nav() {
         <ul className="text-xl flex gap-10 mt-4 font-bold  bg-slate-800 p-4 rounded-full opacity-75">
           <h1 className="md:text-3xl">Save Humanity</h1>
           {navList.map((list) => (
-            <li key={list.id} className="mt-1 hidden lg:flex">
+            <li key={list.id} className="mt-2 hidden lg:flex">
               {list.navLink}
             </li>
           ))}
           <Button
             btnTxt={"Sign Up"}
             className={
-              "hidden md:flex text-lg md:text-xl bg-slate-700 rounded-xl -mt-2"
+              "hidden md:flex text-lg md:text-xl bg-slate-700 rounded-xl "
             }
           />
           <Button
             btnTxt={"Log In"}
             className={
-              "hidden lg:flex text-lg md:text-xl bg-slate-700 rounded-xl  -mt-2"
+              "hidden lg:flex text-lg md:text-xl bg-slate-700 rounded-xl"
             }
           />
         </ul>
