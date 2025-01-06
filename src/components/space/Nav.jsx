@@ -5,7 +5,7 @@ export default function Nav() {
     { navLink: "Plan", id: 1 },
     { navLink: "Action", id: 2 },
     { navLink: "Maps", id: 3 },
-    { navLink: "Tunnels", id: 4 },
+    { navLink: "Race to Space", id: 4 },
   ];
 
   return (
@@ -20,11 +20,15 @@ export default function Nav() {
           ))}
           <Button
             btnTxt={"Sign Up"}
-            className={"text-lg md:text-xl bg-slate-700 rounded-xl -mt-2"}
+            className={
+              "hidden md:flex text-lg md:text-xl bg-slate-700 rounded-xl -mt-2"
+            }
           />
           <Button
             btnTxt={"Log In"}
-            className={"text-lg md:text-xl bg-slate-700 rounded-xl  -mt-2"}
+            className={
+              "hidden lg:flex text-lg md:text-xl bg-slate-700 rounded-xl  -mt-2"
+            }
           />
         </ul>
       </nav>
