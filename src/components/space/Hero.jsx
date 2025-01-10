@@ -7,8 +7,8 @@ export default function Hero() {
         <h2>
           Help us Save Humanity <br />
           <div className="mt-2 md:mt-4">
-            <span>After an</span>
-            <span className=" bg-gradient-to-r from-orange-400 via-orange-500 to-orange-800 font-orb ml-2">
+            <span className="">After an</span>
+            <span className=" bg-gradient-to-r ml-2 from-orange-400 via-orange-500 to-orange-800 font-orb p-2 ">
               {" "}
               E.L.E
             </span>
