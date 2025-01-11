@@ -1,5 +1,9 @@
-import React from "react";
+import Nav from "./Nav";
 
 export default function WannaCode() {
-  return <div>WannaCode</div>;
+  return (
+    <main className="flex flex-col justify-center items-center">
+      <Nav />
+    </main>
+  );
 }
