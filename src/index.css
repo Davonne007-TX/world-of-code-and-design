@@ -5,3 +5,9 @@
   --font-orb: "Orbitron", "serif";
   --font-arc: "Archivo Black", serif;
 }
+
+label {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 2px;
+}
