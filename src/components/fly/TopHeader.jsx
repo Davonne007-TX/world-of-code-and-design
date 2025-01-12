@@ -17,8 +17,11 @@ export default function TopHeader() {
         <div className="flex justify-center items-center">
           <Image
             image={plane}
-            className={"w-10 h-auto absolute left-0 mt-4 lg:mt-0"}
+            className={"w-10 h-auto absolute left-0 mt-4 lg:mt-0 "}
+            alt={"Airplane Logo, Plane icon by Icons8"}
           />
+
+          <h1 className="absolute left-10 ml-2 mt-2 lg:mt-0 text-2xl">Soar</h1>
 
           <ul className="hidden lg:flex justify-between gap-8 items-center text-lg">
             {navLinks.map((link) => (
@@ -33,9 +36,6 @@ export default function TopHeader() {
           </button>
         </div>
       </nav>
-      <h2 className="text-6xl md:text-7xl lg:text-8xl mt-26 lg:mt-20">
-        Fly With Us Today
-      </h2>
     </header>
   );
 }
