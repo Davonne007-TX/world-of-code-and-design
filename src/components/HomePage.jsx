@@ -6,9 +6,11 @@ const MyWork = React.lazy(() => import("./MyWork"));
 export default function Home() {
   return (
     <main className="bg-black min-h-screen text-white flex flex-col justify-between">
-      <section className="flex flex-col justify-center items-center">
-        <h1 className="text-7xl font-bold font-glo mt-10">2025</h1>
-        <p className="text-2xl font-glo mt-4">From Design to Code</p>
+      <section className="flex flex-col ml-10">
+        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-glo mt-10 mr-auto">
+          2025 - From Design to Code
+        </h1>
+
         <Suspense fallback={<div>Magic in the making....</div>}>
           <MyWork />
         </Suspense>
