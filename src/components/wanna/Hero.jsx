@@ -10,6 +10,8 @@ export default function Hero() {
       building skills, staying consistent to land a role.`,
   ];
 
+  const codeCan = "/images/codeCan.webp";
+
   return (
     <section className="max-w-xs md:max-w-6xl lg:max-w-7xl flex flex-col text-white mt-20 lg:mt-40">
       <section className="flex flex-col lg:flex-row">
@@ -28,10 +30,10 @@ export default function Hero() {
           />
         </section>
         <Image
-          image={"/images/sodaCan.jpg"}
-          alt={"Purple Soda Can Wanna Code with a Laptop, Image from Grok"}
+          image={codeCan}
+          alt={"Purple Soda Can Wanna Code with a Laptop, Image from chatGPT"}
           className={
-            "max-w-sm md:max-w-md lg:max-w-xl rounded-xl transform-3d md:rotate-x-12 md:rotate-z-8 shadow-xl mt-8 lg:mt-0 lg:ml-10"
+            "max-w-sm md:max-w-md lg:max-w-lg rounded-xl lg:-mt-20 shadow-xl mt-8 lg:ml-10"
           }
         />
       </section>
