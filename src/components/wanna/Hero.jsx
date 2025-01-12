@@ -3,7 +3,7 @@ import Button from "../Button";
 
 export default function Hero() {
   const aboutWannaCoode = [
-    ` Are you in a coding rut? Overwhelmed with so much you have to learn.
+    ` Are you in a coding rut? Overwhelmed with so much you have to learn?
       Our site can help. Wanna Code, lets you keep track of your
       consistency, build projects, participate working with others,
       showcasing your work, all in one site. Join your fellow developers
@@ -18,7 +18,7 @@ export default function Hero() {
         <section className="flex flex-col gap-4">
           <h2 className="mr-auto text-3xl md:text-3xl lg:text-5xl font-arc">
             Take Your Coding Skills To The Next{" "}
-            <span className="text-purple-600">Level</span>
+            <span className="text-purple-700">Level</span>
           </h2>
           <p className="max-w-lg md:max-w-xl lg:max-w-2xl text-lg md:text-xl lg:text-2xl">
             {aboutWannaCoode}
@@ -26,7 +26,7 @@ export default function Hero() {
 
           <Button
             btnTxt={"Join us Today"}
-            className={"bg-purple-600 rounded-full p-2 font-bold w-80 mt-4"}
+            className={"bg-purple-700 rounded-full p-2 font-bold w-80 mt-4"}
           />
         </section>
         <Image

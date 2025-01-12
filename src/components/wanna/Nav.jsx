@@ -11,7 +11,7 @@ export default function Nav() {
   ];
   return (
     <>
-      <header className="flex flex-row justify-between items-center w-full p-4 font-arc text-purple-600 gap-8 mt-4">
+      <header className="flex flex-row justify-between items-center w-full p-4 font-arc text-purple-700 gap-8 mt-4">
         <h1 className="text-5xl">Wanna Code?</h1>
         <nav>
           <ul className="hidden lg:flex gap-8 text-2xl">
