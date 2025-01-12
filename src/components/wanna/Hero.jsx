@@ -31,7 +31,7 @@ export default function Hero() {
           image={"/images/sodaCan.jpg"}
           alt={"Purple Soda Can Wanna Code with a Laptop, Image from Grok"}
           className={
-            "max-w-sm md:max-w-md lg:max-w-xl rounded-xl mt-8 lg:mt-0 lg:ml-10"
+            "max-w-sm md:max-w-md lg:max-w-xl rounded-xl transform-3d md:rotate-x-12 md:rotate-z-8 shadow-xl mt-8 lg:mt-0 lg:ml-10"
           }
         />
       </section>
