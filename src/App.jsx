@@ -7,6 +7,7 @@ const SpaceExploration = React.lazy(() =>
 );
 const WannaCode = React.lazy(() => import("./components/wanna/WannaCode"));
 import "./App.css";
+const FlyWithUs = React.lazy(() => import("./components/fly/FlyWithUs"));
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/space" element={<SpaceExploration />} />
           <Route path="/wannaCode" element={<WannaCode />} />
+          <Route path="/fly" element={<FlyWithUs />} />
         </Routes>
       </Suspense>
     </>
