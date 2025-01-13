@@ -48,7 +48,7 @@ export default function BookNextFlight() {
       </label>
 
       <Button
-        btnTxt={"Search For Fight"}
+        btnTxt={"Search For Flight"}
         className={"bg-pink-400/40 rounded-full w-full"}
       />
     </form>
