@@ -6,7 +6,7 @@
   --font-arc: "Archivo Black", serif;
 }
 
-label {
+.flyLabel {
   border: 1px solid lightgray;
   border-radius: 5px;
   padding: 2px;
