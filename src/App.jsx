@@ -11,6 +11,9 @@ const FlyWithUs = React.lazy(() => import("./components/fly/FlyWithUs"));
 const SkateCompetition = React.lazy(() =>
   import("./components/skate/SkateCompetition")
 );
+const OurBurgerPlace = React.lazy(() =>
+  import("./components/restaurant/OurBurgerPlace")
+);
 
 function App() {
   return (
@@ -22,6 +25,7 @@ function App() {
           <Route path="/wannaCode" element={<WannaCode />} />
           <Route path="/fly" element={<FlyWithUs />} />
           <Route path="/skate" element={<SkateCompetition />} />
+          <Route path="/ourBurgerPlace" element={<OurBurgerPlace />} />
         </Routes>
       </Suspense>
     </>

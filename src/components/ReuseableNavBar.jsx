@@ -1,4 +1,4 @@
-export default function ReuseableNavBar({ heading, ourNavLinks }) {
+export default function ReuseableNavBar({ heading, burgerNavLinks }) {
   return (
     <header className="text-white font-serif font-thin w-full p-4">
       <nav className="cursor-pointer relative">
@@ -8,7 +8,7 @@ export default function ReuseableNavBar({ heading, ourNavLinks }) {
           </h1>
 
           <ul className="hidden lg:flex justify-between gap-8 items-center text-lg">
-            {ourNavLinks}
+            {burgerNavLinks}
           </ul>
 
           <button className="text-4xl absolute right-0 cursor-pointer">

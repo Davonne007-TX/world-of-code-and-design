@@ -10,18 +10,7 @@ export default function OurBurgerPlace() {
 
   return (
     <main>
-      <section className="bg-[url-('/images/burgerAndFries.jpg')] bg-cover min-h-screen">
-        <ReuseableNavBar
-          header={"Our Burger Place"}
-          ourNavLinks={
-            <>
-              {ourBurgerLinks.map((links) => (
-                <li key={links.id}>{links.burgerLinks}</li>
-              ))}
-            </>
-          }
-        />
-      </section>
+      <h1>Nope didnt work</h1>
     </main>
   );
 }
