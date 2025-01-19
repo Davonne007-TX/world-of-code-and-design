@@ -8,7 +8,7 @@ export default function Home() {
     <main className="bg-black min-h-screen text-white flex flex-col justify-between">
       <section className="flex flex-col ml-10">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-glo mt-10 mr-auto">
-          2025 - From Design to Code
+          2025 - From Design to <span className="text-purple-600">Code</span>
         </h1>
 
         <Suspense fallback={<div>Magic in the making....</div>}>
