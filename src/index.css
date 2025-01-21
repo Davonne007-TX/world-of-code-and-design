@@ -7,6 +7,12 @@
   --font-pro: "Protest Guerrilla", serif;
 }
 
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
 .flyLabel {
   border: 1px solid lightgray;
   border-radius: 5px;
