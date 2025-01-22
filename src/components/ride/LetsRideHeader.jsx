@@ -7,12 +7,12 @@ export default function LetsRideHeader() {
     { rideLinks: "Contact", id: 35 },
   ];
   return (
-    <header className="w-full font-pro">
+    <header className="w-full font-pro mt-10">
       <nav className="flex justify-center gap-10 items-center">
         <h1 className="text-4xl">Let's Ride</h1>
-        <ul className="flex flex-row gap-20 justify-between items-center">
+        <ul className=" hidden md:flex md:flex-row md: gap-10 lg:gap-20 justify-between items-center">
           {letsRideLinks.map((link) => (
-            <li key={link.id} className="text-black">
+            <li key={link.id} className="text-black text-2xl">
               {link.rideLinks}
             </li>
           ))}
