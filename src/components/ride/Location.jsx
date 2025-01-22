@@ -5,7 +5,7 @@ export default function Location() {
   return (
     <section className="bg-black font-serif p-4 text-white w-full justify-center items-center">
       <section className="flex flex-col md:flex-row justify-center items-center gap-4 md:gap-10">
-        <p className="mt-2">Find a location near you</p>
+        <p className="mt-2 text-lg">Find a location near you</p>
         <label className="relative flex justify-center items-center">
           <input
             type="search"
