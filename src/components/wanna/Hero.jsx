@@ -33,7 +33,7 @@ export default function Hero() {
           image={codeCan}
           alt={"Purple Soda Can Wanna Code with a Laptop, Image from chatGPT"}
           className={
-            "max-w-sm md:max-w-md lg:max-w-lg rounded-xl lg:-mt-20 shadow-xl mt-8 lg:ml-10"
+            "max-w-sm mb-20 md:max-w-md lg:max-w-lg rounded-xl lg:-mt-20 shadow-xl mt-8 lg:ml-10"
           }
         />
       </section>

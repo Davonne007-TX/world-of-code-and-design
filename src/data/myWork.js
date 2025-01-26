@@ -5,4 +5,5 @@ export const myWork = [
   { id: 4, text: "National Skater Skate Off", link: "/skate" },
   { id: 5, text: "Systematic", link: "/greaseLightning" },
   { id: 6, text: "Lets Ride", link: "/letsRide" },
+  { id: 7, text: "Arcade", link: "/arcade" },
 ];

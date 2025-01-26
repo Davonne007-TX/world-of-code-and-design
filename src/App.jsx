@@ -13,6 +13,7 @@ const SkateCompetition = React.lazy(() =>
 );
 const GreaseToday = React.lazy(() => import("./components/grease/GreaseToday"));
 const LetsRide = React.lazy(() => import("./components/ride/LetsRide"));
+const Arcade = React.lazy(() => import("./components/gaming/Arcade"));
 function App() {
   return (
     <>
@@ -25,6 +26,7 @@ function App() {
           <Route path="/skate" element={<SkateCompetition />} />
           <Route path="/greaseLightning" element={<GreaseToday />} />
           <Route path="/letsRide" element={<LetsRide />} />
+          <Route path="/arcade" element={<Arcade />} />
         </Routes>
       </Suspense>
     </>

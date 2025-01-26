@@ -7,7 +7,7 @@ export default function LetsRideHeader() {
     { rideLinks: "Contact", id: 35 },
   ];
   return (
-    <header className="w-full font-pro mt-10">
+    <header className="w-full font-pro mt-8">
       <nav className="flex justify-center gap-10 items-center">
         <h1 className="text-4xl">Let's Ride</h1>
         <ul className=" hidden md:flex md:flex-row md: gap-10 lg:gap-20 justify-between items-center">
