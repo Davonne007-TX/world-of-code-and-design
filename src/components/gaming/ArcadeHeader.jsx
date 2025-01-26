@@ -15,7 +15,7 @@ export default function ArcadeHeader() {
   const contact = "Contact";
 
   return (
-    <header className="p-4 w-ful font-orb bg-fuchsia-400 flex justify-between items-center">
+    <header className="p-4 w-ful font-orb font-bold bg-fuchsia-400 flex justify-between items-center">
       <div className="flex items-center">
         <Image image={joystick} />
         <h1 className="text-2xl md:text-3xl p-2">Time Machine Arcade</h1>
