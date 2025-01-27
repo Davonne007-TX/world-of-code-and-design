@@ -13,11 +13,13 @@ export default function WizardHome() {
     <>
       <WizardHeader />
 
-      <section className="mx-auto max-w-6xl mt-20">
+      <section className="mx-auto max-w-xs md:max-w-6xl mt-20">
         <section className="flex flex-col justify-center items-center lg:flex-row md:gap-10 lg:gap-20 ">
-          <div className="flex flex-col gap-4 mt-10 ml-20 md:ml-0">
-            <h2 className="text-5xl font-bold font-glo">{champion}</h2>
-            <p className="text-2xl leading-relaxed">{details}</p>
+          <div className="flex flex-col gap-4 mt-10 md:ml-0">
+            <h2 className="text-3xl md:text-5xl font-bold font-glo">
+              {champion}
+            </h2>
+            <p className="text-lg md:text-2xl leading-relaxed">{details}</p>
             <Button
               btnTxt={"Save My Spot"}
               className={"bg-black text-white p-2 rounded-full w-40 text-xl"}

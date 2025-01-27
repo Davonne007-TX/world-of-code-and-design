@@ -17,7 +17,7 @@ export default function WizardHeader() {
         <h1 className="text-2xl sm:text-4xl font-glo flex-grow text-center sm:text-left">
           Wizard Chess Tournament
         </h1>
-        <div className="mx-auto flex mt-2 gap-2">
+        <div className="mx-auto hidden md:flex mt-2 gap-2">
           <input
             type="search"
             className="bg-white p-2 rounded-full outline-none text-black"
