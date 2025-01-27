@@ -1,30 +1,36 @@
 import WizardHeader from "./WizardHeader";
 import Button from "../Button";
 import Image from "../Image";
-
 export default function WizardHome() {
-  const champion = "become the next champion in May 2025...";
-  const arrow = "./images/arrow.png";
+  const champion = "Become The Next Champion";
+  const details = `Harry Potter fans from around the world get to come together
+  and have a chance to compete in this years Wizards Chess Tournament. Deadline 
+  to enter is 2/14/25 to be able to compete in the Summer 2025 in the
+  United Kingdom.`;
 
+  const wizardChess = "./images/wizardChess.jpg";
   return (
-    <section className="bg-[url('./images/wc.jpg')] bg-cover min-h-screen">
+    <>
       <WizardHeader />
-      <p className="text-white font-glo text-2xl mt-10 ml-40 lg:ml-48">
-        {champion}
-      </p>
 
-      <div className="flex gap-8">
-        <Button
-          btnTxt={"sign up"}
-          className={
-            "bg-black text-white p-2  ml-40 md:ml-48 mt-4 rounded-xl font-glo flex justify-center items-center text-2xl"
-          }
-        />
-        <Image
-          image={arrow}
-          className={"w-12 h-12 mt-4 animate-pulse cursor-pointer"}
-        />
-      </div>
-    </section>
+      <section className="mx-auto max-w-6xl mt-20">
+        <section className="flex flex-col justify-center items-center lg:flex-row md:gap-10 lg:gap-20 ">
+          <div className="flex flex-col gap-4 mt-10 ml-20 md:ml-0">
+            <h2 className="text-5xl font-bold font-glo">{champion}</h2>
+            <p className="text-2xl leading-relaxed">{details}</p>
+            <Button
+              btnTxt={"Save My Spot"}
+              className={"bg-black text-white p-2 rounded-full w-40 text-xl"}
+            />
+          </div>
+          <div className="ml-10">
+            <Image
+              image={wizardChess}
+              className={"max-w-xl md:max-w-2xl  mt-10 rounded-xl"}
+            />
+          </div>
+        </section>
+      </section>
+    </>
   );
 }
