@@ -1,3 +1,9 @@
+import WizardHome from "./WizardHome";
+
 export default function WizardChess() {
-  return <div>WizardChess</div>;
+  return (
+    <main>
+      <WizardHome />
+    </main>
+  );
 }
