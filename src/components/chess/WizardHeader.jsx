@@ -10,7 +10,7 @@ export default function WizadrHeader() {
     <header className="flex justify-center items-center bg-black/10 text-white">
       <section className="p-4">
         <h1 className="text-4xl font-glo">
-          Wizard Chess Tournament International
+          Wizard Chess Tournament International \
         </h1>
         <ul className="hidden md:flex justify-center items-center mt-2 gap-10 font-glo text-2xl">
           {tournamentLink.map((link) => (

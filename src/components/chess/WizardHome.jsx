@@ -3,7 +3,7 @@ import Button from "../Button";
 import Image from "../Image";
 
 export default function WizardHome() {
-  const champion = "become the next champion...";
+  const champion = "become the next champion in May 2025...";
   const arrow = "./images/arrow.png";
 
   return (
@@ -15,7 +15,7 @@ export default function WizardHome() {
 
       <div className="flex gap-8">
         <Button
-          btnTxt={"Sign Up"}
+          btnTxt={"sign up"}
           className={
             "bg-black text-white p-2  ml-40 md:ml-48 mt-4 rounded-xl font-glo flex justify-center items-center text-2xl"
           }
