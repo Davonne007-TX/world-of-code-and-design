@@ -28,7 +28,7 @@ export default function FiftesHero() {
         </div>
         <Image
           image={bike}
-          className={"max-w-sm md:max-w-2xl lg:max-w-3xl rounded-3xl"}
+          className={"max-w-sm md:max-w-2xl lg:max-w-sm rounded-3xl"}
           alt={
             "Pink Racer Bike Popping a Wheel E, Photo by Anastasia Shuraeva on Pexels "
           }
