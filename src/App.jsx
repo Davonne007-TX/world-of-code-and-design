@@ -6,7 +6,7 @@ const SpaceExploration = React.lazy(() =>
   import("./components/space/SpaceExploration")
 );
 const WannaCode = React.lazy(() => import("./components/wanna/WannaCode"));
-import "./App.css";
+
 const FlyWithUs = React.lazy(() => import("./components/fly/FlyWithUs"));
 const SkateCompetition = React.lazy(() =>
   import("./components/skate/SkateCompetition")
@@ -14,6 +14,8 @@ const SkateCompetition = React.lazy(() =>
 const GreaseToday = React.lazy(() => import("./components/grease/GreaseToday"));
 const LetsRide = React.lazy(() => import("./components/ride/LetsRide"));
 const Arcade = React.lazy(() => import("./components/gaming/Arcade"));
+const WizardChess = React.lazy(() => import("./components/chess/WizardChess"));
+
 function App() {
   return (
     <>
@@ -27,6 +29,7 @@ function App() {
           <Route path="/greaseLightning" element={<GreaseToday />} />
           <Route path="/letsRide" element={<LetsRide />} />
           <Route path="/arcade" element={<Arcade />} />
+          <Route path="/wizardChess" element={<WizardChess />} />
         </Routes>
       </Suspense>
     </>
