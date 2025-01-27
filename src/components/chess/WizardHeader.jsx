@@ -12,7 +12,7 @@ export default function WizadrHeader() {
         <h1 className="text-4xl font-glo">
           Wizard Chess Tournament International
         </h1>
-        <ul className="flex justify-center items-center mt-2 gap-10 font-glo text-2xl">
+        <ul className="hidden md:flex justify-center items-center mt-2 gap-10 font-glo text-2xl">
           {tournamentLink.map((link) => (
             <li key={link.id}>{link.chessLink}</li>
           ))}
