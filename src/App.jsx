@@ -15,6 +15,7 @@ const GreaseToday = React.lazy(() => import("./components/grease/GreaseToday"));
 const LetsRide = React.lazy(() => import("./components/ride/LetsRide"));
 const Arcade = React.lazy(() => import("./components/gaming/Arcade"));
 const WizardChess = React.lazy(() => import("./components/chess/WizardChess"));
+const Spiderman = React.lazy(() => import("./components/spiderman/Spiderman"));
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
           <Route path="/letsRide" element={<LetsRide />} />
           <Route path="/arcade" element={<Arcade />} />
           <Route path="/wizardChess" element={<WizardChess />} />
+          <Route path="/spiderman" element={<Spiderman />} />
         </Routes>
       </Suspense>
     </>

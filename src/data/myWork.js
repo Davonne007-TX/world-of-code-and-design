@@ -7,4 +7,5 @@ export const myWork = [
   { id: 6, text: "Lets Ride", link: "/letsRide" },
   { id: 7, text: "Arcade", link: "/arcade" },
   { id: 8, text: "Wizard Chess", link: "/wizardChess" },
+  { id: 9, text: "Spiderman", link: "/spiderman" },
 ];
