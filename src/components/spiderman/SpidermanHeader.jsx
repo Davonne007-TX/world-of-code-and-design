@@ -3,9 +3,10 @@ import Image from "../Image";
 export default function SpidermanHeader() {
   const fanClubLinks = [
     { spidermanLink: "About", id: 1 },
-    { spidermanLink: "Chat", id: 2 },
-    { spidermanLink: "Gallery", id: 3 },
+    { spidermanLink: "Archives", id: 2 },
+    { spidermanLink: "Discord", id: 3 },
     { spidermanLink: "Merch", id: 4 },
+    { spidermanLink: "Connect", id: 4 },
   ];
 
   const cart = "./images/redCart.png";
@@ -14,7 +15,9 @@ export default function SpidermanHeader() {
   return (
     <header className="text-white flex flex-col justify-center items-center">
       <section className="flex justify-between items-center w-full mt-2 p-4">
-        <h1 className="font-press text-2xl md:text-3xl ">Spiderman Fan Club</h1>
+        <h1 className="font-pro text-3xl md:text-4xl ">
+          Spiderman Fan Club TX
+        </h1>
 
         <nav className="hidden md:flex justify-center">
           <ul className="flex ">
