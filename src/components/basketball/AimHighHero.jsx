@@ -1,6 +1,6 @@
 export default function AimHighHero() {
   const camp = "Basketball Camp 25'";
-  const info = `At Aim High Basketball Camp you will lean the skills not only
+  const info = `At Aim High Basketball Camp you will learn the skills not only
   for basketball but for the rest of your life. Teamwork. Discipline. Confidence.
   And the opportunity to connect with people who love basketball as much as you.
   Gain skills, make friends, play ball.`;
