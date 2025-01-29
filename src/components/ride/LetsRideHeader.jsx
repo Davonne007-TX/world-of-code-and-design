@@ -4,7 +4,7 @@ export default function LetsRideHeader() {
     { rideLinks: "Shop", id: 2 },
     { rideLinks: "Parts", id: 3 },
     { rideLinks: "Account", id: 4 },
-    { rideLinks: "Contact", id: 35 },
+    { rideLinks: "Contact", id: 5 },
   ];
   return (
     <header className="w-full font-pro mt-8">
