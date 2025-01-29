@@ -6,7 +6,7 @@ export default function SpiderHero() {
 
   const spideySenses = "Are your spider senses tingling? ";
 
-  const sign = `Thats your sign to join your fellow Spider Man Fans at 
+  const sign = `Thats your sign to join your fellow Spiderman fans at 
   Spiderman Fan Club TX. Connect with us and discuss your favorite movies,
   comics, and all things Spiderman. All fans and ages are welcome.`;
 
@@ -24,7 +24,11 @@ export default function SpiderHero() {
         />
       </section>
 
-      <Image image={spidermanImage} className={"max-w-sm mx-auto "} />
+      <Image
+        image={spidermanImage}
+        className={"max-w-sm mx-auto"}
+        alt={"Spiderman Image, Photo by Hector Reyes on Unsplash"}
+      />
     </section>
   );
 }
