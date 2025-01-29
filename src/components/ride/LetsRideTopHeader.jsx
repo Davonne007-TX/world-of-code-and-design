@@ -1,15 +1,23 @@
 import Image from "../Image";
 import Location from "./Location";
+import Button from "../Button";
 export default function LetsRideTopHeader() {
   const cartImage = "/images/cartIcon.png ";
   const waiting = ["What are you waiting for, find your location today"];
   return (
     <>
-      <section className="w-full font-serif bg-pink-700/60 p-1 text-white text-lg">
-        <section className="flex gap-4 m-2">
+      <section className="w-full font-serif bg-pink-700/60 ps-1 text-white text-lg">
+        <section className="flex flex-row gap-4 p-1">
           <p className="mt-2">{waiting}</p>
-          <Image image={cartImage} className="ml-auto w-20 md:w-10" />
-          <p className="mt-2">Login</p>
+          <Image image={cartImage} className="ml-auto w-9" />
+          <Button
+            className="mt-2  bg-black rounded-full text-white p-2"
+            btnTxt={"Login"}
+          />
+          {/* <Button
+            className="mt-2 bg-black rounded-full text-white p-2 "
+            btnTxt={"Sign Up"}
+          /> */}
         </section>
       </section>
 

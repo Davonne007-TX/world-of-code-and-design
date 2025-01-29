@@ -16,11 +16,18 @@ const LetsRide = React.lazy(() => import("./components/ride/LetsRide"));
 const Arcade = React.lazy(() => import("./components/gaming/Arcade"));
 const WizardChess = React.lazy(() => import("./components/chess/WizardChess"));
 const Spiderman = React.lazy(() => import("./components/spiderman/Spiderman"));
+const AimHigh = React.lazy(() => import("./components/basketball/AimHigh"));
 
 function App() {
   return (
     <>
-      <Suspense fallback={<div>Loading .....</div>}>
+      <Suspense
+        fallback={
+          <div className="bg-black min-h-screen flex text-purple-500 text-5xl">
+            Loading .....
+          </div>
+        }
+      >
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/space" element={<SpaceExploration />} />
@@ -32,6 +39,7 @@ function App() {
           <Route path="/arcade" element={<Arcade />} />
           <Route path="/wizardChess" element={<WizardChess />} />
           <Route path="/spiderman" element={<Spiderman />} />
+          <Route path="/basketball" element={<AimHigh />} />
         </Routes>
       </Suspense>
     </>
