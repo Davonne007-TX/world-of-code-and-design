@@ -1,3 +1,4 @@
+import AimHighHero from "./AimHighHero";
 import TopHeaderAimHigh from "./TopHeaderAimHigh";
 
 export default function AimHigh() {
@@ -5,6 +6,7 @@ export default function AimHigh() {
     <main className="bg-[url('./images/basketball.jpg')] bg-cover min-h-screen">
       <section>
         <TopHeaderAimHigh />
+        <AimHighHero />
       </section>
     </main>
   );
