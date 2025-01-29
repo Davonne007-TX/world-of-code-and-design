@@ -6,7 +6,7 @@ export default function AimHighHero() {
   Gain skills, make friends, play ball.`;
 
   return (
-    <section className="mt-96 flex flex-col max-w-2xl gap-4 text-white p-8">
+    <section className="mt-96 flex flex-col max-w-2xl gap-4 text-white p-4">
       <h2 className="text-6xl font-glo">{camp}</h2>
       <p className="font-serif text-2xl text-balance">{info}</p>
     </section>

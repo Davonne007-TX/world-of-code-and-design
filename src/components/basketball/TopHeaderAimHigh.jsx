@@ -4,9 +4,8 @@ export default function TopHeaderAimHigh() {
   const navAimHigh = [
     { aimLink: "Camp Info", id: 1 },
     { aimLink: "Player Resources", id: 2 },
-    { aimLink: "Volunteer", id: 3 },
     { aimLink: "Coaching Resources", id: 4 },
-    { aimLink: "Volunteer", id: 5 },
+    { aimLink: "Volunteer", id: 3 },
     { aimLink: "Contact", id: 6 },
   ];
   return (
