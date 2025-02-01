@@ -11,7 +11,7 @@ export default function Nav() {
   return (
     <>
       <nav className="flex gap-8 justify-center items-center font-orb text-white">
-        <ul className="text-xl flex gap-10 mt-4 font-bold  bg-slate-800 p-4 rounded-full opacity-75">
+        <ul className="text-xl flex gap-10 mt-8 font-bold  bg-slate-800 p-4 rounded-full opacity-75">
           <h1 className="md:text-3xl">Save Humanity</h1>
           {navList.map((list) => (
             <li key={list.id} className="mt-2 hidden lg:flex">
