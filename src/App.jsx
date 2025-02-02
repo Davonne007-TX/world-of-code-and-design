@@ -17,6 +17,9 @@ const Arcade = React.lazy(() => import("./components/gaming/Arcade"));
 const WizardChess = React.lazy(() => import("./components/chess/WizardChess"));
 const Spiderman = React.lazy(() => import("./components/spiderman/Spiderman"));
 const AimHigh = React.lazy(() => import("./components/basketball/AimHigh"));
+const PlanetExhibit = React.lazy(() =>
+  import("./components/museum/PlanetExhibit")
+);
 
 function App() {
   return (
@@ -40,6 +43,7 @@ function App() {
           <Route path="/wizardChess" element={<WizardChess />} />
           <Route path="/spiderman" element={<Spiderman />} />
           <Route path="/basketball" element={<AimHigh />} />
+          <Route path="/exhibit" element={<PlanetExhibit />} />
         </Routes>
       </Suspense>
     </>

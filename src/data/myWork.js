@@ -9,4 +9,5 @@ export const myWork = [
   { id: 8, text: "Wizard Chess", link: "/wizardChess" },
   { id: 9, text: "Spiderman", link: "/spiderman" },
   { id: 10, text: "Aim High", link: "/basketball" },
+  { id: 11, text: "Museum Exhibit", link: "/exhibit" },
 ];
