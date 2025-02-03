@@ -6,12 +6,12 @@ export default function PlanetHeader() {
     { planetLink: "Tickets", id: 4 },
   ];
   return (
-    <header className=" bg-black text-white flex flex-col justify-between items-center text-2xl">
+    <header className=" bg-black/100 text-white flex flex-col justify-between items-center text-2xl">
       <ul className="p-2">
         <h1 className="text-center text-3xl font-orb">
           Cosmos Discovery Museum
         </h1>
-        <nav className="flex justify-between items-center gap-4 mt-4">
+        <nav className="flex justify-between items-center font-thin gap-4 mt-4">
           {planetSections.map((sections) => (
             <li key={sections.id}>{sections.planetLink}</li>
           ))}
