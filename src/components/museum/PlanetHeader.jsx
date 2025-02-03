@@ -5,18 +5,30 @@ export default function PlanetHeader() {
     { planetLink: "Events", id: 3 },
     { planetLink: "Tickets", id: 4 },
   ];
+
+  const planetIcon = "/images/planetIcon.png";
   return (
-    <header className=" bg-black/100 text-white flex flex-col justify-between items-center text-2xl">
-      <ul className="p-2">
-        <h1 className="text-center text-3xl font-orb">
+    <header className=" bg-black/100 text-white text-2xl">
+      <div className="flex items-center justify-between w-full p-2">
+        <h1 className="text-4xl font-cut flex-grow ml-2 md:ml-10">
           Cosmos Discovery Museum
         </h1>
-        <nav className="flex justify-between items-center font-thin gap-4 mt-4">
-          {planetSections.map((sections) => (
-            <li key={sections.id}>{sections.planetLink}</li>
-          ))}
-        </nav>
-      </ul>
+        <img
+          src={planetIcon}
+          className={"w-10 ml-auto"}
+          alt={"Planet Icon by Icons8"}
+        />
+      </div>
+      <nav className="flex gap-4 flex-grow mt-4 cursor-pointer">
+        {planetSections.map((sections) => (
+          <li
+            key={sections.id}
+            className=" ml-2 md:ml-10 hover:underline list-none p-2"
+          >
+            {sections.planetLink}
+          </li>
+        ))}
+      </nav>
     </header>
   );
 }
