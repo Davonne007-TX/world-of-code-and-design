@@ -5,7 +5,7 @@ import NewExhibits from "./NewExhibits";
 export default function PlanetHero() {
   const latestExhibits = "Check out our latest exhibits!";
   return (
-    <section className="w-full lg:ml-10 flex flex-col justify-center items-center lg:flex-row gap-8">
+    <section className=" max-w-8xl lg:ml-10 flex flex-col justify-center items-center lg:flex-row gap-8 lg:-mt-20">
       <section className="flex flex-col max-w-lg ">
         <Card
           title={"Curiosity Among The Stars"}

@@ -11,7 +11,7 @@ export default function PlanetHeader() {
   return (
     <header className=" bg-black/100 text-white text-2xl">
       <div className="flex items-center justify-between w-full p-2">
-        <h1 className="text-4xl font-cut flex-grow ml-2 md:ml-10">
+        <h1 className="text-4xl font-cut flex-grow ml-1 md:ml-10">
           Cosmos Discovery Museum
         </h1>
         <img
