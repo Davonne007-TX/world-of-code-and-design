@@ -3,7 +3,8 @@ export default function PlanetHeader() {
     { planetLink: "History", id: 1 },
     { planetLink: "Exhibits", id: 2 },
     { planetLink: "Events", id: 3 },
-    { planetLink: "Tickets", id: 4 },
+    { planetLink: "Locations & Hours", id: 4 },
+    { planetLink: "Tickets", id: 5 },
   ];
 
   const planetIcon = "/images/planetIcon.png";
