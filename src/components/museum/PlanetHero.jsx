@@ -5,8 +5,8 @@ import NewExhibits from "./NewExhibits";
 export default function PlanetHero() {
   const latestExhibits = "Check out our latest exhibits!";
   return (
-    <section className=" max-w-8xl lg:ml-10 flex flex-col justify-center items-center lg:flex-row gap-8 lg:-mt-20">
-      <section className="flex flex-col max-w-lg ">
+    <section className=" max-w-8xl lg:ml-10 flex flex-col justify-center items-center lg:flex-row gap-8 mt-20 lg:-mt-20">
+      <section className="flex flex-col max-w-xs md:max-w-lg ">
         <Card
           title={"Curiosity Among The Stars"}
           className={"font-cut"}
@@ -31,7 +31,7 @@ export default function PlanetHero() {
           />
         </section>
       </section>
-      <section className=" flex justify-center items-center flex-wrap gap-2 mb-20 ">
+      <section className=" flex justify-center items-center flex-wrap gap-2 ">
         <NewExhibits />
       </section>
     </section>
