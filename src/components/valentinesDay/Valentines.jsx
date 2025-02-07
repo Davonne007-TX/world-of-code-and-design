@@ -4,7 +4,7 @@ import Rings from "./Rings";
 export default function Valentines() {
   return (
     <>
-      <main className="">
+      <main>
         <RingHeader />
         <Rings />
       </main>
