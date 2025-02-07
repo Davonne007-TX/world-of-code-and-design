@@ -21,6 +21,10 @@ const PlanetExhibit = React.lazy(() =>
   import("./components/museum/PlanetExhibit")
 );
 
+const Valentines = React.lazy(() =>
+  import("./components/valentinesDay/Valentines")
+);
+
 function App() {
   return (
     <>
@@ -44,6 +48,7 @@ function App() {
           <Route path="/spiderman" element={<Spiderman />} />
           <Route path="/basketball" element={<AimHigh />} />
           <Route path="/exhibit" element={<PlanetExhibit />} />
+          <Route path="/valentines" element={<Valentines />} />
         </Routes>
       </Suspense>
     </>

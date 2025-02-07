@@ -10,4 +10,5 @@ export const myWork = [
   { id: 9, text: "Spiderman", link: "/spiderman" },
   { id: 10, text: "Aim High", link: "/basketball" },
   { id: 11, text: "Museum Exhibit", link: "/exhibit" },
+  { id: 12, text: "Valentines", link: "/valentines" },
 ];
