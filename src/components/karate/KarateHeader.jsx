@@ -16,7 +16,7 @@ export default function KarateHeader() {
         <nav>
           <ul
             className="hidden md:flex gap-4 text-lg
-            md:text-xl ml-auto "
+            md:text-xl ml-auto mt-4 "
           >
             {karateNav.map((nav) => (
               <li key={nav.id}>{nav.karateLink}</li>
