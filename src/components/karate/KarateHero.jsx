@@ -10,14 +10,16 @@ export default function KarateHero() {
   return (
     <section>
       <ReuseableCard
-        sectionStyles={"max-w-2xl ml-auto mt-40 p-4 mr-20"}
+        sectionStyles={"max-w-2xl ml-auto mt-20 md:mt-40 p-4 mr-20"}
         heading={"Learn Honor. Respect. Discipline. Leadership. "}
         headingStyles={"text-3xl md:text-4xl font-bold font-glo"}
         paragraphSection={aboutIronFirst}
         secondParagraph={allAges}
         paragraphStyles={"text-2xl"}
         btnTxt={"Sign Up Today and Get a Free Trail"}
-        btnStyles={"bg-black text-white p-2 font-glo text-xl rounded-full"}
+        btnStyles={
+          "bg-black md:w-90 text-white p-2 font-glo text-xl rounded-full"
+        }
       />
     </section>
   );
