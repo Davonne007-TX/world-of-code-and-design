@@ -11,4 +11,5 @@ export const myWork = [
   { id: 10, text: "Aim High", link: "/basketball" },
   { id: 11, text: "Museum Exhibit", link: "/exhibit" },
   { id: 12, text: "Valentines", link: "/valentines" },
+  { id: 13, text: "Karate School", link: "/karate" },
 ];

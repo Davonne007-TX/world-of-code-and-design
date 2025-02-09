@@ -25,6 +25,10 @@ const Valentines = React.lazy(() =>
   import("./components/valentinesDay/Valentines")
 );
 
+const KarateSchool = React.lazy(() =>
+  import("./components/karate/KarateSchool")
+);
+
 function App() {
   return (
     <>
@@ -49,6 +53,7 @@ function App() {
           <Route path="/basketball" element={<AimHigh />} />
           <Route path="/exhibit" element={<PlanetExhibit />} />
           <Route path="/valentines" element={<Valentines />} />
+          <Route path="/karate" element={<KarateSchool />} />
         </Routes>
       </Suspense>
     </>
