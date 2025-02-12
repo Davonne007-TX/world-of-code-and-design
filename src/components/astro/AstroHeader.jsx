@@ -15,7 +15,7 @@ export default function AstroHeader() {
   ];
 
   return (
-    <header className="text-white bg-black/60 w-full py-4">
+    <header className="text-white bg-black/85 w-full py-4">
       <section className="flex justify-between items-center px-4">
         <h1 className="text-3xl md:text-4xl font-audio">
           Next Generation Astronaut
