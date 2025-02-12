@@ -20,8 +20,7 @@ export default function TopHeaderAimHigh() {
 
           <Button
             btnTxt={"Sign Up"}
-            className={"bg-orange-100 w-20 p-1 rounded-md
-                 text-black"}
+            className={"bg-orange-100 w-20 p-1 rounded-md text-black"}
           />
         </ul>
       </nav>
