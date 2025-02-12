@@ -33,6 +33,10 @@ const NextGenerationAstro = React.lazy(() =>
   import("./components/astro/NextGenerationAstro")
 );
 
+const RetroComputer = React.lazy(() =>
+  import("./components/retro/RetroComputer")
+);
+
 function App() {
   return (
     <>
@@ -59,6 +63,7 @@ function App() {
           <Route path="/valentines" element={<Valentines />} />
           <Route path="/karate" element={<KarateSchool />} />
           <Route path="/astro" element={<NextGenerationAstro />} />
+          <Route path="/retro" element={<RetroComputer />} />
         </Routes>
       </Suspense>
     </>
