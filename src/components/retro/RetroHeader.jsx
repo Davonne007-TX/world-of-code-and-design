@@ -9,6 +9,7 @@ export default function RetroHeader() {
     { retroLink: "Popular Games", id: 5 },
     { retroLink: "Classic Games", id: 6 },
     { retroLink: "Deals", id: 7 },
+    { retroLink: "Connect", id: 7 },
   ];
 
   return (
@@ -18,7 +19,7 @@ export default function RetroHeader() {
         <RetroSearch />
       </section>
 
-      <ul className="flex gap-10 font-thin text-xl">
+      <ul className="flex gap-8 font-thin text-xl">
         {retroNav.map((nav) => (
           <li key={nav.id}>{nav.retroLink}</li>
         ))}
