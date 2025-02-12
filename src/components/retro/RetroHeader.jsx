@@ -18,7 +18,7 @@ export default function RetroHeader() {
         <RetroSearch />
       </section>
 
-      <ul className="flex gap-10 font-bold text-xl">
+      <ul className="flex gap-10 font-thin text-xl">
         {retroNav.map((nav) => (
           <li key={nav.id}>{nav.retroLink}</li>
         ))}
