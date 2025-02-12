@@ -1,4 +1,5 @@
 import RetroSearch from "./RetroSearch";
+import Button from "../Button";
 
 export default function RetroHeader() {
   const retroNav = [
@@ -14,17 +15,22 @@ export default function RetroHeader() {
 
   return (
     <header className="p-8 text-white flex flex-col gap-4">
-      <section className="flex gap-8">
-        <h1 className=" text-xl md:text-3xl font-retro">
+      <section className="flex flex-col md:flex-row gap-8">
+        <h1 className=" text-lg md:text-3xl font-retro">
           Blast To The Past Gaming
         </h1>
         <RetroSearch />
       </section>
 
-      <ul className="flex gap-8 font-thin text-xl">
+      <ul className="hidden md:flex gap-8 font-thin text-xl">
         {retroNav.map((nav) => (
           <li key={nav.id}>{nav.retroLink}</li>
         ))}
+
+        <Button
+          btnTxt={"Login"}
+          className={"bg-white p-1 text-black rounded"}
+        />
       </ul>
     </header>
   );

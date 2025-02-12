@@ -5,7 +5,7 @@ export default function RetroHero() {
   Sonic, Zelda, Spyro, Razor, Tony Hawk Pro Skater, to Crash. We got it all. Take a blast to the past and play your favorite games
   today. Connect with other gamers and lets remember and honor the past.`;
   return (
-    <section className="max-w-lg mt-20 bg-black/40 p-2 ml-8 shadow-md">
+    <section className="max-w-xs md:max-w-lg mt-20 bg-black/40 p-2 ml-8 shadow-md">
       <section className="flex flex-col gap-4">
         <ReuseableCard
           heading={"Love gaming. Always have. Always will."}
