@@ -6,7 +6,7 @@ export default function NextGenerationAstro() {
     <main className="bg-[url('./images/nextAstro.jpg')] font-thin flex flex-col text-white bg-cover min-h-screen">
       <AstroHeader />
       <section className="flex flex-col bg-black/10 justify-center items-center">
-        <h2 className="font-thin mt-28 text-4xl">
+        <h2 className="font-semibold mt-28 text-4xl">
           Learn from our experts. Train with the best. Be the best.
         </h2>
         <Button
