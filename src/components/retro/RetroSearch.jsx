@@ -9,7 +9,7 @@ export default function RetroSearch() {
       <label>
         <input
           type="search"
-          placeholder="Search..."
+          placeholder="Search For Game..."
           className="p-2 rounded-xl text-black w-60 md:w-80 bg-neutral-200 border-4 outline-none border-red-700 "
         />
       </label>
