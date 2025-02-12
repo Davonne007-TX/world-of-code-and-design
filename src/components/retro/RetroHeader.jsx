@@ -9,13 +9,15 @@ export default function RetroHeader() {
     { retroLink: "Popular Games", id: 5 },
     { retroLink: "Classic Games", id: 6 },
     { retroLink: "Deals", id: 7 },
-    { retroLink: "Connect", id: 7 },
+    { retroLink: "Game Center", id: 8 },
   ];
 
   return (
     <header className="p-8 text-white flex flex-col gap-4">
       <section className="flex gap-8">
-        <h1 className=" text-2xl font-retro">Blast To The Past Gaming</h1>
+        <h1 className=" text-xl md:text-3xl font-retro">
+          Blast To The Past Gaming
+        </h1>
         <RetroSearch />
       </section>
 

@@ -33,9 +33,7 @@ const NextGenerationAstro = React.lazy(() =>
   import("./components/astro/NextGenerationAstro")
 );
 
-const RetroComputer = React.lazy(() =>
-  import("./components/retro/RetroComputer")
-);
+const RetroGaming = React.lazy(() => import("./components/retro/RetroGaming"));
 
 function App() {
   return (
@@ -63,7 +61,7 @@ function App() {
           <Route path="/valentines" element={<Valentines />} />
           <Route path="/karate" element={<KarateSchool />} />
           <Route path="/astro" element={<NextGenerationAstro />} />
-          <Route path="/retro" element={<RetroComputer />} />
+          <Route path="/retro" element={<RetroGaming />} />
         </Routes>
       </Suspense>
     </>
