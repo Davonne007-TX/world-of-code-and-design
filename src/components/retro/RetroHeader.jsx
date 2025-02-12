@@ -1,3 +1,5 @@
+import RetroSearch from "./RetroSearch";
+
 export default function RetroHeader() {
   const retroNav = [
     { retroLink: "Nintendo", id: 1 },
@@ -9,8 +11,11 @@ export default function RetroHeader() {
   ];
 
   return (
-    <header className="p-8 text-white flex flex-col justify-between items-center gap-4">
-      <h1 className=" text-4xl font-retro">Retro Tech</h1>
+    <header className="p-8 text-white flex flex-col gap-4">
+      <section className="flex gap-8">
+        <h1 className=" text-2xl font-retro">Blast To The Bast Gaming</h1>
+        <RetroSearch />
+      </section>
 
       <ul className="flex gap-10 font-bold text-xl">
         {retroNav.map((nav) => (
