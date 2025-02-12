@@ -17,13 +17,13 @@ export default function RetroSearch() {
       <section className="ml-auto hidden md:flex">
         <Image
           image={login}
-          className={" w-10"}
+          className={" w-12"}
           alt={"red account, icon by icons8 "}
         />
         <Image
           image={cart}
           alt={"red cart icon, icon by icons8"}
-          className={"w-10"}
+          className={"w-12"}
         />
       </section>
     </>
