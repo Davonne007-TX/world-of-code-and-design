@@ -3,7 +3,7 @@ import ScienceHero from "./ScienceHero";
 export default function ScienceMuseum() {
   return (
     <>
-      <main>
+      <main className="bg-neutral-100 min-h-screen">
         <ScienceHeader />
         <ScienceHero />
       </main>
