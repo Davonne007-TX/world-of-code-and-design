@@ -2,9 +2,9 @@ import Image from "../Image";
 import ReuseableCard from "../ReuseableCard";
 
 export default function ScienceHero() {
-  const heroSectionText = `Quisque leo nisl, varius at purus vel, fringilla elementum sem. Aenean vestibulum est eget accumsan placerat. Vestibulum lorem erat, aliquam ac pellentesque et, pellentesque eget sapien. Aenean efficitur sit amet ante sit amet ultrices. In lacinia tincidunt magna nec tempuss`;
+  const heroSectionText = `Here at Mesozoic Marvels, we bring the past to you! We dedicate our museum to bringing exhibits about your favorite dinosaurs, showcasing their history, habitats, and evolution. From towering T. Rexes to swift raptors, our interactive displays and fossil collections transport you back to the Mesozoic Era. Whether you're a paleontologist or just a dinosaur enthusiast, there's something for everyone to explore, learn, and marvel at. Step into the world of prehistoric giants and uncover the mysteries of Earth's ancient past!   `;
   return (
-    <section className=" mt-10 md:mt-20 flex flex-col justify-center items-center">
+    <section className=" mt-10 md:mt-10 flex flex-col justify-center items-center">
       <section className="flex flex-col lg:flex-row gap-20">
         <section>
           <ReuseableCard
@@ -12,7 +12,7 @@ export default function ScienceHero() {
             heading={"Take a Trip To The Mesozoic Era"}
             headingStyles={"text-3xl font-glo"}
             paragraphSection={heroSectionText}
-            paragraphStyles={"text-2xl font-sans"}
+            paragraphStyles={"text-xl font-sans"}
             btnSection={"flex gap-38"}
             btnTxt={"Plan Your Trip Today"}
             btnStyles={
