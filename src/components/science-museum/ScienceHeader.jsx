@@ -2,7 +2,7 @@ import Image from "../Image";
 
 export default function ScienceHeader() {
   const scienceNav = [
-    { scienceLink: "About Us", id: 1 },
+    { scienceLink: "About Us ", id: 1 },
     { scienceLink: "Exhibits", id: 2 },
     { scienceLink: "Tickets", id: 3 },
     { scienceLink: "Events", id: 4 },
@@ -11,9 +11,9 @@ export default function ScienceHeader() {
     <header className="bg-green-700 p-4 w-full text-white flex justify-between gap-8">
       <h1 className="font-glo text-3xl">Mesozoic Marvels</h1>
       <nav>
-        <ul className="flex gap-10  font-serif text-lg">
+        <ul className="hidden md:flex gap-10  font-serif text-lg">
           {scienceNav.map((nav) => (
-            <li key={nav.id} className="mt-2">
+            <li key={nav.id} className="mt-2 cursor-pointer">
               {nav.scienceLink}{" "}
             </li>
           ))}
