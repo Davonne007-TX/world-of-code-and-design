@@ -15,7 +15,7 @@ export default function ScienceHero() {
 
   return (
     <section className=" mt-10 md:mt-10 flex flex-col justify-center items-center">
-      <section className="flex flex-col lg:flex-row gap-20">
+      <section className="flex flex-col lg:flex-row gap-20 mb-20">
         <section>
           <ReuseableCard
             sectionStyles={"max-w-xs md:max-w-xl mt-10 ml-10 md:ml-0 p-2 "}
