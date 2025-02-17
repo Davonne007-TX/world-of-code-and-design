@@ -2,13 +2,23 @@ import Image from "../Image";
 import ReuseableCard from "../ReuseableCard";
 
 export default function ScienceHero() {
-  const heroSectionText = `Here at Mesozoic Marvels, we bring the past to you! We dedicate our museum to bringing exhibits about your favorite dinosaurs, showcasing their history, habitats, and evolution. From towering T. Rexes to swift raptors, our interactive displays and fossil collections transport you back to the Mesozoic Era. Whether you're a paleontologist or just a dinosaur enthusiast, there's something for everyone to explore, learn, and marvel at. Step into the world of prehistoric giants and uncover the mysteries of Earth's ancient past!   `;
+  const fighting = "./images/fighting2.jpg";
+  const dino = "./images/dino.jpg";
+  const heroSectionText = `Here at Mesozoic Marvels, we bring the past to you! 
+  We dedicate our museum to bringing exhibits about your favorite dinosaurs,
+  showcasing their history, habitats, and evolution. From towering T. Rexes
+  to swift raptors, our interactive displays and fossil collections transport
+  you back to the Mesozoic Era. Whether you're a paleontologist or just a
+  dinosaur enthusiast, there's something for everyone to explore, learn,
+  and marvel at. Step into the world of prehistoric giants and uncover
+  the mysteries of Earth's ancient past!`;
+
   return (
     <section className=" mt-10 md:mt-10 flex flex-col justify-center items-center">
       <section className="flex flex-col lg:flex-row gap-20">
         <section>
           <ReuseableCard
-            sectionStyles={"max-w-xl mt-10 ml-10 md:ml-0 "}
+            sectionStyles={"max-w-xs md:max-w-xl mt-10 ml-10 md:ml-0 p-2 "}
             heading={"Take a Trip To The Mesozoic Era"}
             headingStyles={"text-3xl font-glo"}
             paragraphSection={heroSectionText}
@@ -22,7 +32,7 @@ export default function ScienceHero() {
 
           <div className="flex flex-col md:flex-row justify-center items-center gap-8 mt-10">
             <Image
-              image={"./images/fighting2.jpg"}
+              image={fighting}
               className={"max-w-xs rounded-xl"}
               alt={"Dinosaurs Fighting, Image by rafal-danhoffer on Unsplash"}
             />
@@ -34,10 +44,10 @@ export default function ScienceHero() {
           </div>
         </section>
         <Image
-          image={"./images/dino.jpg"}
-          className={"max-w-xs md:max-w-md rounded-xl mr-20 lg:mr-0"}
+          image={dino}
+          className={"max-w-xs md:max-w-md rounded-xl lg:mr-0 mx-auto "}
           alt={
-            "T-Rex in the Forest, Image by Faustro Garcia-Menedez, on Unsplash"
+            "Sauropods Dinosaur in the Forest, Image by Jana292, on Unsplash"
           }
         />
       </section>

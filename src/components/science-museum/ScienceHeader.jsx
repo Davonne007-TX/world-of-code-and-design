@@ -5,9 +5,9 @@ export default function ScienceHeader() {
     { scienceLink: "About Us ", id: 1 },
     { scienceLink: "Exhibits", id: 2 },
     { scienceLink: "Volunteer", id: 4 },
-    { scienceLink: "Tickets", id: 4 },
-    { scienceLink: "Events", id: 5 },
-    { scienceLink: "Gallery", id: 6 },
+    { scienceLink: "Tickets", id: 5 },
+    { scienceLink: "Events", id: 6 },
+    { scienceLink: "Gallery", id: 7 },
   ];
   return (
     <header className="bg-green-700 p-2 w-full text-white flex justify-between items-center gap-8">
