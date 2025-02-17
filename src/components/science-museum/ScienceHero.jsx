@@ -24,12 +24,12 @@ export default function ScienceHero() {
             <Image
               image={"./images/fighting2.jpg"}
               className={"max-w-xs rounded-xl"}
-              alt={""}
+              alt={"Dinosaurs Fighting, Image by rafal-danhoffer on Unsplash"}
             />
             <Image
               image={"./images/t-rex2.jpg"}
               className={"max-w-xs rounded-xl"}
-              alt={""}
+              alt={"T-Rex, Image by amy-leigh on Unsplash "}
             />
           </div>
         </section>
