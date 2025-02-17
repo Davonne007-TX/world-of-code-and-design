@@ -14,4 +14,5 @@ export const myWork = [
   { id: 13, text: "Karate School", link: "/karate" },
   { id: 14, text: "Next Generation Astronaut", link: "/astro" },
   { id: 15, text: "Retro Tech", link: "/retro" },
+  { id: 15, text: "Science Museum", link: "/dinosaur" },
 ];
