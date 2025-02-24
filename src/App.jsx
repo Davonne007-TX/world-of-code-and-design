@@ -38,6 +38,8 @@ const ScienceMuseum = React.lazy(() =>
   import("./components/science-museum/ScienceMuseum")
 );
 
+const Tacos = React.lazy(() => import("./components/tacos/Tacos"));
+
 function App() {
   return (
     <>
@@ -66,6 +68,7 @@ function App() {
           <Route path="/astro" element={<NextGenerationAstro />} />
           <Route path="/retro" element={<RetroGaming />} />
           <Route path="/dinosaur" element={<ScienceMuseum />} />
+          <Route path="/tacos" element={<Tacos />} />
         </Routes>
       </Suspense>
     </>
