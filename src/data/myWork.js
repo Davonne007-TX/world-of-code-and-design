@@ -16,4 +16,5 @@ export const myWork = [
   { id: 15, text: "Retro Tech", link: "/retro" },
   { id: 16, text: "Science Museum", link: "/dinosaur" },
   { id: 17, text: "Taco Shop", link: "/tacos" },
+  { id: 18, text: "BMX Shop", link: "/bmx" },
 ];

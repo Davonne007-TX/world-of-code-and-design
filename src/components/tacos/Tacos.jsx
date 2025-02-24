@@ -1,3 +1,9 @@
+import HomeTaco from "./HomeTaco";
+
 export default function Tacos() {
-  return <div>Tacos</div>;
+  return (
+    <main className="">
+      <HomeTaco />
+    </main>
+  );
 }

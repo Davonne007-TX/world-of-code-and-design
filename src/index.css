@@ -27,3 +27,8 @@ body {
 .rounded-bg {
   clip-path: circle(60%);
 }
+
+/*bmx project*/
+.tilted {
+  transform: skew(10deg);
+}
