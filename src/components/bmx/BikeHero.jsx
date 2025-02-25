@@ -1,5 +1,4 @@
 import Image from "../Image";
-import ReuseableCard from "../ReuseableCard";
 
 export default function BikeHero() {
   return (
@@ -9,11 +8,6 @@ export default function BikeHero() {
           image={"./images/bmx2.jpg"}
           className="max-w-6xl -mt-20 md:-mt-40 rounded-2xl"
         />
-        <section className="absolute">
-          <ReuseableCard
-            sectionStyles={"bg-white p-4 ml-auto  shadow-lg rounded-lg mt-96"}
-          />
-        </section>
       </section>
     </section>
   );
