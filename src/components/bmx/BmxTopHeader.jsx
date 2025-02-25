@@ -19,12 +19,12 @@ export default function BmxTopHeader() {
     <header className="flex flex-col justify-center items-center w-full">
       <CustomHeader />
 
-      <section className="relative flex items-center w-full p-10 md:p-10 lg:p-0 mt-4">
+      <section className="relative flex items-center w-full p-10 md:p-10 lg:p-0 mt-8">
         <h1 className="absolute left-1/2 transform -translate-x-1/2 font-pro text-3xl md:text-5xl mb-10">
           One Stop Shop
         </h1>
 
-        <section className="hidden md:flex gap-6 ml-auto mt-2 p-2">
+        <section className="hidden md:flex gap-6 ml-auto p-2 mr-4">
           <button className="flex p-1">
             Locations
             <Image image={locations} />
@@ -40,7 +40,7 @@ export default function BmxTopHeader() {
         </section>
       </section>
 
-      <ul className="hidden md:flex gap-10 -mt-4 text-xl">
+      <ul className="hidden md:flex gap-10 mt-2 text-xl">
         {bmxLinks.map((link) => (
           <li key={link.id}>{link.link}</li>
         ))}
