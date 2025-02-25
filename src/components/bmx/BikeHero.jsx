@@ -6,7 +6,7 @@ export default function BikeHero() {
       <section className="relative max-w-3xl flex justify-center">
         <Image
           image={"./images/bmx2.jpg"}
-          className="max-w-6xl -mt-20 md:-mt-40 rounded-2xl shadow-md"
+          className="max-w-6xl -mt-28 md:-mt-40  rounded-2xl shadow-md"
           alt={
             "BMX Bike on Ramp near buildings, Photo by erik brolin on Unsplash"
           }
