@@ -24,7 +24,7 @@ export default function BmxTopHeader() {
           One Stop Shop
         </h1>
 
-        <section className="hidden md:flex gap-6 ml-auto p-2 mr-4 ">
+        <section className="hidden lg:flex gap-6 ml-auto p-2 mr-4 ">
           <button className="flex p-1">
             Locations
             <Image image={locations} />
