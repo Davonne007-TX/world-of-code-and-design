@@ -38,7 +38,7 @@ const ScienceMuseum = React.lazy(() =>
   import("./components/science-museum/ScienceMuseum")
 );
 
-const Tacos = React.lazy(() => import("./components/tacos/Tacos"));
+const Donuts = React.lazy(() => import("./components/donuts/Donuts"));
 const BmxShop = React.lazy(() => import("./components/bmx/BmxShop"));
 
 function App() {
@@ -46,7 +46,7 @@ function App() {
     <>
       <Suspense
         fallback={
-          <div className="bg-black min-h-screen flex justify-center items-center font-lobster text-purple-600 text-7xl">
+          <div className="bg-black min-h-screen flex justify-center items-center font-lobster text-purple-600 text-6xl md:text-7xl">
             Magic Loading .....
           </div>
         }
@@ -69,7 +69,7 @@ function App() {
           <Route path="/astro" element={<NextGenerationAstro />} />
           <Route path="/retro" element={<RetroGaming />} />
           <Route path="/dinosaur" element={<ScienceMuseum />} />
-          <Route path="/tacos" element={<Tacos />} />
+          <Route path="/donuts" element={<Donuts />} />
           <Route path="/bmx" element={<BmxShop />} />
         </Routes>
       </Suspense>
