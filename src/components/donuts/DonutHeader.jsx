@@ -1,4 +1,5 @@
 import Image from "../Image";
+import Button from "../Button";
 
 export default function DonutHeader() {
   const donutImage = "/images/donut.png";
@@ -23,6 +24,10 @@ export default function DonutHeader() {
           ))}
         </ul>
       </nav>
+      <Button
+        btnTxt="Order Now"
+        className={"text-white bg-pink-500 p-2 font-sig text-xl"}
+      />
     </header>
   );
 }

@@ -24,14 +24,12 @@ export default function DonutHero() {
       <ReuseableCard
         sectionStyles={"max-w-xl"}
         heading={"Open 24 Hours"}
-        headingStyles={"text-pink-500 text-5xl md:text-6xl font-bold font-sig"}
+        headingStyles={"text-pink-500 text-6xl md:text-6xl font-bold font-sig"}
         paragraphSection={aboutCozy}
         paragraphStyles={"text-2xl"}
         secondParagraph={chooseDonuts}
-        btnTxt={"Order Now to get 14 a Dozen"}
-        btnStyles={
-          "bg-pink-500 md:w-90 text-white p-2 font-sig text-xl rounded-full"
-        }
+        btnTxt={"Order Now to get 14 a Dozen 🍩"}
+        btnStyles={"bg-pink-500 md:w-90 text-white p-2 font-sig text-xl"}
       />
     </section>
   );
