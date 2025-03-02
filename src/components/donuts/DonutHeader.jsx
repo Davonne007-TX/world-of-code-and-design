@@ -4,8 +4,8 @@ export default function DonutHeader() {
   const donutImage = "/images/donut.png";
 
   const myDonutNav = [
-    { donutNav: "Selection", id: 1 },
-    { donutNav: "Pricing", id: 2 },
+    { donutNav: "Menu", id: 1 },
+    { donutNav: "About", id: 2 },
     { donutNav: "Locations", id: 3 },
     { donutNav: "Contact", id: 4 },
   ];
