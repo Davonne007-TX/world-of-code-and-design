@@ -11,22 +11,26 @@ export default function DonutHeader() {
     { donutNav: "Contact", id: 4 },
   ];
   return (
-    <header className="p-2 flex items-center">
+    <header className="p-4 flex items-center">
       <Image image={donutImage} className={"w-20"} />
-      <h1 className="font-sig text-4xl md:text-5xl  tilted mt-4 text-white p-2  bg-pink-500 ml-4">
+      <h1 className="font-sig text-4xl md:text-5xl tilted mt-4 text-white p-2  bg-pink-500 ml-4">
         Cozy Donuts
       </h1>
 
-      <nav className="ml-auto p-2">
-        <ul className="flex gap-8 text-2xl text-pink-500 font-glo">
+      <nav className="ml-auto p-2 cursor-pointer ">
+        <ul className="hidden md:flex gap-8 text-2xl  text-pink-500 font-glo">
           {myDonutNav.map((nav) => (
-            <li key={nav.id}>{nav.donutNav}</li>
+            <li key={nav.id} className="hover:underline">
+              {nav.donutNav}
+            </li>
           ))}
         </ul>
       </nav>
       <Button
         btnTxt="Order Now"
-        className={"text-white bg-pink-500 p-2 font-sig text-xl"}
+        className={
+          "text-white bg-pink-500 p-2 font-sig text-xl hover:scale-110"
+        }
       />
     </header>
   );
