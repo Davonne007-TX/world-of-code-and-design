@@ -13,7 +13,9 @@ export default function KarateHeader() {
   return (
     <>
       <header className="p-4 font-pro font-bold flex justify-between items-center">
-        <h1 className="text-4xl md:text-5xl mt-2">Iron Fist Karate</h1>
+        <h1 className="text-4xl md:text-5xl text-center mt-2">
+          Iron Fist Karate
+        </h1>
 
         <nav>
           <ul

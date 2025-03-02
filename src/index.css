@@ -10,6 +10,7 @@
   --font-lobster: "Lobster", serif;
   --font-audio: "Audiowide", sans-serif;
   --font-retro: "Press Start 2P", serif;
+  --font-sig: "Sigmar", sans-serif;
 }
 
 html,
@@ -28,7 +29,7 @@ body {
   clip-path: circle(60%);
 }
 
-/*bmx project*/
+/*donut project*/
 .tilted {
   transform: skew(10deg);
 }

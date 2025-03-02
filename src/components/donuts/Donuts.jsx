@@ -1,3 +1,9 @@
+import DonutHeader from "./DonutHeader";
+
 export default function Donuts() {
-  return <div className="text-black">Donuts</div>;
+  return (
+    <main className="">
+      <DonutHeader />
+    </main>
+  );
 }
