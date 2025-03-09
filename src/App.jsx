@@ -40,6 +40,9 @@ const ScienceMuseum = React.lazy(() =>
 
 const Donuts = React.lazy(() => import("./components/donuts/Donuts"));
 const BmxShop = React.lazy(() => import("./components/bmx/BmxShop"));
+const MyFavoriteFoods = React.lazy(() =>
+  import("./components/favoriteFood/MyFavoriteFoods")
+);
 
 function App() {
   return (
@@ -71,6 +74,7 @@ function App() {
           <Route path="/dinosaur" element={<ScienceMuseum />} />
           <Route path="/donuts" element={<Donuts />} />
           <Route path="/bmx" element={<BmxShop />} />
+          <Route path="/favoriteFoods" element={<MyFavoriteFoods />} />
         </Routes>
       </Suspense>
     </>
