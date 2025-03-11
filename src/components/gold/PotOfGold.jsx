@@ -1,8 +1,12 @@
 import Image from "../Image";
+import GoldHeader from "./GoldHeader";
+import GoldHero from "./GoldHero";
 
 export default function PotOfGold() {
   return (
     <main className="bg-[url('./images/rainbow.jpg')] bg-cover min-h-screen relative">
+      <GoldHeader />
+      <GoldHero />
       <section className="flex-1">
         <Image
           image={"./images/gold.png"}
