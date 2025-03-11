@@ -1,5 +1,6 @@
 import React, { Suspense } from "react";
 import { Routes, Route } from "react-router-dom";
+import PotOfGold from "./components/gold/PotOfGold";
 
 const HomePage = React.lazy(() => import("./components/HomePage"));
 const SpaceExploration = React.lazy(() =>
@@ -75,6 +76,7 @@ function App() {
           <Route path="/donuts" element={<Donuts />} />
           <Route path="/bmx" element={<BmxShop />} />
           <Route path="/favoriteFoods" element={<MyFavoriteFoods />} />
+          <Route path="/gold" element={<PotOfGold />} />
         </Routes>
       </Suspense>
     </>
