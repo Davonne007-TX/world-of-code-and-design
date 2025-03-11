@@ -1,17 +1,17 @@
 import Image from "../Image";
 import Button from "../Button";
 
+const aboutWannaCoode = [
+  ` Are you in a coding rut? Overwhelmed with so much you have to learn?
+    Our site can help. Wanna Code, lets you keep track of your
+    consistency, build projects, participate working with others,
+    showcasing your work, all in one site. Join your fellow developers
+    building skills, staying consistent to land a role.`,
+];
+
+const codeCan = "/images/codeCan.webp";
+
 export default function Hero() {
-  const aboutWannaCoode = [
-    ` Are you in a coding rut? Overwhelmed with so much you have to learn?
-      Our site can help. Wanna Code, lets you keep track of your
-      consistency, build projects, participate working with others,
-      showcasing your work, all in one site. Join your fellow developers
-      building skills, staying consistent to land a role.`,
-  ];
-
-  const codeCan = "/images/codeCan.webp";
-
   return (
     <section className="max-w-xs md:max-w-6xl lg:max-w-7xl flex flex-col text-white mt-20 lg:mt-40">
       <section className="flex flex-col lg:flex-row">

@@ -1,12 +1,12 @@
-export default function PlanetHeader() {
-  const planetSections = [
-    { planetLink: "History", id: 1 },
-    { planetLink: "Exhibits", id: 2 },
-    { planetLink: "Events", id: 3 },
-    { planetLink: "Locations & Hours", id: 4 },
-    { planetLink: "Tickets", id: 5 },
-  ];
+const planetSections = [
+  { planetLink: "History", id: 1 },
+  { planetLink: "Exhibits", id: 2 },
+  { planetLink: "Events", id: 3 },
+  { planetLink: "Locations & Hours", id: 4 },
+  { planetLink: "Tickets", id: 5 },
+];
 
+export default function PlanetHeader() {
   const planetIcon = "/images/planetIcon.png";
   return (
     <header className=" bg-black/100 text-white text-2xl">
@@ -20,7 +20,7 @@ export default function PlanetHeader() {
           alt={"Planet Icon by Icons8"}
         />
       </div>
-      <nav className="flex gap-4 flex-grow mt-4 cursor-pointer">
+      <nav className="hidden md:flex gap-4 flex-grow mt-4 cursor-pointer">
         {planetSections.map((sections) => (
           <li
             key={sections.id}

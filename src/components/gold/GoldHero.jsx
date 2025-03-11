@@ -1,7 +1,7 @@
 import Button from "../Button";
 
 const help = "Let Us, Help You";
-const excuses = "1-800-NO-EXCUSESs";
+const excuses = "1-800-NO-EXCUSES";
 
 export default function GoldHero() {
   return (
