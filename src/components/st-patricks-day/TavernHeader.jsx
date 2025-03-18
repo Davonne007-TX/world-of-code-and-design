@@ -21,7 +21,7 @@ export default function TavernHeader() {
         className="font-4xl"
       />
       <section className="">
-        <h1 className="text-4xl font-bold">Shamarock Tavern</h1>
+        <h1 className="text-4xl font-bold">Shamrock Tavern</h1>
         <nav>
           <ul className="hidden md:flex gap-8 font-serif text-lg mt-2">
             {tavernLinks.map((link) => (
