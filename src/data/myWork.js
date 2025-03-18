@@ -17,7 +17,6 @@ export const myWork = [
   { id: 16, text: "Science Museum", link: "/dinosaur" },
   { id: 17, text: "Donut Shop", link: "/donuts" },
   { id: 18, text: "BMX Shop", link: "/bmx" },
-  { id: 19, text: "Favorite Kind of Food", link: "/favoriteFoods" },
-  { id: 20, text: "Pot of Gold", link: "/gold" },
-  { id: 21, text: "Shamrock Tavern", link: "/tavern" },
+  { id: 19, text: "Pot of Gold", link: "/gold" },
+  { id: 20, text: "Shamrock Tavern", link: "/tavern" },
 ];

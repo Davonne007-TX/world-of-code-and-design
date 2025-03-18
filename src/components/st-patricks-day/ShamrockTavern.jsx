@@ -1,8 +1,9 @@
+import TavernHeader from "./TavernHeader";
 
 export default function ShamrockTavern() {
   return (
-    <main>
-        <p>testing testing 123</p>
+    <main className="flex flex-col justify-center itemes-center">
+      <TavernHeader />
     </main>
   )
 }
