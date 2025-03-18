@@ -9,13 +9,13 @@ export default function TavernImages() {
 
   return (
     <section className="mt-2 max-w-5xl w-full mx-auto">
-      <ul className="flex flex-col md:flex-row justify-center items-center gap-4">
+      <ul className="flex flex-col lg:flex-row justify-center items-center gap-2">
         {ourImages.map((images) => (
           <li key={images.id}>
             <Image
               image={images.tavernPictures}
               alt={images.alt}
-              className={"max-w-md rounded-xl"}
+              className={"max-w-xs md:max-w-xl lg:max-w-md p-2 rounded-xl"}
             />
           </li>
         ))}
