@@ -1,27 +1,36 @@
-import Image from "../Image"
+import Image from "../Image";
+// import Button from "../Button"
+import Socials from "./Socials";
 
 export default function TavernHeader() {
-    const tavernLinks = [
-        {ourLinks: "Menu", id: 1},
-        {ourLinks: "Deals", id: 2},
-        {ourLinks: "Drink Specials", id: 3},
-        {ourLinks: "Online Ordering", id: 4},
-        {ourLinks: "Locations", id: 5}
-    ]
-    const clover = "./images/clover.png"
+  const tavernLinks = [
+    { ourLinks: "Menu", id: 1 },
+    { ourLinks: "Deals", id: 2 },
+    { ourLinks: "Drink Specials", id: 3 },
+    { ourLinks: "Online Ordering", id: 4 },
+    { ourLinks: "Locations", id: 5 },
+  ];
+
+  const clover = "./images/clover.png";
+
   return (
- <header className="flex  items-center gap-4 p-4 w-full">
-    <Image image={clover} alt="Four Leaf clover" className="font-4xl" />
-    <section className=" flex flex-col gap-2">
+    <header className="flex justify-between text-center items-center gap-4 p-4 w-full">
+      <Image
+        image={clover}
+        alt="Four Leaf clover, Icon by Icons8"
+        className="font-4xl"
+      />
+      <section className="absolute left-1/2 transform -translate-x-1/2 text-center">
         <h1 className="text-3xl font-bold">Shamarock Tavern</h1>
         <nav>
-            <ul className="flex gap-8 font-serif text-lg">
-                {tavernLinks.map((link) => (
-                    <li key={link.id}>{link.ourLinks}</li>
-                ))}
-            </ul>
+          <ul className="hidden md:flex gap-8 font-serif text-lg mt-2">
+            {tavernLinks.map((link) => (
+              <li key={link.id}>{link.ourLinks}</li>
+            ))}
+          </ul>
         </nav>
-    </section>
- </header>
-  )
+      </section>
+      <Socials />
+    </header>
+  );
 }
