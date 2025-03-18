@@ -15,10 +15,14 @@ export default function Socials() {
     { socialLinks: "./images/xLogo.png", alt: "X Logo, Logo by Icons8", id: 3 },
   ];
   return (
-    <ul className="flex ml-auto gap-2 ">
+    <ul className="flex ml-auto gap-2">
       {socials.map((links) => (
         <li key={links.id}>
-          <Image image={links.socialLinks} alt={links.alt} />
+          <Image
+            image={links.socialLinks}
+            alt={links.alt}
+            className={"cursor-pointer"}
+          />
         </li>
       ))}
     </ul>

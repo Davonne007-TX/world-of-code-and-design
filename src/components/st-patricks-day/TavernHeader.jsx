@@ -25,7 +25,9 @@ export default function TavernHeader() {
         <nav>
           <ul className="hidden md:flex gap-8 font-serif text-lg mt-2">
             {tavernLinks.map((link) => (
-              <li key={link.id}>{link.ourLinks}</li>
+              <li key={link.id} className="cursor-pointer text-xl">
+                {link.ourLinks}
+              </li>
             ))}
           </ul>
         </nav>
