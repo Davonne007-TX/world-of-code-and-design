@@ -1,6 +1,5 @@
 import React, { Suspense } from "react";
 import { Routes, Route } from "react-router-dom";
-import PotOfGold from "./components/gold/PotOfGold";
 
 const HomePage = React.lazy(() => import("./components/HomePage"));
 const SpaceExploration = React.lazy(() =>
@@ -41,9 +40,8 @@ const ScienceMuseum = React.lazy(() =>
 
 const Donuts = React.lazy(() => import("./components/donuts/Donuts"));
 const BmxShop = React.lazy(() => import("./components/bmx/BmxShop"));
-const MyFavoriteFoods = React.lazy(() =>
-  import("./components/favoriteFood/MyFavoriteFoods")
-);
+const PotOfGold = React.lazy(() => import('./components/gold/PotOfGold'))
+const ShamrockTavern = React.lazy(() => import('./components/st-patricks-day/ShamrockTavern'))
 
 function App() {
   return (
@@ -75,8 +73,9 @@ function App() {
           <Route path="/dinosaur" element={<ScienceMuseum />} />
           <Route path="/donuts" element={<Donuts />} />
           <Route path="/bmx" element={<BmxShop />} />
-          <Route path="/favoriteFoods" element={<MyFavoriteFoods />} />
+        
           <Route path="/gold" element={<PotOfGold />} />
+          <Route path="/tavern" element={<ShamrockTavern />} />
         </Routes>
       </Suspense>
     </>

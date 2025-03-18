@@ -13,7 +13,7 @@ export default function PotOfGold() {
           className={"absolute bottom-74 md:bottom-58 lg:bottom-40 ml-10 "}
         />
         <Image
-          image={"./images/leperchaun.png"}
+          image={"./images/leperchaun   .png"}
           className={"absolute bottom-74 md:bottom-58 lg:bottom-40 ml-60 w-20"}
         />
       </section>
