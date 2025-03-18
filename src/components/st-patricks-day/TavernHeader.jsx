@@ -7,8 +7,9 @@ export default function TavernHeader() {
     { ourLinks: "Menu", id: 1 },
     { ourLinks: "Deals", id: 2 },
     { ourLinks: "Drink Specials", id: 3 },
-    { ourLinks: "Online Ordering", id: 4 },
-    { ourLinks: "Locations", id: 5 },
+    { ourLinks: "Gallery", id: 4 },
+    { ourLinks: "Online Ordering", id: 5 },
+    { ourLinks: "Locations", id: 6 },
   ];
 
   const clover = "./images/clover.png";
