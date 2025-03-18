@@ -1,5 +1,4 @@
 import Image from "../Image";
-// import Button from "../Button"
 import Socials from "./Socials";
 
 export default function TavernHeader() {
@@ -15,14 +14,14 @@ export default function TavernHeader() {
   const clover = "./images/clover.png";
 
   return (
-    <header className="flex justify-between text-center items-center gap-4 p-4 w-full">
+    <header className="flex justify-center items-center gap-4 p-4 w-full">
       <Image
         image={clover}
         alt="Four Leaf clover, Icon by Icons8"
         className="font-4xl"
       />
-      <section className="absolute left-1/2 transform -translate-x-1/2 text-center">
-        <h1 className="text-3xl font-bold">Shamarock Tavern</h1>
+      <section className="">
+        <h1 className="text-4xl font-bold">Shamarock Tavern</h1>
         <nav>
           <ul className="hidden md:flex gap-8 font-serif text-lg mt-2">
             {tavernLinks.map((link) => (
