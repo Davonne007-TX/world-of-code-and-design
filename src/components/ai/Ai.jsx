@@ -1,7 +1,15 @@
+import Image from "../Image";
+import AiHeader from "./AiHeader";
+import AiHero from "./AIHero";
+
 export default function Ai() {
   return (
-    <div>
-      <h1>AI</h1>
-    </div>
+    <main>
+      <div className="flex">
+        <AiHeader />
+        <Image image={"./images/ai.jpg"} className={"max-w-2xl ml-auto"} />
+      </div>
+      <AiHero />
+    </main>
   );
 }
