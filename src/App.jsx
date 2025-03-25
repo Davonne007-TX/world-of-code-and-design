@@ -40,8 +40,11 @@ const ScienceMuseum = React.lazy(() =>
 
 const Donuts = React.lazy(() => import("./components/donuts/Donuts"));
 const BmxShop = React.lazy(() => import("./components/bmx/BmxShop"));
-const PotOfGold = React.lazy(() => import('./components/gold/PotOfGold'))
-const ShamrockTavern = React.lazy(() => import('./components/st-patricks-day/ShamrockTavern'))
+const PotOfGold = React.lazy(() => import("./components/gold/PotOfGold"));
+const ShamrockTavern = React.lazy(() =>
+  import("./components/st-patricks-day/ShamrockTavern")
+);
+const Ai = React.lazy(() => import("./components/ai/Ai"));
 
 function App() {
   return (
@@ -73,9 +76,10 @@ function App() {
           <Route path="/dinosaur" element={<ScienceMuseum />} />
           <Route path="/donuts" element={<Donuts />} />
           <Route path="/bmx" element={<BmxShop />} />
-        
+
           <Route path="/gold" element={<PotOfGold />} />
           <Route path="/tavern" element={<ShamrockTavern />} />
+          <Route path="ai" element={<Ai />} />
         </Routes>
       </Suspense>
     </>

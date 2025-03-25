@@ -19,4 +19,5 @@ export const myWork = [
   { id: 18, text: "BMX Shop", link: "/bmx" },
   { id: 19, text: "Pot of Gold", link: "/gold" },
   { id: 20, text: "Shamrock Tavern", link: "/tavern" },
+  { id: 21, text: "AI", link: "/ai" },
 ];
