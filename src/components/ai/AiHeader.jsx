@@ -9,7 +9,7 @@ export default function AiHeader() {
     { link: "Purchasing", id: 5 },
   ];
   return (
-    <header className="p-4 flex flex-col  gap-2">
+    <header className="p-8 flex flex-col gap-2">
       <div className="flex justify-between items-center ">
         <h1 className={"text-5xl font-orb"}>R. Force</h1>
       </div>

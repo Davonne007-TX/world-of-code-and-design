@@ -2,7 +2,7 @@ import Button from "../Button";
 
 export default function Form() {
   const updates = " Sign Up To Get The Latest Updates";
-  const newsletter = `Want to get the latest updates on your fully functional AI robots? Sign
+  const newsletter = `Want to get the latest updates on our fully functional AI robots? Sign
         up today and we'll send you our weekly newsletter.`;
 
   return (
