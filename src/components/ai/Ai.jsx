@@ -7,7 +7,11 @@ export default function Ai() {
     <main>
       <div className="flex">
         <AiHeader />
-        <Image image={"./images/ai.jpg"} className={"max-w-2xl ml-auto"} />
+        <Image
+          image={"./images/ai.jpg"}
+          className="max-w-2xl ml-auto"
+          alt="AI Robot knealing on one leg, image by Cash Macanaya on Unsplash"
+        />
       </div>
       <AiHero />
     </main>
