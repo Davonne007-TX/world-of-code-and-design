@@ -1,3 +1,7 @@
-export default function Button({ className, btnTxt }) {
-  return <button className={`${className} cursor-pointer`}>{btnTxt}</button>;
+export default function Button({ className, type, btnTxt }) {
+  return (
+    <button type={type} className={`${className} cursor-pointer`}>
+      {btnTxt}
+    </button>
+  );
 }

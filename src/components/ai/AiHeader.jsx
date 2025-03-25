@@ -13,7 +13,7 @@ export default function AiHeader() {
       <div className="flex justify-between items-center ">
         <h1 className={"text-5xl font-orb"}>R. Force</h1>
       </div>
-      <ul className="flex gap-8 text-2xl font-thin">
+      <ul className="hidden md:flex gap-8 text-2xl font-thin">
         {aiFeatures.map((features) => (
           <li key={features.id}>{features.link}</li>
         ))}
