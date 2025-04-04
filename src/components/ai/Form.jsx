@@ -6,7 +6,7 @@ export default function Form() {
         up today and we'll send you our weekly newsletter.`;
 
   return (
-    <form className="max-w-2xl p-8 h-auto flex flex-col gap-6 justify-center items-center bg-white rounded-lg shadow-lg mt-20">
+    <form className="max-w-2xl p-8 h-auto flex flex-col gap-6 justify-center items-center bg-white rounded-lg shadow-lg ml-4 mt-20">
       <h2 className="font-bold text-left w-full text-4xl text-gray-900">
         {updates}
       </h2>
