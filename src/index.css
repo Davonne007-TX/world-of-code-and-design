@@ -11,8 +11,10 @@
   --font-audio: "Audiowide", sans-serif;
   --font-retro: "Press Start 2P", serif;
   --font-sig: "Sigmar", sans-serif;
+  --font-lobster: "Lobster", sans-serif;
 
-  --color-brightPink: #ff0065;
+  --color-brightPink: #f765a3;
+  --color-vibriantPink: #e41f7b;
 }
 
 html,
