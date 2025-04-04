@@ -5,10 +5,12 @@ import WindowsFooter from "./WindowsFooter";
 
 export default function OldWindows() {
   return (
-    <main className="min-h-screen flex flex-col">
+    <main className="min-h-screen flex font-sans flex-col">
       <WindowsHeader />
-      <ToBegin />
-      <Users />
+      <div className="flex my-14 gap-8 max-w-6xl">
+        <ToBegin />
+        <Users />
+      </div>
       <WindowsFooter />
     </main>
   );

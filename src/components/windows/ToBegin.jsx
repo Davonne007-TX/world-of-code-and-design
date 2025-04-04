@@ -16,9 +16,7 @@ export default function ToBegin() {
               Ventanas XP
             </h1>
           </div>
-          <p className="text-2xl font-sans">
-            To begin, click on your username.
-          </p>
+          <p className="text-2xl">To begin, click on your username.</p>
         </div>
       </div>
     </section>
