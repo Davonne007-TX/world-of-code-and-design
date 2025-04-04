@@ -3,7 +3,7 @@ import Image from "../Image";
 export default function ToBegin() {
   const ventanas = "/images/windows.jpg";
   return (
-    <section className="flex justify-center items-center font-serif text-4xl flex-1">
+    <section className="flex justify-center items-center text-4xl flex-1">
       <div className="flex flex-col md:flex-row">
         <div className="flex flex-col gap-4">
           <div className="flex gap-4">
