@@ -10,11 +10,11 @@ export default function PotOfGold() {
       <section className="flex-1">
         <Image
           image={"./images/gold.png"}
-          className={"absolute bottom-74 md:bottom-58 lg:bottom-40 ml-10 "}
+          className={"absolute bottom-72 md:bottom-58 lg:bottom-40 ml-10 "}
         />
         <Image
-          image={"./images/leperchaun   .png"}
-          className={"absolute bottom-74 md:bottom-58 lg:bottom-40 ml-60 w-20"}
+          image={"./images/leperchaun.png"}
+          className={"absolute bottom-72 md:bottom-58 lg:bottom-40 ml-60 w-20"}
         />
       </section>
     </main>
