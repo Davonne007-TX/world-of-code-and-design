@@ -1,5 +1,6 @@
 import React, { Suspense } from "react";
 import { Routes, Route } from "react-router-dom";
+import OldWindows from "./components/windows/OldWindows";
 
 const HomePage = React.lazy(() => import("./components/HomePage"));
 const SpaceExploration = React.lazy(() =>
@@ -80,6 +81,7 @@ function App() {
           <Route path="/gold" element={<PotOfGold />} />
           <Route path="/tavern" element={<ShamrockTavern />} />
           <Route path="ai" element={<Ai />} />
+          <Route path="/windows" element={<OldWindows />} />
         </Routes>
       </Suspense>
     </>
