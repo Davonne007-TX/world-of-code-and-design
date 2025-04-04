@@ -6,9 +6,9 @@ export default function ChooserAUser({ userImage, alt, userName }) {
       <Image
         image={userImage}
         alt={alt}
-        className="w-40 rounded-xl border-4 border-transparent hover:border-yellow-300 transition-all duration-200"
+        className="w-40 rounded-xl border-4 border-transparent cursor-pointer hover:border-yellow-300 transition-all duration-200"
       />
-      <button className="mt-10 cursor-pointer text-2xl">{userName}</button>
+      <button className="mt-10 cursor-pointer text-xl">{userName}</button>
     </section>
   );
 }

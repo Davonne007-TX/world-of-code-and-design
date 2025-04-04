@@ -7,7 +7,7 @@ export default function OldWindows() {
   return (
     <main className="min-h-screen flex font-sans flex-col">
       <WindowsHeader />
-      <div className="flex my-14 gap-8 max-w-6xl">
+      <div className="flex flex-col md:flex-row my-14 gap-8 max-w-6xl">
         <ToBegin />
         <Users />
       </div>
