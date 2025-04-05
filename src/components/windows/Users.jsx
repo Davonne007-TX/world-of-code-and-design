@@ -10,7 +10,7 @@ export default function Users() {
 
   return (
     <section>
-      <ul className="flex flex-col justify-center items-center gap-8">
+      <ul className="flex flex-col gap-8">
         {users.map((user) => (
           <li key={user.id}>
             <ChooserAUser userImage={user.userImage} userName={user.userName} />
