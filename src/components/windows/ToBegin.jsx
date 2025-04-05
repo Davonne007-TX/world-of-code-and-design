@@ -1,11 +1,12 @@
 import Image from "../Image";
+import Users from "./Users";
 
 export default function ToBegin() {
   const ventanas = "/images/windows.jpg";
   return (
     <section className="flex justify-center items-center text-4xl flex-1">
-      <div className="flex flex-col md:flex-row">
-        <div className="flex flex-col gap-4">
+      <div className="flex flex-col md:flex-row justify-center items-center">
+        <div className="flex flex-col gap- justify-center items-center ">
           <div className="flex gap-4">
             <Image
               image={ventanas}
