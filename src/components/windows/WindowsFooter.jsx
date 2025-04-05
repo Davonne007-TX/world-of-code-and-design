@@ -2,7 +2,7 @@ import Image from "../Image";
 
 export default function WindowsFooter() {
   return (
-    <footer className="bg-brightPink p-6 mt-4 flex justify-between items-cente w-full">
+    <footer className="bg-brightPink p-12 flex justify-between items-center w-full">
       <Image image="/images/power.png" className="w-12" />
       <p className="font-lobster ml-4 text-2xl">Turn off Computer</p>
       <p className="ml-auto mr-4  max-w-lg text-xl font-sans">

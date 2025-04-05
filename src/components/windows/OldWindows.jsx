@@ -5,9 +5,9 @@ import WindowsFooter from "./WindowsFooter";
 
 export default function OldWindows() {
   return (
-    <main className="min-h-screen flex font-sans flex-col justify-center items-center">
+    <main className="flex font-sans flex-col justify-center items-center">
       <WindowsHeader />
-      <div className="flex flex-col md:flex-row my-14 gap-8 bg-pink-200 p-9 justify-center items-center">
+      <div className="flex flex-col md:flex-row gap-8 w-full  bg-pink-200 p-9 justify-center items-center">
         <ToBegin />`
         <Users />
       </div>
