@@ -46,6 +46,7 @@ const ShamrockTavern = React.lazy(() =>
   import("./components/st-patricks-day/ShamrockTavern")
 );
 const Ai = React.lazy(() => import("./components/ai/Ai"));
+const LazySunday = React.lazy(() => import("./components/lazy/LazySunday"));
 
 function App() {
   return (
@@ -82,6 +83,7 @@ function App() {
           <Route path="/tavern" element={<ShamrockTavern />} />
           <Route path="ai" element={<Ai />} />
           <Route path="/windows" element={<OldWindows />} />
+          <Route path="/lazySunday" element={<LazySunday />} />
         </Routes>
       </Suspense>
     </>
