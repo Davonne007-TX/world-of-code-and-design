@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Button from "../Button";
 
 export default function EatNowHeader() {
   const [isMobileNavOpen, setIsMobileNavOpen] = useState(false);
@@ -34,10 +35,23 @@ export default function EatNowHeader() {
         }`}
       >
         {foodLinks.map((links) => (
-          <li key={links.id} className="list-none p-2" onClick={closeMobileNav}>
+          <li
+            key={links.id}
+            className="list-none p-2 hover:underline cursor-pointer"
+            onClick={closeMobileNav}
+          >
             {links.ourLink}
           </li>
         ))}
+
+        <Button
+          btnTxt={"Order Now"}
+          className="bg-black rounded-full mt-8 hover:scale-105"
+        />
+        <Button
+          btnTxt={"Order Later"}
+          className="bg-black rounded-full mt-4 hover:scale-105"
+        />
       </nav>
     </header>
   );
