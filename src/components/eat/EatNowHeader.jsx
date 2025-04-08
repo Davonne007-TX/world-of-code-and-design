@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Button from "../Button";
+import FoodEmojis from "./FoodEmojis";
 
 export default function EatNowHeader() {
   const [isMobileNavOpen, setIsMobileNavOpen] = useState(false);
@@ -17,7 +18,7 @@ export default function EatNowHeader() {
     { ourLink: "Fast Food", id: 2 },
     { ourLink: "Catering", id: 3 },
     { ourLink: "Dessert", id: 4 },
-    { ourLink: "Coffee", id: 5 },
+    { ourLink: "Drinks", id: 5 },
   ];
   return (
     <header className="text-white p-8 flex justify-between ">
@@ -30,7 +31,7 @@ export default function EatNowHeader() {
       <nav
         className={`${
           isMobileNavOpen
-            ? "flex flex-col text-3xl text-white font-sig absolute right-0 top-24 bg-red-600 p-4 rounded-2xl"
+            ? "flex flex-col text-3xl text-white font-sig absolute right-0 top-24 bg-red-600 p-4 rounded-3xl shadow-md"
             : "hidden"
         }`}
       >
@@ -44,13 +45,15 @@ export default function EatNowHeader() {
           </li>
         ))}
 
+        <FoodEmojis />
+
         <Button
           btnTxt={"Order Now"}
-          className="bg-black rounded-full mt-8 hover:scale-105"
+          className="bg-black text-3xl rounded-3xl mt-8 hover:scale-105"
         />
         <Button
           btnTxt={"Order Later"}
-          className="bg-black rounded-full mt-4 hover:scale-105"
+          className="bg-black text-3xl rounded-3xl mt-4 hover:scale-105"
         />
       </nav>
     </header>

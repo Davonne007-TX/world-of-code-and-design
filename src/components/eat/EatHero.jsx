@@ -9,7 +9,7 @@ export default function EatHero() {
           title="Ultra Fast Delievery Service"
           className="text-white font-sig"
           description="Get Your Food delieved on your terms.
-          When you want, how you want, for ulimate deliciosness."
+          When you want, how you want, for ulimate deliciousness."
           descriptionStyles="text-white font-serif text-center"
         />
         <Button
