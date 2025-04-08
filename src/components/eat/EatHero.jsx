@@ -9,8 +9,8 @@ export default function EatHero() {
         <Card
           title="Ultra Fast Delivery Service"
           className="text-white font-sig"
-          description="Get Your Food delieved on your terms.
-          When you want, how you want, for ulimate deliciousness. First time purachse get $20 off!"
+          description="Get Your Food delivered on your terms.
+          When you want, how you want it, for ultimate deliciousness. First time purchase get $20 off!"
           descriptionStyles="text-white max-w-2xl font-serif text-center"
         />
 
