@@ -1,4 +1,11 @@
-export default function Card({ title, description, image, className, alt }) {
+export default function Card({
+  title,
+  description,
+  image,
+  className,
+  alt,
+  descriptionStyles,
+}) {
   return (
     <>
       <section className="flex flex-col justify-center items-center md:flex-row ">
@@ -6,7 +13,9 @@ export default function Card({ title, description, image, className, alt }) {
           <h2 className={`text-4xl lg:text-5xl font-bold ${className}`}>
             {title}
           </h2>
-          <p className="text-2xl text-balance">{description}</p>
+          <p className={`text-2xl text-balance ${descriptionStyles}`}>
+            {description}
+          </p>
         </section>
         <img src={image} className={className} alt={alt} />
       </section>
