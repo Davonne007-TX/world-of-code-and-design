@@ -31,7 +31,7 @@ export default function EatNowHeader() {
       <nav
         className={`${
           isMobileNavOpen
-            ? "flex flex-col text-3xl text-white font-sig absolute right-0 top-24 bg-red-600 p-4 rounded-3xl shadow-md"
+            ? "flex flex-col text-3xl text-white font-sig absolute right-0 top-24 bg-red-500 p-4 rounded-3xl shadow-md"
             : "hidden"
         }`}
       >
