@@ -9,9 +9,15 @@ export default function TacoHeader() {
   ];
 
   return (
-    <header className="w-full p-4 text-white flex">
-      <div className="flex flex-col justify-between gap-4">
-        <h1 className="font-press text-3xl">Did Someone Say Tacos?</h1>
+    <header className="p-4 text-white flex justify-center items-center">
+      <div className="flex flex-col justify-between  w-full gap-4">
+        <div className="flex justify-between items-center w-full">
+          <h1 className="font-press text-3xl ">Did Someone Say Tacos?</h1>
+          <Button
+            btnTxt="Order Now"
+            className="bg-red-500 p-2 justtify-end rounded-full w-40  font-press text-md"
+          />
+        </div>
         <nav>
           <ul className="flex gap-8">
             {ourLinks.map((link) => (
@@ -22,10 +28,6 @@ export default function TacoHeader() {
           </ul>
         </nav>
       </div>
-      <Button
-        btnTxt="Order Now"
-        className="bg-red-500 ml-auto w-20 p-2 rounded font-press text-sm"
-      />
     </header>
   );
 }
