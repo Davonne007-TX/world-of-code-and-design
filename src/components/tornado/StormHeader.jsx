@@ -3,10 +3,10 @@ import Live from "./Live";
 
 export default function StromHeader() {
   const navLinks = [
-    { ourLink: "Live", id: 1 },
+    { ourLink: "Mission", id: 1 },
     { ourLink: "Preparedness", id: 2 },
     { ourLink: "Storm Relief", id: 3 },
-    { ourLink: "Location Storm Shelters", id: 4 },
+    { ourLink: "Storm Shelters Locations", id: 4 },
     { ourLink: "Alerts", id: 5 },
   ];
 

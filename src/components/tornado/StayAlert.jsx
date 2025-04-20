@@ -1,8 +1,10 @@
+import Hero from "./Hero";
 import StormHeader from "./StormHeader";
 export default function StayAlert() {
   return (
-    <main className="bg-[url('/images/storm.jpg')] bg-cover flex min-h-screen flex-col">
+    <main>
       <StormHeader />
+      <Hero />
     </main>
   );
 }
