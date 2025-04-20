@@ -12,7 +12,7 @@ export default function HomeTaco() {
       >
         <Image
           image={taco}
-          className="max-w-xs md:max-w-md rounded-full ml-auto flex md:mb-20"
+          className="max-w-xs md:max-w-md rounded-full ml-auto flex md:mb-20 p-4"
         />
       </div>
     </section>
