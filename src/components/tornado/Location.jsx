@@ -11,7 +11,7 @@ export default function Location() {
         />
         <Button
           btnTxt="Check Weather Alerts"
-          className="w-full sm:w-80 bg-red-500 hover:bg-red-600 transition duration-300 p-2 text-white font-bold text-md rounded-full shadow-lg"
+          className="w-full sm:w-80 md:w-60 bg-red-500 hover:bg-red-600 transition duration-300 p-2 text-white font-bold text-md rounded-full shadow-lg"
         />
       </label>
     </div>

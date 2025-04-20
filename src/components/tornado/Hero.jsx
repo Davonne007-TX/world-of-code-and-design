@@ -22,18 +22,13 @@ export default function Hero() {
           </p>
 
           <Location />
-          {/* <Button
-            btnTxt="Check Weather Alerts"
-            className="bg-red-500 hover:bg-red-600 transition duration-300 p-2 text-white font-bold text-lg rounded-full w-80 shadow-lg"
-          /> */}
         </div>
 
-        <div className="">
-          <Image
-            image="/images/tornado.jpg"
-            className="rounded-3xl p-2 max-w-xs md:max-w-xl  lg:max-w-2xl shadow-2xl hover:scale-105 transition-transform duration-500"
-          />
-        </div>
+        <Image
+          image="/images/tornado.jpg"
+          className="rounded-3xl p-2 max-w-xs md:max-w-xl  lg:max-w-2xl shadow-2xl hover:scale-105 transition-transform duration-500"
+          alt="Tornado in the distant road, image by Greg Johnson on Unsplash"
+        />
       </div>
     </section>
   );
