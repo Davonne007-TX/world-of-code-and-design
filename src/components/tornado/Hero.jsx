@@ -11,9 +11,9 @@ export default function Hero() {
 
   return (
     <section className="flex items-center min-h-screen bg-gradient-to-b from-gray-900 via-gray-800 to-black px-6 py-12">
-      <div className="mx-auto max-w-7xl flex flex-col lg:flex-row items-center gap-12 mb-40">
+      <div className="mx-auto max-w-6xl flex flex-col lg:flex-row items-center gap-12 mb-40">
         <div className="flex-1 text-center lg:text-left">
-          <h1 className="text-white font-extrabold text-4xl md:text-6xl leading-tight mb-6">
+          <h1 className="text-white font-extrabold text-4xl md:text-5xl leading-tight mb-6">
             Here For You When The Storm{" "}
             <span className="text-red-500">Comes</span>
           </h1>
@@ -31,7 +31,7 @@ export default function Hero() {
         <div className="flex-1">
           <Image
             image="/images/tornado.jpg"
-            className="rounded-xl shadow-2xl hover:scale-105 transition-transform duration-500"
+            className="rounded-3xl p-2 max-w-2xl shadow-2xl hover:scale-105 transition-transform duration-500"
           />
         </div>
       </div>

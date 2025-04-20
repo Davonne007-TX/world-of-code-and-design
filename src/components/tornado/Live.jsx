@@ -6,7 +6,7 @@ export default function Live() {
       <p>Check out our broadcast</p>
       <Button
         btnTxt="Live"
-        className="bg-red-700 hover:scale-110 text-white p-2 rounded"
+        className="bg-red-700 hover:scale-110  text-white p-2 rounded"
       />
     </div>
   );
