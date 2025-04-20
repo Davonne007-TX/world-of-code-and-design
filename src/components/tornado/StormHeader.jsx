@@ -25,7 +25,7 @@ export default function StromHeader() {
           </div>
 
           <nav className="ml-auto">
-            <ul className="hidden md:flex gap-8 text-lg font-semibold">
+            <ul className="hidden lg:flex gap-8 text-lg font-semibold">
               {navLinks.map((link) => (
                 <li
                   key={link.id}
