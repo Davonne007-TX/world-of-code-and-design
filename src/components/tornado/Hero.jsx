@@ -10,14 +10,14 @@ export default function Hero() {
   be prepared, get help.`;
 
   return (
-    <section className="flex items-center min-h-screen bg-gradient-to-b from-gray-900 via-gray-800 to-black px-6 py-12">
-      <div className="mx-auto max-w-6xl flex flex-col lg:flex-row items-center gap-12 mb-40">
-        <div className="flex-1 text-center lg:text-left">
-          <h1 className="text-white font-extrabold text-4xl md:text-5xl leading-tight mb-6">
+    <section className="flex items-center min-h-screen bg-gradient-to-b from-gray-900 via-gray-800 to-black px-4 sm:px-6 py-12">
+      <div className="mx-auto max-w-xs sm:max-w-xl md:max-w-4xl lg:max-w-7xl flex flex-col-reverse lg:flex-row items-center gap-8 sm:gap-12 lg:-mt-40">
+        <div className="w-full text-center lg:text-left">
+          <h1 className="text-white font-extrabold text-2xl sm:text-3xl md:text-5xl leading-tight mb-4 sm:mb-6">
             Here For You When The Storm{" "}
             <span className="text-red-500">Comes</span>
           </h1>
-          <p className="text-gray-300 text-xl md:text-2xl max-w-2xl mx-auto lg:mx-0 mb-8">
+          <p className="text-gray-300 text-base sm:text-lg md:text-2xl max-w-md sm:max-w-xl md:max-w-2xl mx-auto lg:mx-0 mb-6 sm:mb-8">
             {text}
           </p>
 
@@ -28,10 +28,10 @@ export default function Hero() {
           /> */}
         </div>
 
-        <div className="flex-1">
+        <div className="">
           <Image
             image="/images/tornado.jpg"
-            className="rounded-3xl p-2 max-w-2xl shadow-2xl hover:scale-105 transition-transform duration-500"
+            className="rounded-3xl p-2 max-w-xs md:max-w-xl  lg:max-w-2xl shadow-2xl hover:scale-105 transition-transform duration-500"
           />
         </div>
       </div>
