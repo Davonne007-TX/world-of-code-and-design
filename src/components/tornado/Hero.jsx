@@ -1,10 +1,13 @@
 import Image from "../Image";
-import Button from "../Button";
+// import Button from "../Button";
+import Location from "./Location";
 
 export default function Hero() {
-  const text = `Server Weather Strikes when you least expect it.
-  Thats why we here at Stay Alert Storm Chasing we are on a mission
-  to give you alerts on Tornado Warnings and Sever Weather.  `;
+  const text = `Severe weather strikes when you least 
+  expect it. That's why we, here at Stay Alert Storm 
+  Chasing, are on a mission to give you alerts on 
+  Tornado Warnings and Severe Weather. Stay up to date,
+  be prepared, get help.`;
 
   return (
     <section className="flex items-center min-h-screen bg-gradient-to-b from-gray-900 via-gray-800 to-black px-6 py-12">
@@ -17,10 +20,12 @@ export default function Hero() {
           <p className="text-gray-300 text-xl md:text-2xl max-w-2xl mx-auto lg:mx-0 mb-8">
             {text}
           </p>
-          <Button
+
+          <Location />
+          {/* <Button
             btnTxt="Check Weather Alerts"
             className="bg-red-500 hover:bg-red-600 transition duration-300 p-2 text-white font-bold text-lg rounded-full w-80 shadow-lg"
-          />
+          /> */}
         </div>
 
         <div className="flex-1">
