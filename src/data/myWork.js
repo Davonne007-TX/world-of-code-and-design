@@ -23,4 +23,5 @@ export const myWork = [
   { id: 22, text: "Windows", link: "/windows" },
   { id: 23, text: "Eat Now", link: "/eat" },
   { id: 24, text: "Funky Taco", link: "/funkyTaco" },
+  { id: 25, text: "Stay Alert", link: "/tornado" },
 ];
