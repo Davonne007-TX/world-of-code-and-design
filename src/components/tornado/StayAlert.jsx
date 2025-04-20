@@ -1,7 +1,8 @@
+import StormHeader from "./StormHeader";
 export default function StayAlert() {
   return (
-    <main className="text-black">
-      <h1>testing testing 123</h1>
+    <main className="bg-[url('/images/storm.jpg')] bg-cover flex min-h-screen flex-col">
+      <StormHeader />
     </main>
   );
 }
