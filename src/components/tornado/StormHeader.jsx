@@ -1,7 +1,7 @@
 import Image from "../Image";
 import Live from "./Live";
 
-export default function StromHeader() {
+export default function StormHeader() {
   const navLinks = [
     { ourLink: "Mission", id: 1 },
     { ourLink: "Preparedness", id: 2 },
