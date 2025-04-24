@@ -8,12 +8,14 @@ export default function GoldHeader() {
   ];
 
   return (
-    <header className="bg-green-600 text-white p-2 font-audio  l ">
+    <header className="bg-green-600 text-white p-4 font-audio  l ">
       <h1 className="text-4xl">The Pursuit</h1>
       <nav>
-        <ul className="hidden flex-col md:flex-row gap-10 text-xl mt-4">
+        <ul className=" hidden md:flex flex-row gap-10 text-xl mt-4">
           {pursuitLinks.map((links) => (
-            <li key={links.id}>{links.noExcuses}</li>
+            <li key={links.id} className="cursor-pointer hover:underline">
+              {links.noExcuses}
+            </li>
           ))}
         </ul>
       </nav>
