@@ -9,9 +9,9 @@ export default function TacoHeader() {
   ];
 
   return (
-    <header className="text-white p-8 flex justify-between items-center bg-red-500/80">
+    <header className="text-white p-4 flex justify-between items-center bg-red-500/80">
       <div className="flex items-center gap-8">
-        <h1 className="font-press text-5xl">🌮</h1>
+        <h1 className="font-press text-5xl mb-2">🌮</h1>
         <nav>
           <ul className="flex gap-8">
             {ourLinks.map((link) => (
