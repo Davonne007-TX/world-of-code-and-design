@@ -51,7 +51,7 @@ const Taco = React.lazy(() => import("./components/funkyTaco/Taco"));
 const StayAlert = React.lazy(() => import("./components/tornado/StayAlert"));
 const EasterEgg = React.lazy(() => import("./components/easter/EasterEgg"));
 const Party = React.lazy(() => import("./components/concert/Party"));
-
+const LevelUp = React.lazy(() => import("./components/tournament/LevelUp"));
 function App() {
   return (
     <>
@@ -92,6 +92,7 @@ function App() {
           <Route path="tornado" element={<StayAlert />} />
           <Route path="/easterEgg" element={<EasterEgg />} />
           <Route path="/concert" element={<Party />} />
+          <Route path="/tournament" element={<LevelUp />} />
         </Routes>
       </Suspense>
     </>

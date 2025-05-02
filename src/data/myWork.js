@@ -26,4 +26,5 @@ export const myWork = [
   { id: 25, text: "Stay Alert", link: "/tornado" },
   { id: 26, text: "Easter Egg Hunt", link: "/easterEgg" },
   { id: 27, text: "Concert", link: "/concert" },
+  { id: 28, text: "Torunament", link: "/tournament" },
 ];

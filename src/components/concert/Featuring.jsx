@@ -14,7 +14,7 @@ export default function Featuring() {
     { artist: "Chris Brown", id: 12 },
     { artist: "Missy Elliot", id: 13 },
     { artist: "Rihanna", id: 14 },
-    { artist: "Gwen Stefani", id: 15 },
+    { artist: "Jojo", id: 15 },
   ];
 
   return (
