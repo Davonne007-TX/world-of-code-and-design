@@ -9,19 +9,26 @@ export default function BasketballHeader() {
     { ourLink: "Players", id: 5 },
     { ourLink: "Volunteering", id: 6 },
   ];
+
   return (
-    <header className="mt-4 gap-4 flex items-center justify-between font-glo text-white">
-      <Image image="/images/hoop.png" />
-      <ul className="hidden md:flex gap-8 text-xl">
-        {tournamentLinks.map((link) => (
-          <li
-            key={link.id}
-            className="hover:text-white transition-colors duration-200 cursor-pointer hover:scale-105"
-          >
-            {link.ourLink}
-          </li>
-        ))}
-      </ul>
+    <header className="mt-4 w-full flex items-center justify-between px-6 font-glo text-white">
+      <div className="flex items-center gap-3">
+        <Image image="/images/hoop.png" className="w-12 h-12" />
+        <h1 className="text-3xl lg:text-5xl font-cut font-bold">Hoops</h1>
+      </div>
+
+      <nav>
+        <ul className="hidden lg:flex gap-8 text-2xl">
+          {tournamentLinks.map((link) => (
+            <li
+              key={link.id}
+              className="hover:text-white transition-colors duration-200 cursor-pointer hover:scale-105"
+            >
+              {link.ourLink}
+            </li>
+          ))}
+        </ul>
+      </nav>
     </header>
   );
 }

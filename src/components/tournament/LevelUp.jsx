@@ -9,15 +9,14 @@ export default function LevelUp() {
   return (
     <main className="bg-[url('images/centerBasketball.jpg')] bg-cover min-h-screen">
       <section className="flex flex-col justify-center items-center">
-        <div className="flex justify-between">
-          <BasketballHeader />
-        </div>
-        <div className="mt-10 max-w-2xl lg:max-w-4xl flex flex-col justify-center items-center">
+        <BasketballHeader />
+
+        <div className="mt-10 max-w-2xl p-4 rounded-2xl bg-black/40 lg:max-w-4xl flex flex-col justify-center items-center">
           <Card
             title="Level Up Tournament 2025"
             className="font-glo text-white text-center text-2xl md:text-3xl"
             description={tournament}
-            descriptionStyles="text-white text-center font-sans text-wrap text-lg md:text-2xl"
+            descriptionStyles="text-white text-center font-sans text-wrap text-lg md:text-2xl lg:text-3xl"
           />
 
           <div className="relative w-full max-w-xs md:max-w-md mt-6">
