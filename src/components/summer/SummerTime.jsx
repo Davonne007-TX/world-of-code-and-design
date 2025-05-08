@@ -15,7 +15,7 @@ export default function SummerTime() {
           <div className="shadow-lg bg-white/10 backdrop-blur-md rounded-3xl">
             {/* Inner content box */}
             <div className=" p-8 rounded-3xl flex flex-col gap-6 ">
-              <h1 className="text-4xl md:text-5xl font-ram">
+              <h1 className="text-2xl md:text-5xl font-ram">
                 It's Summer Somewhere
               </h1>
               <p className="text-2xl md:text-3xl font-serif max-w-2xl">

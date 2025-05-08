@@ -8,12 +8,10 @@ export default function SummerHeader() {
 
   return (
     <header className="flex justify-between items-center px-10 py-6 bg-white/10 backdrop-blur-md text-white z-20 relative rounded-b-xl shadow-md">
-      <h1 className="font-bold font-ram text-4xl tracking-wide">
-        ☀️ Summer Vibes
-      </h1>
+      <h1 className="font-bold font-ram text-5xl">☀️ Summer Vibes</h1>
 
       <nav>
-        <ul className="hidden md:flex gap-8 font-serif text-base md:text-2xl">
+        <ul className="hidden md:flex gap-4 font-serif text-base md:text-2xl">
           {summerLinks.map((item) => (
             <li
               key={item.id}
