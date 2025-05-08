@@ -1,6 +1,7 @@
 import React, { Suspense } from "react";
 import { Routes, Route } from "react-router-dom";
 import OldWindows from "./components/windows/OldWindows";
+import SummerTime from "./components/summer/SummerTime";
 
 const HomePage = React.lazy(() => import("./components/HomePage"));
 const SpaceExploration = React.lazy(() =>
@@ -52,6 +53,7 @@ const StayAlert = React.lazy(() => import("./components/tornado/StayAlert"));
 const EasterEgg = React.lazy(() => import("./components/easter/EasterEgg"));
 const Party = React.lazy(() => import("./components/concert/Party"));
 const LevelUp = React.lazy(() => import("./components/tournament/LevelUp"));
+
 function App() {
   return (
     <>
@@ -93,6 +95,7 @@ function App() {
           <Route path="/easterEgg" element={<EasterEgg />} />
           <Route path="/concert" element={<Party />} />
           <Route path="/tournament" element={<LevelUp />} />
+          <Route path="/summer" element={<SummerTime />} />
         </Routes>
       </Suspense>
     </>
