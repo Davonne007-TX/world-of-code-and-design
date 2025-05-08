@@ -10,9 +10,9 @@ export default function SummerTime() {
       <div className="relative z-10 min-h-screen">
         <SummerHeader />
 
-        <div className="text-white p-8 max-w-4xl flex flex-col justify-center items-center  gap-6 text-left ml-4 mt-40">
+        <div className="text-white p-8 max-w-4xl flex flex-col justify-center items-center  gap-6 text-left mt-60">
           {/* Outer gradient border */}
-          <div className="shadow-md">
+          <div className="shadow-lg bg-white/10 backdrop-blur-md rounded-3xl">
             {/* Inner content box */}
             <div className=" p-8 rounded-3xl flex flex-col gap-6 ">
               <h1 className="text-4xl md:text-5xl font-ram">
