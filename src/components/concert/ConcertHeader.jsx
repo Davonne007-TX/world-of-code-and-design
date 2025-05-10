@@ -9,12 +9,12 @@ export default function ConcertHeader() {
   ];
 
   return (
-    <header className=" text-white p-6 shadow-md bg-black/10">
+    <header className=" text-white px-6 py-8 shadow-md bg-black/10">
       <div className="flex justify-between items-center">
-        <h1 className="font-sed text-3xl md:text-4xl text-shadow-md transform hover:scale-105 transition-transform duration-300">
+        <h1 className="font-sed text-4xl md:text-4xl text-shadow-md transform hover:scale-105 transition-transform duration-300">
           🎧 Takin it Back Tour
         </h1>
-        <ul className="hidden md:flex gap-10 font-sed text-2xl">
+        <ul className="hidden md:flex gap-12 font-cut text-2xl">
           {ourHeader.map((headerLink) => (
             <li
               key={headerLink.id}
@@ -26,7 +26,7 @@ export default function ConcertHeader() {
         </ul>
         <Button
           btnTxt="Get Tickets"
-          className="bg-white text-black rounded-full p-2 font-sed text-2xl transition-all duration-300 transform hover:scale-110"
+          className="hidden md:flex bg-white text-black font-sed text-2xl p-2 rounded-full shadow-md hover:bg-gradient-to-r from-gray-100 to-gray-300 hover:scale-110 transition-all duration-300"
         />
       </div>
     </header>
