@@ -1,18 +1,21 @@
-import Image from "../Image";
-export default function ConcertHero() {
-  const time2025 = "./images/concert.jpg";
-  return (
-    <section className="flex flex-col justify-center items-center">
-      <Image image={time2025} className="w-full max-w-full rounded-4xl p-2" />
+import Button from "../Button";
 
-      <div className="flex flex-col gap-4 text-white mb-8 md:mb-0 md:top-60 md:left-48 font-cut absolute text-sm md:text-w-3xl md:text-5xl">
-        <p className=" bg-black -skew-4 p-4">Party of The Year</p>
-        <p className=" bg-black -skew-4 p-4">Tickets on Sale Now</p>
+export default function ConcertHero() {
+  return (
+    <section className="flex flex-col text-center items-center  text-white">
+      <div className="max-w-3xl mt-20 flex flex-col gap-4">
+        <h1 className="text-6xl font-sed">2000's Hip Hop and R&B</h1>
+        <p className="text-2xl tracking-wide">
+          Listen to the music you grew up with. Be with friends. Share memories
+          and create new ones. Lets party like a rockstar and lean back like its
+          our birthday!
+        </p>
+
+        <Button
+          btnTxt="Get Your Seat"
+          className="w-80 mx-auto bg-white text-black font-sed text-2xl px-5 py-2 rounded-full shadow-md hover:bg-gradient-to-r from-gray-100 to-gray-300 hover:scale-110 transition-all duration-300"
+        />
       </div>
-      <Image
-        image="./images/time.png"
-        className="max-w-xs lg:max-w-xl absolute right-0 mt-60"
-      />
     </section>
   );
 }

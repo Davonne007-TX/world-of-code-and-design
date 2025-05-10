@@ -1,6 +1,5 @@
 import ConcertHeader from "./ConcertHeader";
 import ConcertHero from "./ConcertHero";
-import Featuring from "./Featuring";
 
 export default function Party() {
   return (
@@ -8,7 +7,6 @@ export default function Party() {
       <ConcertHeader />
       <div className="w-full mt-4 flex flex-col justify-center items-center mx-auto">
         <ConcertHero />
-        <Featuring />
       </div>
     </main>
   );
