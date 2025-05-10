@@ -9,8 +9,8 @@ export default function ConcertHero() {
         className="absolute w-full h-full object-cover "
       />
 
-      <div className="relative flex flex-col items-center justify-center text-center h-full px-4 bg-black/40">
-        <div className="mb-40 shadow-xs p-4">
+      <div className="relative flex flex-col items-center justify-center text-center h-full px-4">
+        <div className="mb-40 p-6 bg-white/60 text-black rounded-3xl">
           <h1 className="text-5xl md:text-6xl font-sed mb-6">
             2000's Hip Hop and R&B
           </h1>

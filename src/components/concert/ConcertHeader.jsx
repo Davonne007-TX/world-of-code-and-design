@@ -11,7 +11,7 @@ export default function ConcertHeader() {
   return (
     <header className=" text-white px-6 py-8 shadow-md bg-black/10">
       <div className="flex justify-between items-center">
-        <h1 className="font-sed text-4xl md:text-4xl text-shadow-md transform hover:scale-105 transition-transform duration-300">
+        <h1 className="font-sed text-4xl md:text-4xl  transform hover:scale-105 transition-transform duration-300">
           🎧 Takin it Back Tour
         </h1>
 
