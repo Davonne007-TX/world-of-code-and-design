@@ -11,7 +11,7 @@ export default function Hero() {
 
   return (
     <section className="flex items-center min-h-screen bg-gradient-to-b from-gray-900 via-gray-800 to-black px-4 sm:px-6 py-12">
-      <div className="mx-auto max-w-xs sm:max-w-xl md:max-w-4xl lg:max-w-7xl flex flex-col-reverse lg:flex-row items-center gap-8 sm:gap-12 lg:-mt-40">
+      <div className="mx-auto max-w-xs sm:max-w-xl md:max-w-4xl lg:max-w-7xl flex flex-col-reverse lg:flex-row items-center gap-8 sm:gap-12 lg:-mt-40 ">
         <div className="w-full text-center lg:text-left">
           <h1 className="text-white font-extrabold text-2xl sm:text-3xl md:text-5xl leading-tight mb-4 sm:mb-6">
             Here For You When The Storm{" "}

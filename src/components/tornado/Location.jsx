@@ -2,8 +2,8 @@ import Button from "../Button";
 
 export default function Location() {
   return (
-    <div className="w-full max-w-4xl mx-auto px-2 sm:px-0">
-      <label className="p-3 bg-white rounded-2xl flex flex-col sm:flex-row items-center gap-4 sm:gap-x-6 w-full shadow-md">
+    <div className="w-full max-w-3xl mx-auto px-2 sm:px-0">
+      <label className="p-2 bg-white rounded-2xl flex flex-col sm:flex-row items-center gap-4 sm:gap-x-6 w-full shadow-md">
         <input
           type="text"
           placeholder="Enter ZIP Code"
@@ -11,7 +11,7 @@ export default function Location() {
         />
         <Button
           btnTxt="Check Weather Alerts"
-          className="w-full sm:w-80 md:w-60 bg-red-500 hover:bg-red-600 transition duration-300 p-2 text-white font-bold text-md rounded-full shadow-lg"
+          className="w-60 bg-red-500 hover:bg-red-600 transition duration-300 p-2 text-white font-bold text-md rounded-full shadow-lg"
         />
       </label>
     </div>
