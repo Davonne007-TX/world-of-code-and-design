@@ -7,8 +7,8 @@ export default function ShredHero() {
       </h2>
       <div className="flex flex-col backdrop-blur-md gap-4 p-6 text-3xl md:text-3xl font-tit ml-4 bg-black/40 max-w-lg">
         <p>
-          A community that take BMX riding to another level. Built on community,
-          trust, and commitment.
+          A community that takes skateboarding to another level. Built on
+          community, trust, and commitment.
         </p>
         <p>Ride. Compete. Make Memories.</p>
         <button className="bg-black text-white p-2 font-orb">Join Today</button>
