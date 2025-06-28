@@ -53,7 +53,7 @@ const StayAlert = React.lazy(() => import("./components/tornado/StayAlert"));
 const EasterEgg = React.lazy(() => import("./components/easter/EasterEgg"));
 const Party = React.lazy(() => import("./components/concert/Party"));
 const LevelUp = React.lazy(() => import("./components/tournament/LevelUp"));
-const GoBig = React.lazy(() => import("./components/bmx-club/GoBig"));
+const GoBig = React.lazy(() => import("./components/lets-ride/GoBig"));
 
 function App() {
   return (
