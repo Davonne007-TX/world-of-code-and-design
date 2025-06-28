@@ -1,9 +1,6 @@
 import React, { Suspense } from "react";
 import { Routes, Route } from "react-router-dom";
 
-import OldWindows from "./components/windows/OldWindows";
-import SummerTime from "./components/summer/SummerTime";
-import MyCard from "./components/developer-card/MyCard";
 const HomePage = React.lazy(() => import("./components/HomePage"));
 const SpaceExploration = React.lazy(() =>
   import("./components/space/SpaceExploration")
@@ -48,12 +45,14 @@ const ShamrockTavern = React.lazy(() =>
   import("./components/st-patricks-day/ShamrockTavern")
 );
 const Ai = React.lazy(() => import("./components/ai/Ai"));
+const OldWindows = React.lazy(() => import("./components/windows/OldWindows"));
 const EatNow = React.lazy(() => import("./components/eat/EatNow"));
 const Taco = React.lazy(() => import("./components/funkyTaco/Taco"));
 const StayAlert = React.lazy(() => import("./components/tornado/StayAlert"));
 const EasterEgg = React.lazy(() => import("./components/easter/EasterEgg"));
 const Party = React.lazy(() => import("./components/concert/Party"));
 const LevelUp = React.lazy(() => import("./components/tournament/LevelUp"));
+const SummerTime = React.lazy(() => import("./components/summer/SummerTime"));
 const GoBig = React.lazy(() => import("./components/lets-ride/GoBig"));
 const MyCard = React.lazy(() => import("./components/developer-card/MyCard"));
 

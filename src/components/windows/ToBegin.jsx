@@ -7,7 +7,7 @@ export default function ToBegin() {
     <section className="flex justify-center items-center text-3xl md:text-4xl flex-1">
       <div className="flex flex-col md:flex-row justify-center items-center">
         <div className="flex flex-col gap- justify-center items-center ">
-          <div className="flex gap-4">
+          <div className="flex flex-col md:flex-row md:gap-4">
             <Image
               image={ventanas}
               className="w-50 md:w-50 mx-auto rounded-xl"
