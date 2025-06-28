@@ -1,7 +1,9 @@
+import TheeCard from "./TheeCard";
+
 export default function MyCard() {
   return (
-    <div>
-      <h1>testing 123</h1>
-    </div>
+    <section className="bg-[url('./images/rubik.jpg')] bg-cover bg-center min-h-screen sm:bg-[url('./images/rubik.jpg')]">
+      <TheeCard />
+    </section>
   );
 }
