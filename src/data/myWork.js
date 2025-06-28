@@ -28,4 +28,5 @@ export const myWork = [
   { id: 27, text: "Concert", link: "/concert" },
   { id: 28, text: "Torunament", link: "/tournament" },
   { id: 29, text: "Summer Time", link: "/summer" },
+  { id: 30, text: "Go Big or Go Home", link: "/goBig" },
 ];

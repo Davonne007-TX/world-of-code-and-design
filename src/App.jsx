@@ -1,8 +1,8 @@
 import React, { Suspense } from "react";
 import { Routes, Route } from "react-router-dom";
+
 import OldWindows from "./components/windows/OldWindows";
 import SummerTime from "./components/summer/SummerTime";
-
 const HomePage = React.lazy(() => import("./components/HomePage"));
 const SpaceExploration = React.lazy(() =>
   import("./components/space/SpaceExploration")
@@ -53,6 +53,7 @@ const StayAlert = React.lazy(() => import("./components/tornado/StayAlert"));
 const EasterEgg = React.lazy(() => import("./components/easter/EasterEgg"));
 const Party = React.lazy(() => import("./components/concert/Party"));
 const LevelUp = React.lazy(() => import("./components/tournament/LevelUp"));
+const GoBig = React.lazy(() => import("./components/skateboarding/GoBig"));
 
 function App() {
   return (
@@ -96,6 +97,7 @@ function App() {
           <Route path="/concert" element={<Party />} />
           <Route path="/tournament" element={<LevelUp />} />
           <Route path="/summer" element={<SummerTime />} />
+          <Route path="goBig" element={<GoBig />} />
         </Routes>
       </Suspense>
     </>
