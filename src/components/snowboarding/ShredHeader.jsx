@@ -38,7 +38,7 @@ export default function ShredHeader() {
           {headerLinks.map((link) => (
             <li
               key={link.id}
-              className="cursor-pointer font-tit relative group"
+              className="cursor-pointer font-tit text-white relative group"
             >
               <span className="pb-1">{link.navItem}</span>
               <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-white transition-all duration-300 group-hover:w-full"></span>
