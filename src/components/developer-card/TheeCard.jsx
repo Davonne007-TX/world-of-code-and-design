@@ -1,4 +1,5 @@
 import Image from "../Image";
+import TechStack from "./TechStack";
 
 export default function TheeCard() {
   const me = "/images/me.png";
@@ -9,6 +10,7 @@ export default function TheeCard() {
         <Image image={me} className="p-2 rounded-2xl w-80 mx-auto" />
         <h1 className="font-sig text-5xl">Davonne Vigil</h1>
         <p className="text-2xl font-mono">{title}</p>
+        <TechStack />
       </div>
     </section>
   );
