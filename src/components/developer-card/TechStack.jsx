@@ -12,7 +12,7 @@ export default function TechStack() {
   return (
     <section className="flex justify-center items-center gap-2">
       {techStackImages.map((images) => (
-        <Image key={images.id} image={images.src} className="w-14" />
+        <Image key={images.id} image={images.src} className="w-10 md:w-14" />
       ))}
     </section>
   );
