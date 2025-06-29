@@ -15,6 +15,11 @@ export default function Offers() {
           className="bg-gray-200 w-60 md:w-80 mx-auto rounded"
         />
       ))}
+
+      <Button
+        btnTxt="Work With Me"
+        className="mx-auto w-60 bg-gradient-to-r text-2xl mt-4 rounded-full from-green-500 to-green-700 text-white hover:scale-105  transition-all duration-300 transform ease-out"
+      />
     </section>
   );
 }
