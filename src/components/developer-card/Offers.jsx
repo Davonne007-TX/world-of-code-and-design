@@ -2,7 +2,7 @@ import Button from "../Button";
 
 export default function Offers() {
   const whatIOffer = [
-    { offer: "Building Websites for local businesses", id: 1 },
+    { offer: "Stellar websites for local businesses", id: 1 },
     { offer: "Responsive Web Design / Modern UI", id: 2 },
     { offer: "Website Redesign", id: 3 },
   ];
@@ -18,7 +18,7 @@ export default function Offers() {
 
       <Button
         btnTxt="Work With Me"
-        className="mx-auto w-60 bg-gradient-to-r text-2xl mt-4 rounded-full from-green-500 to-green-700 text-white hover:scale-105  transition-all duration-300 transform ease-out"
+        className="w-60 mx-auto bg-gradient-to-r text-2xl mt-4 rounded-full from-green-500 to-green-700 text-white hover:scale-105  transition-all duration-300 transform ease-out"
       />
     </section>
   );

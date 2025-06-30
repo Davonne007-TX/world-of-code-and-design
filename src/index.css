@@ -43,46 +43,40 @@ body {
 }
 
 /*My Card */
-
 .animated-border-card {
   position: relative;
+  border-radius: 0.5rem;
   z-index: 0;
-  border: 6px solid transparent;
-  border-radius: 1rem;
-  background: linear-gradient(white, white) padding-box,
-    /* Horizontal moving border */
-      linear-gradient(
-        160deg,
-        transparent 0%,
-        #39ff14 10%,
-        #00ff99 20%,
-        #39ff14 30%,
-        transparent 40%,
-        transparent 100%
-      )
-      border-box,
-    /* Vertical moving border */
-      linear-gradient(
-        0deg,
-        transparent 0%,
-        #39ff14 10%,
-        #00ff99 20%,
-        #39ff14 30%,
-        transparent 40%,
-        transparent 100%
-      )
-      border-box;
-  background-size: 100% 100%, 200% 100%, 100% 200%;
-  background-position: 0% 0%, 0% 0%, 0% 0%;
-  background-repeat: no-repeat;
-  animation: borderMove 3s linear infinite;
+  overflow: hidden;
+  background: #fff; /* Add a background to the card */
 }
 
-@keyframes borderMove {
+.animated-border-card > * {
+  position: relative;
+  z-index: 1; /* Ensure card content is above the animated border */
+}
+
+.animated-border-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  padding: 6px;
+  background: linear-gradient(90deg, #39ff12, #a855f7, #06b6d4, #ff4ecd);
+  background-size: 300% 300%;
+  animation: moveBorder 8s linear infinite;
+  z-index: -1;
+  border-radius: 0.5rem;
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+  -webkit-mask-composite: xor;
+  box-sizing: border-box;
+}
+
+@keyframes moveBorder {
   0% {
-    background-position: 0% 0%, 0% 0%, 0% 0%;
+    background-position: 0% 50%;
   }
   100% {
-    background-position: 0% 0%, 100% 0%, 0% 100%;
+    background-position: 300% 50%;
   }
 }
