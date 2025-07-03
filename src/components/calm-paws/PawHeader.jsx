@@ -8,7 +8,10 @@ export default function PawHeader() {
   ];
   return (
     <header className="text-white p-8 flex flex-col justify-center items-center gap-2">
-      <h1 className="text-4xl md:text-5xl font-sig">Calm Paws</h1>
+      <div className="flex gap-4">
+        <h1 className="text-4xl md:text-5xl font-sig">Calm Paws</h1>
+        <img src="./images/pawsIcon.png" className="w-16" />
+      </div>
       <nav>
         <ul className="hidden md:flex gap-8">
           {ourNav.map((nav) => (
