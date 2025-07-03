@@ -1,7 +1,9 @@
+import PawHeader from "./PawHeader";
+
 export default function CalmPaws() {
   return (
-    <section>
-      <h1>testing 123</h1>
+    <section className="bg-[url('./images/dogsFirework.jpg')] bg-cover bg-center min-h-screen sm:bg-[url('./images/dogsFirework.jpg')]">
+      <PawHeader />
     </section>
   );
 }
