@@ -55,6 +55,7 @@ const LevelUp = React.lazy(() => import("./components/tournament/LevelUp"));
 const SummerTime = React.lazy(() => import("./components/summer/SummerTime"));
 const GoBig = React.lazy(() => import("./components/lets-ride/GoBig"));
 const MyCard = React.lazy(() => import("./components/developer-card/MyCard"));
+const CalmPaws = React.lazy(() => import("./components/calm-paws/CalmPaws"));
 
 function App() {
   return (
@@ -100,6 +101,7 @@ function App() {
           <Route path="/summer" element={<SummerTime />} />
           <Route path="goBig" element={<GoBig />} />
           <Route path="myCard" element={<MyCard />} />
+          <Route path="calmPaws" element={<CalmPaws />} />
         </Routes>
       </Suspense>
     </>

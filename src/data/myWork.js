@@ -30,4 +30,5 @@ export const myWork = [
   { id: 29, text: "Summer Time", link: "/summer" },
   { id: 30, text: "Go Big or Go Home", link: "/goBig" },
   { id: 31, text: "Developer Card", link: "/myCard" },
+  { id: 32, text: "Calm Paws", link: "/calmPaws" },
 ];
