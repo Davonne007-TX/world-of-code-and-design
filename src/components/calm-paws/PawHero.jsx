@@ -14,7 +14,7 @@ export default function PawHero() {
         are happy paws, just like Roxy!`}
         descriptionStyles="font-thin shadow-xl "
         image={roxy}
-        className="max-w-xs md:max-w-xl rounded-xl p-2"
+        className="max-w-2xs md:max-w-xl rounded-xl p-2"
         buttonText="Learn How Fireworks Affect Dogs"
         buttonStyles="bg-red-400 font-bold w-60 md:w-96 rounded-full md:p-2 mx-auto md:mx-0 transition-all duration-300 hover:bg-blue-400 hover:scale-105 hover:shadow-xl"
       />

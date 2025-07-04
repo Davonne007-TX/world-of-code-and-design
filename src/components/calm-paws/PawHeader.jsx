@@ -3,10 +3,10 @@ import PawContact from "./PawContact";
 export default function PawHeader() {
   const ourNav = [
     { link: "Our Mission", id: 1 },
-    { link: "Get Involved", id: 2 },
+    { link: "Saftey Guide", id: 2 },
     { link: "Paw Stories", id: 3 },
-    { link: "Safety Guide", id: 4 },
-    { link: "Emergency Resources", id: 5 },
+    { link: "Emergency Resources", id: 4 },
+    { link: "Get Involved", id: 5 },
   ];
   return (
     <header className="relative text-white bg-black/20 p-4 flex flex-col justify-center items-center gap-2">
