@@ -1,4 +1,5 @@
 import Awareness from "./Awareness";
+import PawFooter from "./PawFooter";
 import PawHeader from "./PawHeader";
 import PawHero from "./PawHero";
 
@@ -10,6 +11,7 @@ export default function CalmPaws() {
         <PawHero />
       </section>
       <Awareness />
+      <PawFooter />
     </>
   );
 }
