@@ -7,7 +7,7 @@ export default function PawHeader() {
     { link: "Emergency Resources", id: 5 },
   ];
   return (
-    <header className="text-white p-8 flex flex-col justify-center items-center gap-2">
+    <header className="text-white bg-black/20 p-4 flex flex-col justify-center items-center gap-2">
       <div className="flex gap-4">
         <h1 className="text-4xl md:text-5xl font-sig">Calm Paws</h1>
         <img src="./images/pawsIcon.png" className="w-16" />
