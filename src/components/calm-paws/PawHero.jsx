@@ -10,7 +10,7 @@ export default function PawHero() {
         description={`Calm Paws raises awareness about how fireworks can affect our furry friends. 
         While we enjoy the celebration, it's important to remember the fear and stress it can cause in dogs. 
         `}
-        moreDescription={`Together, we can make a difference. Calm Paws
+        moreDescription={`Together, we can make a difference! Calm Paws
         are happy paws, just like Roxy!`}
         descriptionStyles="font-thin shadow-xl "
         image={roxy}
