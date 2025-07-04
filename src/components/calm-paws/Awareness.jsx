@@ -1,3 +1,4 @@
+import React from "react";
 import Image from "../Image";
 import { calmPawsAwareness } from "./calmPawsAwareness";
 
@@ -5,8 +6,11 @@ export default function Awareness() {
   return (
     <section className="flex flex-col justify-center  items-center mt-20">
       {calmPawsAwareness.map((awareness) => (
-        <>
-          <section className="flex my-10 flex-col gap-10 p-4 max-w-xs md:max-w-2xl">
+        <React.Fragment key={awareness.id}>
+          <section
+            key={awareness.id}
+            className="flex my-10 flex-col gap-10 p-4 max-w-xs md:max-w-2xl"
+          >
             <h2 className="font-sig text-5xl">{awareness.heading}</h2>
             <p className="text-2xl leading-10">{awareness.text}</p>
             <p className="text-2xl leading-10">{awareness.moreText}</p>
@@ -17,7 +21,7 @@ export default function Awareness() {
 
             <hr className="mt-20" />
           </section>
-        </>
+        </React.Fragment>
       ))}
     </section>
   );

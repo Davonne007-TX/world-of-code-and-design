@@ -2,11 +2,12 @@ export default function Card({
   sectionStyles,
   title,
   description,
+  moreDescription,
   image,
   className,
-  moreDescription,
   alt,
   descriptionStyles,
+  moreDescriptionStyles,
   buttonText,
   buttonStyles,
 }) {
@@ -20,10 +21,10 @@ export default function Card({
             <h2 className={`text-4xl lg:text-5xl font-bold ${className}`}>
               {title}
             </h2>
-            <p className={`text-2xl text-balance ${descriptionStyles}`}>
-              {description}
+            <p className={`text-2xl ${descriptionStyles}`}>{description}</p>
+            <p className={`text-2xl ${moreDescriptionStyles}`}>
+              {moreDescription}
             </p>
-            <p className="text-2xl text-balance font-thin">{moreDescription}</p>
           </div>
           <button className={buttonStyles}>{buttonText}</button>
         </div>

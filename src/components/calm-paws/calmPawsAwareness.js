@@ -27,5 +27,6 @@ export const calmPawsAwareness = [
          treats, or consulting your vet for extra support. With a little preparation, you 
         can help your best friend feel more comfortable during the celebrations.`,
     image: "./images/dog2.jpg",
+    id: 2,
   },
 ];
