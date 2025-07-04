@@ -30,3 +30,27 @@ export const calmPawsAwareness = [
     id: 2,
   },
 ];
+
+export const ourPawStories = [
+  {
+    name: "Charlie",
+    story: `testing 123`,
+    image: "./images/dog3.jpg",
+    alt: "Happy big dog, image by pexels-ssvetozar-milashevich on Unsplash",
+    id: 1,
+  },
+  {
+    name: "Ruby",
+    story: `testing123`,
+    image: "./images/dog4.jpg",
+    alt: "Puppy tililting its head, image by chris-arthur-collins on Unsplash",
+    id: 2,
+  },
+  {
+    name: "Max",
+    story: `testing 123`,
+    image: "./images/dog5.jpg",
+    alt: "Dog sleeping on stuff animal, image by rebecca-cambell on Unsplash",
+    id: 3,
+  },
+];
