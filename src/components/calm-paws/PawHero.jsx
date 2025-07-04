@@ -5,8 +5,8 @@ export default function PawHero() {
   return (
     <section>
       <Card
-        sectionStyles="text-white mt-14 max-w-xl mt-10"
-        title="Fireworks Are Fun, But Not for Every Family Member"
+        sectionStyles="text-white rounded mt-14 max-w-xl mt-10"
+        title="Fireworks Are Fun - But Not for Every Family Member"
         description={`Calm Paws raises awareness about how fireworks can affect our furry friends. 
         While we enjoy the celebration, it's important to remember the fear and stress it can cause in dogs. 
         `}
@@ -15,6 +15,8 @@ export default function PawHero() {
         descriptionStyles="font-thin shadow-xl "
         image={roxy}
         className="max-w-xl rounded-xl"
+        buttonText="Learn How Fireworks Affect Dogs"
+        buttonStyles="bg-red-400 font-bold w-96 rounded-full p-2 transition-all duration-300 hover:bg-blue-400 hover:scale-105 hover:shadow-xl"
       />
     </section>
   );
