@@ -15,7 +15,7 @@ export default function Card({
       <section className="flex flex-col justify-center items-center md:flex-row ">
         <div className="flex flex-col">
           <div
-            className={`flex flex-col justify-center items-center gap-4 p-4 ${sectionStyles}`}
+            className={`flex flex-col justify-center items-center gap-4 ${sectionStyles}`}
           >
             <h2 className={`text-4xl lg:text-5xl font-bold ${className}`}>
               {title}

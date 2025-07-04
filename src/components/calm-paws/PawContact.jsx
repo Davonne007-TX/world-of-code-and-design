@@ -4,7 +4,7 @@ export default function PawContact() {
     { action: "Newsletter", id: 2 },
   ];
   return (
-    <ul className="flex gap-4 font-sig absolute text-xl right-0 top-1/2 -translate-y-1/2">
+    <ul className="hidden md:flex gap-4 font-sig absolute text-xl right-0 top-1/2 -translate-y-1/2">
       {actionLinks.map((link) => (
         <li
           key={link.id}
