@@ -9,7 +9,7 @@ export default function PawHeader() {
     { link: "Get Involved", id: 5 },
   ];
   return (
-    <header className="relative text-white bg-black/20 p-4 flex flex-col justify-center items-center gap-2">
+    <header className="relative text-white bg-black/80 p-4 flex flex-col justify-center items-center gap-2">
       <div className="w-full flex items-center justify-center relative">
         <div className="flex items-center gap-4 mx-auto">
           <h1 className="text-4xl md:text-5xl font-sig">Calm Paws</h1>

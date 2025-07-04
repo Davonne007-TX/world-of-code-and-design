@@ -16,7 +16,7 @@ export default function PawHero() {
         image={roxy}
         className="max-w-2xs md:max-w-xl rounded-xl p-2"
         buttonText="Learn How Fireworks Affect Dogs"
-        buttonStyles="bg-red-400 font-bold w-60 md:w-96 rounded-full md:p-2 mx-auto md:mx-0 transition-all duration-300 hover:bg-blue-400 hover:scale-105 hover:shadow-xl"
+        buttonStyles="bg-red-400  mb-8 font-bold w-60 md:w-96 rounded-full md:p-2 mx-auto md:mx-0 transition-all duration-300 hover:bg-blue-400 hover:scale-105 hover:shadow-xl"
       />
     </section>
   );
