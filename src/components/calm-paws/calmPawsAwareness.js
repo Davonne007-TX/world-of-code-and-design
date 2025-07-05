@@ -34,23 +34,25 @@ export const calmPawsAwareness = [
 export const ourPawStories = [
   {
     name: "Charlie",
-    story: `testing 123`,
+    story: `"I always been a happy dog. But when it comes to the Forth of July, I turn into another dog. 
+    I get anxiety, start pacing. Luckily my mom plays calming music and gives me chew toy!"`,
     image: "./images/dog3.jpg",
     alt: "Happy big dog, image by pexels-ssvetozar-milashevich on Unsplash",
     id: 1,
   },
   {
     name: "Ruby",
-    story: `testing123`,
+    story: `"Being a pup, I was startled the first time I heard fireworks.  I jumped the fence outside and got out. A nice man found 
+    me and my mom came and picked me up. I'm staying inside next year!"`,
     image: "./images/dog4.jpg",
     alt: "Puppy tililting its head, image by chris-arthur-collins on Unsplash",
     id: 2,
   },
   {
     name: "Max",
-    story: `testing 123`,
+    story: `"Love being outside but not on firework day, way too loud. However, my mom does have a big party and I get to eat a lot of hot dogs! When its time for firework show, I take a nap! Wake me up when its over!"`,
     image: "./images/dog5.jpg",
-    alt: "Dog sleeping on stuff animal, image by rebecca-cambell on Unsplash",
+    alt: "Dog happy being outside, image by Justin Veenem on Unsplash",
     id: 3,
   },
 ];

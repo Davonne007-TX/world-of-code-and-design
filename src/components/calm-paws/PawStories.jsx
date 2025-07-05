@@ -1,4 +1,3 @@
-import React from "react";
 import { ourPawStories } from "./calmPawsAwareness";
 
 export default function PawStories() {
@@ -9,14 +8,20 @@ export default function PawStories() {
 
         <div className="flex flex-col md:flex-col lg:flex-row gap-10 rounded-3xl justify-center items-center">
           {ourPawStories.map((story) => (
-            <divß
+            <div
               key={story.id}
-              className="flex flex-col gap-10 rounded-3xl bg-blue-300 p-2"
+              className="flex flex-col gap-4 rounded-3xl bg-blue-300 p-2"
             >
-              <img src={story.image} className="max-w-sm rounded-3xl" />
-              <h3 className="font-sig text-2xl md:text-3xl">{story.name}</h3>
+              <img
+                src={story.image}
+                className="max-w-sm p-2 md:max-w-2xl mx-auto lg:max-w-sm rounded-3xl"
+              />
+
               <p className="text-2xl">{story.story}</p>
-            </divß>
+              <h3 className="font-sig ml-auto p-2 text-2xl md:text-3xl">
+                - {story.name}
+              </h3>
+            </div>
           ))}
         </div>
       </div>
