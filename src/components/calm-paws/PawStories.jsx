@@ -13,7 +13,7 @@ export default function PawStories() {
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 1.1 }}
               key={story.id}
-              className="flex flex-col gap-4 rounded-3xl bg-blue-300  p-1 md:p-2"
+              className="flex flex-col gap-4 rounded-3xl bg-blue-300 p-2"
             >
               <img
                 src={story.image}

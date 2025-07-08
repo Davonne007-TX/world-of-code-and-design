@@ -3,6 +3,7 @@ import PawFooter from "./PawFooter";
 import PawHeader from "./PawHeader";
 import PawHero from "./PawHero";
 import PawStories from "./PawStories";
+import Resources from "./Resources";
 
 export default function CalmPaws() {
   return (
@@ -13,6 +14,7 @@ export default function CalmPaws() {
       </section>
       <Awareness />
       <PawStories />
+      <Resources />
       <PawFooter />
     </>
   );
