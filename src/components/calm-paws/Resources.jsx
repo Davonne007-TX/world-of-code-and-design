@@ -22,12 +22,12 @@ export default function Resources() {
       <div className="max-w-6xl">
         <div className="flex gap-8 justify-center items-center">
           <FaHandHoldingMedical size={48} />
-          <h1 className="font-sig text-4xl lg:text-5xl">
+          <h1 className="font-sig text-4xl lg:text-5xl text-center">
             Paw Emergency Resources
           </h1>
         </div>
 
-        <div className="bg-red-200 border-2 border-red-600 mx-auto max-w-sm md:max-w-4xl lg::max-w-5xl p-2 md:p-8 mt-10 rounded">
+        <div className="bg-red-200 border-2 border-red-600 mx-auto max-w-2xs md:max-w-4xl lg::max-w-5xl p-2 md:p-8 mt-10 rounded">
           <div className="flex gap-8">
             <FaPhoneAlt size={28} className="mt-4 md:mt-0" />
             <h2 className="text-3xl font-serif font-bold text-red-600">
@@ -38,9 +38,9 @@ export default function Resources() {
           <ul className="mt-10 text-2xl flex flex-col gap-8">
             {emergencyContacts.map((contact) => (
               <div key={contact.id} className="flex flex-col">
-                <div className="flex gap-10">
+                <div className="flex flex-col md:flex-row gap-10">
                   <li className="text-3xl">{contact.name}</li>
-                  <button className="bg-red-400 p-1  ml-auto rounded text-md">
+                  <button className="bg-red-500/90 p-1 md:ml-auto rounded text-md">
                     {contact.phone}
                   </button>
                 </div>
