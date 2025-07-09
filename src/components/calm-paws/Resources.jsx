@@ -6,14 +6,14 @@ export default function Resources() {
     { name: "Emergency Vet", phone: "555-VET-HELP", available: "24/7", id: 1 },
     {
       name: "Animal Poison Control",
-      phone: "123-456-789",
+      phone: "123-456-7890",
       available: "24/7",
       id: 2,
     },
     {
-      name: "Your Vet",
-      phone: "777-MY-VET",
-      available: "Call for hours",
+      name: "National Pet Hotline",
+      phone: "777-PET-HELP",
+      available: "24/7",
       id: 3,
     },
   ];

@@ -50,7 +50,7 @@ export const ourPawStories = [
   },
   {
     name: "Max",
-    story: `"Love being outside but not on firework day, way too loud. However, my mom does have a big party and I get to eat a lot of hot dogs! When its time for firework show, I take a nap! Wake me up when its over!"`,
+    story: `"Love being outside but not on firework day, way too loud. However, my mom does have a big party and I get to eat a lot of hot dogs! When its time for the firework show, I take a nap!"`,
     image: "./images/dog5.jpg",
     alt: "Dog happy being outside, image by Justin Veenem on Unsplash",
     id: 3,
