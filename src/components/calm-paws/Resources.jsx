@@ -27,7 +27,7 @@ export default function Resources() {
           </h1>
         </div>
 
-        <div className="bg-red-200 border-2 border-red-600 mx-auto max-w-2xs md:max-w-4xl lg::max-w-5xl p-2 md:p-8 mt-10 rounded">
+        <div className="bg-red-100 border-4 border-red-600 mx-auto max-w-xs md:max-w-4xl lg::max-w-5xl p-2 md:p-8 mt-10 rounded">
           <div className="flex gap-8">
             <FaPhoneAlt size={28} className="mt-4 md:mt-0" />
             <h2 className="text-3xl font-serif font-bold text-red-600">
