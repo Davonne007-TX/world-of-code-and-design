@@ -1,5 +1,6 @@
 import { FaHandHoldingMedical } from "react-icons/fa";
 import { FaPhoneAlt } from "react-icons/fa";
+import HelpfulLinks from "./HelpfulLinks";
 
 export default function Resources() {
   const emergencyContacts = [
@@ -26,6 +27,8 @@ export default function Resources() {
             Paw Emergency Resources
           </h1>
         </div>
+
+        <HelpfulLinks />
 
         <div className="bg-red-100 border-4 border-red-600 mx-auto max-w-xs md:max-w-4xl lg::max-w-5xl p-2 md:p-8 mt-10 rounded">
           <div className="flex gap-8">
