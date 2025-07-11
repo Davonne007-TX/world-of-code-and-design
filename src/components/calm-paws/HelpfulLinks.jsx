@@ -12,26 +12,34 @@ export default function HelpfulLinks() {
     },
     {
       text: "Humane Animal Partners",
-      resource:
-        "https://www.humaneanimalpartners.org/10-tips-for-keeping-pets-safe-and-calm-during-fireworks/",
+      link: "https://www.humaneanimalpartners.org/10-tips-for-keeping-pets-safe-and-calm-during-fireworks/",
       id: 3,
     },
     {
       text: "American Veterniary Medical Association",
-      resource:
-        "https://www.avma.org/resources/pet-owners/petcare/july-4-safety",
+      link: "https://www.avma.org/resources/pet-owners/petcare/july-4-safety",
       id: 4,
+    },
+    {
+      text: "Dog Topia Blog to help dogs get through nights of fireworks",
+      link: "https://www.dogtopia.com/blog/5-tips-help-dog-get-nights-fireworks/",
+      id: 5,
     },
   ];
   return (
-    <section className="flex flex-col justify-center items-center">
-      <div className="max-w-6xl">
-        {resources.map((resource) => (
-          <li key={resource.id}>
-            {" "}
-            <a href={resource.link}>{resource.text}</a>
-          </li>
-        ))}
+    <section className="flex flex-col justify-center py-20 items-center">
+      <div className="max-w-xs md:max-w-sm lg:max-w-6xl flex flex-col gap-8 ">
+        <ul className="w-full max-w-7xl px-6 grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+          {resources.map((resource) => (
+            <li
+              key={resource.id}
+              className="text-2xl md:text-3xl flex items-center p-2 font-thin cursor-pointer shadow-md hover:shadow-xl transition duration-300 hover:scale-[1.02] border border-gray-200 hover:text-blue-400"
+            >
+              {" "}
+              <a href={resource.link}>{resource.text}</a>
+            </li>
+          ))}
+        </ul>
       </div>
     </section>
   );
