@@ -16,18 +16,18 @@ export default function GetInvolved() {
         transition={{ duration: 1 }}
         className="max-w-5xl flex flex-col gap-10 justify-center items-center"
       >
-        <h1 className="text-3xl md:text-7xl font-sig">We need your help!</h1>
+        <h1 className="text-5xl md:text-7xl font-sig">We need your help!</h1>
 
-        <div className="flex gap-2">
-          <FaDog size={48} />
+        <div className="flex flex-col md:flex-row gap-2">
+          <FaDog size={48} className="p-2 md:p-0" />
 
-          <p className="text-2xl md:text-4xl text-center font-thin font-sans">
+          <p className="text-3xl md:text-4xl p-2 text-center font-thin font-sans">
             {share}
           </p>
         </div>
-        <div className="flex gap-1">
-          <GiFireworkRocket size={48} />
-          <p className="text-2xl md:text-4xl text-center font-thin font-sans">
+        <div className="flex flex-col md:flex-row gap-1">
+          <GiFireworkRocket size={48} className="p-2" />
+          <p className="text-3xl md:text-4xl p-2 md:p-0 text-center font-thin font-sans">
             {help}
           </p>
         </div>
