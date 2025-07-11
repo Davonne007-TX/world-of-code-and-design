@@ -14,19 +14,19 @@ export default function GetInvolved() {
         whileInView={{ scale: 1 }}
         viewport={{ once: true, amount: 0.5 }}
         transition={{ duration: 1 }}
-        className="max-w-5xl flex flex-col gap-10 justify-center items-center"
+        className="max-w-5xl flex p-6 flex-col gap-10 justify-center items-center"
       >
         <h1 className="text-5xl md:text-7xl font-sig">We need your help!</h1>
 
         <div className="flex flex-col md:flex-row gap-2">
-          <FaDog size={48} className="p-2 md:p-0" />
+          <FaDog size={48} className="mx-auto" />
 
           <p className="text-3xl md:text-4xl p-2 text-center font-thin font-sans">
             {share}
           </p>
         </div>
         <div className="flex flex-col md:flex-row gap-1">
-          <GiFireworkRocket size={48} className="p-2" />
+          <GiFireworkRocket size={48} className="mx-auto" />
           <p className="text-3xl md:text-4xl p-2 md:p-0 text-center font-thin font-sans">
             {help}
           </p>
