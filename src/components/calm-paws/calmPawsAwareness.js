@@ -24,8 +24,9 @@ export const calmPawsAwareness = [
          or a cozy blanket. Play calming music or white noise to help drown out loud sounds.
          Never leave your dog outside during fireworks, and always ensure they have proper
          ID tags in case they get scared and run. Consider using anxiety wraps, calming 
-         treats, or consulting your vet for extra support. With a little preparation, you 
-        can help your best friend feel more comfortable during the celebrations.`,
+         treats, or consulting your vet for extra support. If your dog is under distress and it 
+         is not getting better, see an emergency vet or contact your Vet. With preparation, we 
+        can help our best friend feel more comfortable during the celebrations.`,
     image: "./images/dog2.jpg",
     id: 2,
   },
