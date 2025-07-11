@@ -1,4 +1,3 @@
-import { FaHandHoldingMedical } from "react-icons/fa";
 import { FaPhoneAlt } from "react-icons/fa";
 import HelpfulLinks from "./HelpfulLinks";
 

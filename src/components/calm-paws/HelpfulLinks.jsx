@@ -1,36 +1,6 @@
+import { resources } from "./calmPawsAwareness";
+
 export default function HelpfulLinks() {
-  const resources = [
-    {
-      text: "Animal Defence League of Texas",
-      link: "https://adltexas.org/online-resources/fireworks-safety-for-pets/",
-      id: 1,
-    },
-    {
-      text: "Animal Kennel Club",
-      link: "https://www.akc.org/expert-advice/training/how-to-keep-your-dog-calm-during-fireworks/",
-      id: 2,
-    },
-    {
-      text: "Humane Animal Partners",
-      link: "https://www.humaneanimalpartners.org/10-tips-for-keeping-pets-safe-and-calm-during-fireworks/",
-      id: 3,
-    },
-    {
-      text: "American Veterniary Medical Association",
-      link: "https://www.avma.org/resources/pet-owners/petcare/july-4-safety",
-      id: 4,
-    },
-    {
-      text: "petMd by Chewy Helpful Tips",
-      link: "https://www.petmd.com/dog/tips-helping-dogs-thats-scared-fireworks",
-      id: 5,
-    },
-    {
-      text: "College of Veterinary Medicine",
-      link: "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/fear-fireworks-and-thunderstorms",
-      id: 6,
-    },
-  ];
   return (
     <section className="flex flex-col justify-center py-20 items-center">
       <div className="max-w-xs md:max-w-sm lg:max-w-6xl flex flex-col gap-8 ">
