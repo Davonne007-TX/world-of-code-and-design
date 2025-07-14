@@ -22,7 +22,7 @@ export default function Resources() {
       <div className="max-w-6xl">
         <div className="flex gap-8 justify-center items-center">
           <h1 className="font-sig text-4xl md:text-4xl lg:text-5xl text-center">
-            Paw Emergency Resources
+            Paw Resources
           </h1>
         </div>
 
@@ -41,7 +41,7 @@ export default function Resources() {
               <div key={contact.id} className="flex flex-col">
                 <div className="flex flex-col md:flex-row gap-10">
                   <li className="text-3xl">{contact.name}</li>
-                  <button className="bg-red-500/90 p-1 md:ml-auto rounded text-md">
+                  <button className="bg-red-500/90 p-1 md:ml-auto rounded cursor-pointer text-md hover:scale-105">
                     {contact.phone}
                   </button>
                 </div>
