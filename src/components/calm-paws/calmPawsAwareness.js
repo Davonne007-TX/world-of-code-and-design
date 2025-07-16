@@ -75,7 +75,7 @@ export const resources = [
     id: 3,
   },
   {
-    text: "American Veterniary Medical Association",
+    text: "American Veterinary Medical Association",
     link: "https://www.avma.org/resources/pet-owners/petcare/july-4-safety",
     id: 4,
   },

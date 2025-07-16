@@ -22,7 +22,7 @@ export default function Resources() {
       <div className="max-w-6xl">
         <div className="flex gap-8 justify-center items-center">
           <h1 className="font-sig text-4xl md:text-4xl lg:text-5xl text-center">
-            Paw Resources
+            Helpful Resources
           </h1>
         </div>
 
