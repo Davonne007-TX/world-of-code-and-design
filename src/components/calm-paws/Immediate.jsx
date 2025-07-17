@@ -3,22 +3,22 @@ import ImmediateCard from "./ImmediateCard";
 export default function Immediate() {
   const quickActions = [
     {
-      icon: "",
+      icon: "🎶",
       title: "Smooth Music",
-      description: "Close windows, use fans or AC",
+      description: "Play calming smooth music",
     },
     {
-      icon: "",
+      icon: "🎾",
       title: "Distraction",
-      description: "Offer favorite treats or toys",
+      description: "Chew toys, toys they love",
     },
     {
-      icon: "",
+      icon: "🏠",
       title: "Stay indoors",
       description: "Make sure dogs stay inside",
     },
     {
-      icon: "",
+      icon: "💤",
       title: "Tire Them Out",
       description: "Exercise before fireworks start",
     },
@@ -32,6 +32,18 @@ export default function Immediate() {
         color="text-slate-800"
         descriptionColor="text-blue-600"
       />
+
+      <ul className="p-2 flex flex-col gap-4">
+        {quickActions.map((action, index) => (
+          <li key={index} className="bg-white p-4 rounded">
+            <div className="flex gap-2">
+              <span className="text-2xl">{action.icon}</span>
+              <h2 className="font-bold text-xl">{action.title}</h2>
+            </div>
+            <p className="text-lg ml-8">{action.description}</p>
+          </li>
+        ))}
+      </ul>
     </section>
   );
 }

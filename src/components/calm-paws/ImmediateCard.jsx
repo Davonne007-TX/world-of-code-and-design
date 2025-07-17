@@ -7,15 +7,14 @@ export default function ImmediateCard({
   descriptionColor,
 }) {
   return (
-    <section>
-      <h1 className={`${color} text-3xl font-bold `}>{immediateTitle}</h1>
+    <section className="p-2">
+      <h1 className={`${color} text-3xl font-bold`}>{immediateTitle}</h1>
       <p className={`text-2xl ${descriptionColor}`}>{description}</p>
     </section>
   );
 }
 
 ImmediateCard.propTypes = {
-  bgColor: PropTypes.string.isRequired,
   immediateTitle: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
   color: PropTypes.string.isRequired,
