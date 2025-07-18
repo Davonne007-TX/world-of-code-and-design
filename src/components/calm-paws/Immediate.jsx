@@ -25,25 +25,35 @@ export default function Immediate() {
   ];
 
   return (
-    <section className="max-w-xl p-4 rounded-md mt-10 mx-auto bg-blue-200">
-      <ImmediateCard
-        immediateTitle="Quick Actions"
-        description="Take these steps now to help"
-        color="text-slate-800"
-        descriptionColor="text-blue-600"
-      />
+    <>
+      <div className="flex flex-col md:flex-row justify-center items-center gap-8 mt-8">
+        <button className="bg-blue-400 p-2 w-76 rounded cursor-pointer">
+          Immediate Help
+        </button>
+        <button className="bg-green-400 p-2 w-76 rounded cursor-pointer">
+          Calming Techniques
+        </button>
+      </div>
+      <div className="max-w-2xl p-4 rounded-md mt-10 mx-auto bg-blue-200">
+        <ImmediateCard
+          immediateTitle="Quick Actions"
+          description="Take these steps now to help"
+          color="text-slate-800"
+          descriptionColor="text-blue-600"
+        />
 
-      <ul className="p-2 flex flex-col gap-4">
-        {quickActions.map((action, index) => (
-          <li key={index} className="bg-white p-4 rounded">
-            <div className="flex gap-2">
-              <span className="text-2xl">{action.icon}</span>
-              <h2 className="font-bold text-xl">{action.title}</h2>
-            </div>
-            <p className="text-lg ml-8">{action.description}</p>
-          </li>
-        ))}
-      </ul>
-    </section>
+        <ul className="p-2 flex flex-col gap-4">
+          {quickActions.map((action, index) => (
+            <li key={index} className="bg-white p-4 rounded">
+              <div className="flex gap-2">
+                <span className="text-2xl">{action.icon}</span>
+                <h2 className="font-bold text-xl">{action.title}</h2>
+              </div>
+              <p className="text-lg ml-8">{action.description}</p>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </>
   );
 }
