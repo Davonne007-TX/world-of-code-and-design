@@ -26,11 +26,11 @@ export default function Immediate() {
 
   return (
     <>
-      <div className="flex flex-col md:flex-row justify-center items-center gap-8 mt-8">
-        <button className="bg-blue-400 p-2 w-76 rounded cursor-pointer">
+      <div className="flex flex-col font-sig text-2xl md:flex-row justify-center items-center mt-8">
+        <button className="bg-blue-400 p-2 w-76 rounded rounded-r-none cursor-pointer hover:scale-105">
           Immediate Help
         </button>
-        <button className="bg-green-400 p-2 w-76 rounded cursor-pointer">
+        <button className="bg-green-400 p-2 w-76 rounded rounded-l-none cursor-pointer hover:scale-105">
           Calming Techniques
         </button>
       </div>

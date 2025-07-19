@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function MyWork() {
   return (
-    <nav className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 list-none mt-10 font-serif text-2xl text-white bg-black/70 p-4 rounded-3xl cursor-pointer">
+    <nav className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 list-none mt-10 font-serif text-2xl text-white bg-black/70 p-8 rounded-3xl cursor-pointer">
       {myWork.map((work) => (
         <li key={work.id}>
           {" "}
