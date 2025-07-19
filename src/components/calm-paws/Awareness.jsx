@@ -1,7 +1,7 @@
 import Image from "../Image";
 import { calmPawsAwareness } from "./calmPawsAwareness";
 
-export default function PawStories() {
+export default function Awareness() {
   return (
     <section className="flex flex-col justify-center items-center mt-20">
       {calmPawsAwareness.map((awareness) => (

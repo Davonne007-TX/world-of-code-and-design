@@ -1,3 +1,4 @@
+//Awareness Component
 export const calmPawsAwareness = [
   {
     heading: "Our Mission",
@@ -32,6 +33,7 @@ export const calmPawsAwareness = [
   },
 ];
 
+//Paw Stories Component
 export const ourPawStories = [
   {
     name: "Charlie",
@@ -58,6 +60,7 @@ export const ourPawStories = [
   },
 ];
 
+// HelpfulLinks Component
 export const resources = [
   {
     text: "Animal Defence League of Texas",
@@ -88,5 +91,38 @@ export const resources = [
     text: "College of Veterinary Medicine",
     link: "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/fear-fireworks-and-thunderstorms",
     id: 6,
+  },
+];
+
+//Resources Component
+export const emergencyContacts = [
+  { name: "Emergency Vet", phone: "555-VET-HELP", available: "24/7", id: 1 },
+  {
+    name: "Animal Poison Control",
+    phone: "123-456-7890",
+    available: "24/7",
+    id: 2,
+  },
+  {
+    name: "National Pet Hotline",
+    phone: "777-PET-HELP",
+    available: "24/7",
+    id: 3,
+  },
+];
+
+export const moreResources = [
+  { name: "Cainine Therepy", phone: "321-DOG-HELP", available: "24/7", id: 1 },
+  {
+    name: "Calming Supplements (Ask Vet First)",
+    phone: "456-CBD-2200",
+    available: "24/7",
+    id: 2,
+  },
+  {
+    name: "Behavorial Training",
+    phone: "221-BEH-HELP",
+    available: "24/7",
+    id: 3,
   },
 ];
