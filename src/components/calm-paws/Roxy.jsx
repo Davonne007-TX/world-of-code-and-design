@@ -2,7 +2,7 @@ import Image from "../Image";
 
 export default function Roxy() {
   return (
-    <section className="flex justify-center items-center lg:py-20 lg:-mt-20">
+    <section className="flex justify-center items-center py-20 lg:-mt-20">
       <div className="relative">
         <Image
           image="./images/cloud.png"
