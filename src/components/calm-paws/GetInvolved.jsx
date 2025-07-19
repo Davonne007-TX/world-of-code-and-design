@@ -1,7 +1,6 @@
 import { motion } from "motion/react";
 import { FaDog } from "react-icons/fa";
 import { GiFireworkRocket } from "react-icons/gi";
-import Roxy from "./Roxy";
 
 export default function GetInvolved() {
   const share = `Share awareness with family and friends about fireworks and the
@@ -33,7 +32,6 @@ export default function GetInvolved() {
           </div>
         </motion.button>
       </div>
-      <Roxy />
     </section>
   );
 }
