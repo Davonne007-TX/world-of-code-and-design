@@ -1,7 +1,7 @@
 import Image from "../Image";
 
 export default function RideHero() {
-  const pinkBike = "/images/pinkBike.jpg";
+  const pinkBike = "/images/letsRide.jpg"; //image from Anastasia Shuraeva on pexels
 
   return (
     <section className="flex justify-center items-center mt-8">
