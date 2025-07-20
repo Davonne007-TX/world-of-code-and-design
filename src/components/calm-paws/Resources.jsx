@@ -44,7 +44,7 @@ export default function Resources() {
           <div className="flex gap-8">
             <IoPawSharp size={28} className="mt-4 md:mt-0" />
             <h2 className="text-3xl font-serif font-bold text-blue-600">
-              More Ressources
+              More Resources
             </h2>
           </div>
           <ul className="mt-10 text-2xl flex flex-col gap-8">

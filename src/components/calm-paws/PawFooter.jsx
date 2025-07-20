@@ -1,5 +1,7 @@
 import { FaPaw } from "react-icons/fa";
 import { FaStar } from "react-icons/fa";
+import { FaHeart } from "react-icons/fa";
+import { FaCircleInfo } from "react-icons/fa6";
 
 export default function PawFooter() {
   return (
@@ -12,13 +14,30 @@ export default function PawFooter() {
           <FaStar className=" fill-white w-20" />
           <FaStar className=" fill-blue-500 w-20" />
         </div>
+
         <p className="font-bold text-xl">Your doing an aweome job!</p>
         <p className="font-sans font-thin text-center">
           Your pet is lucky to have you, to take care of them during this
-          stressful times. With the right percautions and resources, it can be a
-          Happy Fourth of July for every family memeber.
+          stressful time. With the right precautions and resouces, everyone can
+          have a safe celebration
         </p>
-        <p className="ml-12 md:ml-0 mt-4">
+
+        <div className="flex items-center justify-center gap-3 my-4 w-full">
+          <div className="h-px bg-white flex-1"></div>
+          <FaHeart className="fill-red-500 text-2xl" />
+          <div className="h-px bg-white flex-1"></div>
+        </div>
+
+        <div className="flex gap-4">
+          <FaCircleInfo />
+          <p className="font-thin text-center font-sans text-lg text-thin">
+            Emergency Resource Guide, Always consult with your veterinarian
+          </p>
+        </div>
+
+        <p>💥 Happy 4th of July 💥</p>
+
+        <p className="mt-4 text-center">
           © 2025 Calm Paws Project. All rights reserved.{" "}
         </p>
       </div>
