@@ -1,12 +1,29 @@
-import Image from "../Image";
+import { FaPaw } from "react-icons/fa";
+import { FaStar } from "react-icons/fa";
 
 export default function PawFooter() {
   return (
     <footer className="w-fuil text-2xl font-sig text-white p-4 bg-black/80 flex justify-between">
-      <Image image="./images/pawsIcon.png" className="w-14" />
-      <p className="ml-12 md:ml-0">
-        © 2025 Calm Paws Project. All rights reserved.{" "}
-      </p>
+      <FaPaw className="text-8xl md:text-4xl" />
+
+      <div className="flex flex-col gap-8 justify-center items-center max-w-3xl mt-8">
+        <div className="flex">
+          <FaStar className=" fill-red-500 w-20" />
+          <FaStar className=" fill-white w-20" />
+          <FaStar className=" fill-blue-500 w-20" />
+        </div>
+        <p className="font-bold text-xl">Your doing an aweome job!</p>
+        <p className="font-sans font-thin text-center">
+          Your pet is lucky to have you, to take care of them during this
+          stressful times. With the right percautions and resources, it can be a
+          Happy Fourth of July for every family memeber.
+        </p>
+        <p className="ml-12 md:ml-0 mt-4">
+          © 2025 Calm Paws Project. All rights reserved.{" "}
+        </p>
+      </div>
+
+      <FaPaw className="text-8xl md:text-4xl" />
     </footer>
   );
 }

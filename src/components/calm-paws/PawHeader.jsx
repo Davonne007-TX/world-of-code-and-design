@@ -1,3 +1,5 @@
+import { FaPaw } from "react-icons/fa";
+
 export default function PawHeader({ onNavClick }) {
   const ourNav = [
     { label: "Our Mission", id: 1 },
@@ -12,7 +14,7 @@ export default function PawHeader({ onNavClick }) {
       <div className="w-full flex items-center justify-center relative">
         <div className="flex items-center gap-4 mx-auto">
           <h1 className="text-4xl md:text-5xl font-sig">Calm Paws</h1>
-          <img src="./images/pawsIcon.png" className="w-16" />
+          <FaPaw className="text-3xl" />
         </div>
       </div>
       <nav>
