@@ -39,13 +39,15 @@ export default function Immediate() {
   return (
     <section className="flex flex-col justify-center items-center">
       <TabContext value={value}>
-        <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
+        <Box>
           <TabList onChange={handleTabs}>
             <Tab
               label="Immediate Help"
               value="1"
               sx={{
                 fontSize: "16pt",
+                backgroundColor: "#60A5FA",
+                fontFamily: "'Sigmar', sans-serif",
               }}
             />
             <Tab
@@ -53,6 +55,8 @@ export default function Immediate() {
               value="2"
               sx={{
                 fontSize: "16pt",
+                backgroundColor: "#68d391",
+                fontFamily: "'Sigmar', sans-serif",
               }}
             />
           </TabList>
