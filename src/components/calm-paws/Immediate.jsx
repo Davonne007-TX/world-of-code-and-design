@@ -24,7 +24,30 @@ const quickActions = [
   },
   {
     icon: "💤",
-    title: "Tire Them Out",
+    title: "Get Doggies Sleppy",
+    description: "Exercise before fireworks start",
+  },
+];
+
+const calmingTechniques = [
+  {
+    icon: "🎶",
+    title: "Safe Space",
+    description: "Play calming smooth music",
+  },
+  {
+    icon: "🎾",
+    title: "Favorite Toy",
+    description: "Chew toys, toys they love",
+  },
+  {
+    icon: "🏠",
+    title: "Thunder Shirt",
+    description: "Make sure dogs stay inside",
+  },
+  {
+    icon: "💤",
+    title: "Stay Calm",
     description: "Exercise before fireworks start",
   },
 ];
@@ -48,6 +71,7 @@ export default function Immediate() {
                 fontSize: "16pt",
                 backgroundColor: "#60A5FA",
                 fontFamily: "'Sigmar', sans-serif",
+                color: "black",
               }}
             />
             <Tab
@@ -55,8 +79,9 @@ export default function Immediate() {
               value="2"
               sx={{
                 fontSize: "16pt",
-                backgroundColor: "#68d391",
+                backgroundColor: "#22c55e",
                 fontFamily: "'Sigmar', sans-serif",
+                color: "black",
               }}
             />
           </TabList>
@@ -83,7 +108,27 @@ export default function Immediate() {
             </ul>
           </div>
         </TabPanel>
-        <TabPanel value="2">Calming Techniques Content</TabPanel>
+        <TabPanel value="2">
+          <div className="max-w-2xl p-4 rounded-md mt-10 mx-auto bg-green-500">
+            <ImmediateCard
+              immediateTitle="Calming Techniques"
+              description=""
+              color="text-slate-800"
+              descriptionColor="text-white font-bold"
+            />
+            <ul className="p-2 flex flex-col gap-4">
+              {calmingTechniques.map((action, index) => (
+                <li key={index} className="bg-white p-4 rounded">
+                  <div className="flex gap-2">
+                    <span className="text-2xl">{action.icon}</span>
+                    <h2 className="font-bold text-xl">{action.title}</h2>
+                  </div>
+                  <p className="text-lg ml-8">{action.description}</p>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </TabPanel>
       </TabContext>
     </section>
   );
