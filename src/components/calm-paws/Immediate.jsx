@@ -10,17 +10,17 @@ const quickActions = [
   {
     icon: "🎶",
     title: "Smooth Music",
-    description: "Play calming smooth music",
+    description: "Play calming smooth music to help our pets during this time",
   },
   {
     icon: "🎾",
     title: "Distraction",
-    description: "Chew toys, toys they love",
+    description: "Chew toys, toys they love to play with",
   },
   {
     icon: "🏠",
     title: "Stay indoors",
-    description: "Make sure dogs stay inside",
+    description: "Make sure dogs stay indoors, away from fireworks",
   },
   {
     icon: "💤",
@@ -31,22 +31,22 @@ const quickActions = [
 
 const calmingTechniques = [
   {
-    icon: "🎶",
+    icon: "🏠",
     title: "Safe Space",
-    description: "Play calming smooth music",
+    description: "Create a safe space for pet, with lots of love",
   },
   {
     icon: "🎾",
     title: "Favorite Toy",
-    description: "Chew toys, toys they love",
+    description: "Get your dog their favorite toy to play with",
   },
   {
-    icon: "🏠",
+    icon: "🐾",
     title: "Thunder Shirt",
-    description: "Make sure dogs stay inside",
+    description: "Use a compression garment or blanket to help with anxiety ",
   },
   {
-    icon: "💤",
+    icon: "💙",
     title: "Stay Calm",
     description: "Exercise before fireworks start",
   },
@@ -60,7 +60,7 @@ export default function Immediate() {
   };
 
   return (
-    <section className="flex flex-col justify-center items-center">
+    <section className="flex flex-col justify-center items-center mt-20">
       <TabContext value={value}>
         <Box>
           <TabList onChange={handleTabs}>
@@ -79,7 +79,7 @@ export default function Immediate() {
               value="2"
               sx={{
                 fontSize: "16pt",
-                backgroundColor: "#22c55e",
+                backgroundColor: "#BBF7D0",
                 fontFamily: "'Sigmar', sans-serif",
                 color: "black",
               }}
@@ -109,7 +109,7 @@ export default function Immediate() {
           </div>
         </TabPanel>
         <TabPanel value="2">
-          <div className="max-w-2xl p-4 rounded-md mt-10 mx-auto bg-green-500">
+          <div className="max-w-2xl p-4 rounded-md mt-10 mx-auto bg-green-200">
             <ImmediateCard
               immediateTitle="Calming Techniques"
               description=""
