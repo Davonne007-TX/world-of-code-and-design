@@ -48,7 +48,7 @@ const calmingTechniques = [
   {
     icon: "💙",
     title: "Stay Calm",
-    description: "Exercise before fireworks start",
+    description: "Our energy affects our dogs, stay calm",
   },
 ];
 
@@ -112,9 +112,9 @@ export default function Immediate() {
           <div className="max-w-2xl p-4 rounded-md mt-10 mx-auto bg-green-200">
             <ImmediateCard
               immediateTitle="Calming Techniques"
-              description=""
+              description="Techniques to help pets stay calm"
               color="text-slate-800"
-              descriptionColor="text-white font-bold"
+              descriptionColor="text-blue-600"
             />
             <ul className="p-2 flex flex-col gap-4">
               {calmingTechniques.map((action, index) => (
