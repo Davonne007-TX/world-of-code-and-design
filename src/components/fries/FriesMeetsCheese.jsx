@@ -36,6 +36,7 @@ export default function FriesMeetsCheese() {
           <Image
             image="./images/fries.jpg"
             className="max-w-md rounded-3xl shadow-2xl"
+            alt="Cheesy Cheese Fries, image by fabio-alves on Unsplash"
           />
         </div>
       </div>
