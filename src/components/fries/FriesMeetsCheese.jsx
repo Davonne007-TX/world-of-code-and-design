@@ -25,17 +25,17 @@ export default function FriesMeetsCheese() {
             <div className="flex flex-col md:flex-row gap-6 font-grav text-xl">
               <Button
                 btnTxt="Toppings"
-                className="bg-yellow-300 cursor-pointer p-2 w-60 rounded-full"
+                className="bg-yellow-300 hover:scale-105 transition-all duration-300 cursor-pointer p-2 w-60 rounded-full"
               />
               <Button
                 btnTxt="Cheesy App"
-                className="bg-yellow-300 cursor-pointer p-2 w-60 rounded-full"
+                className="bg-yellow-300 hover:scale-105 transition-all duration-300 cursor-pointer p-2 w-60 rounded-full"
               />
             </div>
           </div>
           <Image
             image="./images/fries.jpg"
-            className="max-w-md py-10 rounded-3xl shadow-2xl"
+            className="max-w-md py-10 rounded-3xl transition-all duration-300 shadow-2xl"
             alt="Cheesy Cheese Fries, image by fabio-alves on Unsplash"
           />
         </div>

@@ -31,7 +31,7 @@ export default function FriesHeader() {
             btnTxt="Sign In"
             className="font-thin text-xl cursor-pointer p-2"
           />
-          <button className="bg-black flex justify-center items-center text-white font-thin text-lg p-1 w-40 rounded-full">
+          <button className="bg-black cursor-pointer flex justify-center items-center text-white font-thin text-lg p-1 w-40 rounded-full">
             Order Now <ShoppingCart className="ml-2" />
           </button>
         </div>
