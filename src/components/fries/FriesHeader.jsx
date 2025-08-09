@@ -6,8 +6,8 @@ export default function FriesHeader() {
     { navLink: "Menu", id: 0 },
     { navLink: "Specials", id: 1 },
     { navLink: "Locations", id: 2 },
-    { navLink: "Jobs", id: 3 },
-    { navLink: "Catering", id: 3 },
+    { navLink: "Jobs", id: 4 },
+    { navLink: "Catering", id: 5 },
   ];
 
   return (
@@ -17,9 +17,9 @@ export default function FriesHeader() {
           Cheese This
         </h1>
         <nav>
-          <ul className="flex gap-8 mr-40 mt-8 md:mt-4 font-grav">
-            {navLinks.map((link) => (
-              <li key={link} className="text-lg cursor-pointer hover:underline">
+          <ul className="hidden lg:flex gap-8 mr-40 mt-8 md:mt-4 font-grav">
+            {navLinks.map((link, id) => (
+              <li key={id} className="text-lg cursor-pointer hover:underline">
                 {link.navLink}
               </li>
             ))}
