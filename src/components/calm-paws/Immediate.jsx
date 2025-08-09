@@ -11,21 +11,25 @@ const quickActions = [
     icon: "🎶",
     title: "Smooth Music",
     description: "Play calming smooth music to help our pets during this time",
+    id: 0,
   },
   {
     icon: "🎾",
     title: "Distraction",
     description: "Chew toys, toys they love to play with",
+    id: 1,
   },
   {
     icon: "🏠",
     title: "Stay indoors",
     description: "Make sure dogs stay indoors, away from fireworks",
+    id: 2,
   },
   {
     icon: "💤",
     title: "Get Doggies Sleppy",
     description: "Exercise before fireworks start",
+    id: 3,
   },
 ];
 
@@ -34,21 +38,25 @@ const calmingTechniques = [
     icon: "🏠",
     title: "Safe Space",
     description: "Create a safe space for pet, with lots of love",
+    id: 0,
   },
   {
     icon: "🎾",
     title: "Favorite Toy",
     description: "Get your dog their favorite toy to play with",
+    id: 1,
   },
   {
     icon: "🐾",
     title: "Thunder Shirt",
     description: "Use a compression garment or blanket to help with anxiety ",
+    id: 2,
   },
   {
     icon: "💙",
     title: "Stay Calm",
     description: "Our energy affects our dogs, stay calm",
+    id: 3,
   },
 ];
 
