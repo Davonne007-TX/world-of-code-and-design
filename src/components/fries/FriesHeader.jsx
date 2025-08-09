@@ -13,13 +13,15 @@ export default function FriesHeader() {
   return (
     <header className="p-4 bg-yellow-300">
       <div className="p-2 flex flex-col md:flex-row justify-between gap-8">
-        <h1 className="font-grav text-4xl bg-black skew-2 w-80  text-white p-2">
+        <h1 className="font-grav text-4xl bg-black skew-2 w-80 text-white p-2">
           Cheese This
         </h1>
         <nav>
           <ul className="flex gap-8 mr-40 mt-8 md:mt-4 font-grav">
             {navLinks.map((link) => (
-              <li key={link}>{link.navLink}</li>
+              <li key={link} className="text-lg cursor-pointer hover:underline">
+                {link.navLink}
+              </li>
             ))}
           </ul>
         </nav>
@@ -29,7 +31,7 @@ export default function FriesHeader() {
             btnTxt="Sign In"
             className="font-thin text-xl cursor-pointer p-2"
           />
-          <button className="bg-black cursor-pointer flex justify-center items-center text-white font-thin text-xl p-2 w-40 rounded-full">
+          <button className="bg-black flex justify-center items-center text-white font-thin text-lg p-1 w-40 rounded-full">
             Order Now <ShoppingCart className="ml-2" />
           </button>
         </div>
