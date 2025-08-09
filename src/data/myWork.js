@@ -26,9 +26,10 @@ export const myWork = [
   { id: 25, text: "Stay Alert", link: "/tornado" },
   { id: 26, text: "Easter Egg Hunt", link: "/easterEgg" },
   { id: 27, text: "Concert", link: "/concert" },
-  { id: 28, text: "Torunament", link: "/tournament" },
+  { id: 28, text: "Tournament", link: "/tournament" },
   { id: 29, text: "Summer Time", link: "/summer" },
   { id: 30, text: "Go Big or Go Home", link: "/goBig" },
   { id: 31, text: "Developer Card", link: "/myCard" },
   { id: 32, text: "Calm Paws", link: "/calmPaws" },
+  { id: 33, text: "Fries", link: "/fries" },
 ];

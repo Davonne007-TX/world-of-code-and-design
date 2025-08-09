@@ -15,8 +15,8 @@ export default function Resources() {
             Helpful Resources
           </h1>
         </div>
-        <HelpfulLinks />
         <Immediate />
+        <HelpfulLinks />
 
         <div className="bg-red-100 border-4 border-red-600 mx-auto max-w-xs md:max-w-4xl lg::max-w-5xl p-2 md:p-8 rounded my-20 mt-24">
           <div className="flex gap-8">

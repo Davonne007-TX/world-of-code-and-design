@@ -10,22 +10,53 @@ const quickActions = [
   {
     icon: "🎶",
     title: "Smooth Music",
-    description: "Play calming smooth music",
+    description: "Play calming smooth music to help our pets during this time",
+    id: 0,
   },
   {
     icon: "🎾",
     title: "Distraction",
-    description: "Chew toys, toys they love",
+    description: "Chew toys, toys they love to play with",
+    id: 1,
   },
   {
     icon: "🏠",
     title: "Stay indoors",
-    description: "Make sure dogs stay inside",
+    description: "Make sure dogs stay indoors, away from fireworks",
+    id: 2,
   },
   {
     icon: "💤",
-    title: "Tire Them Out",
+    title: "Get Doggies Sleppy",
     description: "Exercise before fireworks start",
+    id: 3,
+  },
+];
+
+const calmingTechniques = [
+  {
+    icon: "🏠",
+    title: "Safe Space",
+    description: "Create a safe space for pet, with lots of love",
+    id: 0,
+  },
+  {
+    icon: "🎾",
+    title: "Favorite Toy",
+    description: "Get your dog their favorite toy to play with",
+    id: 1,
+  },
+  {
+    icon: "🐾",
+    title: "Thunder Shirt",
+    description: "Use a compression garment or blanket to help with anxiety ",
+    id: 2,
+  },
+  {
+    icon: "💙",
+    title: "Stay Calm",
+    description: "Our energy affects our dogs, stay calm",
+    id: 3,
   },
 ];
 
@@ -37,15 +68,18 @@ export default function Immediate() {
   };
 
   return (
-    <section className="flex flex-col justify-center items-center">
+    <section className="flex flex-col justify-center items-center mt-20">
       <TabContext value={value}>
-        <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
+        <Box>
           <TabList onChange={handleTabs}>
             <Tab
               label="Immediate Help"
               value="1"
               sx={{
                 fontSize: "16pt",
+                backgroundColor: "#60A5FA",
+                fontFamily: "'Sigmar', sans-serif",
+                color: "black",
               }}
             />
             <Tab
@@ -53,6 +87,9 @@ export default function Immediate() {
               value="2"
               sx={{
                 fontSize: "16pt",
+                backgroundColor: "#BBF7D0",
+                fontFamily: "'Sigmar', sans-serif",
+                color: "black",
               }}
             />
           </TabList>
@@ -79,7 +116,27 @@ export default function Immediate() {
             </ul>
           </div>
         </TabPanel>
-        <TabPanel value="2">Calming Techniques Content</TabPanel>
+        <TabPanel value="2">
+          <div className="max-w-2xl p-4 rounded-md mt-10 mx-auto bg-green-200">
+            <ImmediateCard
+              immediateTitle="Calming Techniques"
+              description="Techniques to help pets stay calm"
+              color="text-slate-800"
+              descriptionColor="text-blue-600"
+            />
+            <ul className="p-2 flex flex-col gap-4">
+              {calmingTechniques.map((action, index) => (
+                <li key={index} className="bg-white p-4 rounded">
+                  <div className="flex gap-2">
+                    <span className="text-2xl">{action.icon}</span>
+                    <h2 className="font-bold text-xl">{action.title}</h2>
+                  </div>
+                  <p className="text-lg ml-8">{action.description}</p>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </TabPanel>
       </TabContext>
     </section>
   );
