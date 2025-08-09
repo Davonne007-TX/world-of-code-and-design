@@ -25,8 +25,11 @@ export default function FriesHeader() {
         </nav>
 
         <div className="flex gap-10">
-          <Button btnTxt="Sign In" className="font-thin text-xl" />
-          <button className="bg-black flex justify-center items-center text-white font-thin text-xl p-2 w-40 rounded-full">
+          <Button
+            btnTxt="Sign In"
+            className="font-thin text-xl cursor-pointer p-2"
+          />
+          <button className="bg-black cursor-pointer flex justify-center items-center text-white font-thin text-xl p-2 w-40 rounded-full">
             Order Now <ShoppingCart className="ml-2" />
           </button>
         </div>
