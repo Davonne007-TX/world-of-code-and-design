@@ -1,6 +1,8 @@
+import { useState } from "react";
 import Button from "../Button";
 
 export default function TacoHeader() {
+  const [isNavOpen, setIsNavOpen] = useState(false);
   const ourLinks = [
     { tacoLinks: "Tacos", id: 1 },
     { tacoLinks: "Jumbo Tacos", id: 2 },
@@ -25,8 +27,10 @@ export default function TacoHeader() {
           </ul>
         </nav>
       </div>
-
-      <div className="flex gap-8">
+      <button className="text-5xl lg:hidden cursor-pointer">
+        {isNavOpen ? "x" : "☰"}
+      </button>
+      <div className="hidden md:flex gap-8">
         <Button
           btnTxt="Locations"
           className="bg-red-500 hover:bg-red-700 cursor-pointer p-2 rounded-full w-40 font-press text-md"
