@@ -27,7 +27,7 @@ export default function TacoHeader() {
       </div>
       {/* Mobile Nav */}
       <button
-        className="text-4xl md:hidden cursor-pointer z-20"
+        className="text-5xl md:hidden cursor-pointer z-20 mb-2 hover:text-gray-200"
         onClick={() => setIsNavOpen((prev) => !prev)}
       >
         {isNavOpen ? "✕" : "☰"}
