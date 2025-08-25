@@ -9,11 +9,11 @@ export default function Hero() {
 
   return (
     <section className="font-thin flex flex-col justify-center items-center text-neutral-100 bg-black/50 p-8 rounded lg:mt-40">
-      <section className="max-w-4xl">
+      <div className="max-w-4xl">
         <h2 className="text-7xl mt-20 font-pro">Do you have what it takes?</h2>
         <p className="text-2xl mt-4 font-sans">{aboutSkateCompetition}</p>
         <Search />
-      </section>
+      </div>
     </section>
   );
 }

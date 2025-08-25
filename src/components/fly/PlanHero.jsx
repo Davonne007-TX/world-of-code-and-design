@@ -11,7 +11,7 @@ export default function PlanHero() {
             <h3 className="text-6xl md:text-7xl lg:text-8xl ">
               Fly With Us Today
             </h3>
-            <p className="mt-2 text-2xl ml-2 p-2 bg-transparent max-w-md shadow-md">
+            <p className="mt-2 text-2xl ml-2 p-2 bg-transparent max-w-md shadow-xl">
               {disappointed}
             </p>
           </div>
