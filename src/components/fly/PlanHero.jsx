@@ -6,7 +6,7 @@ export default function PlanHero() {
   return (
     <>
       <section className="flex flex-col ml-10 mt-20 lg:mt-40 text-white font-serif p-4">
-        <div className="flex flex-col md:flex-row gap-8">
+        <div className="flex flex-col lg:flex-row gap-8">
           <div className="flex flex-col">
             <h3 className="text-6xl md:text-7xl lg:text-8xl ">
               Fly With Us Today
