@@ -11,7 +11,7 @@ export default function FiftesHero() {
   return (
     <section className="flex justify-center items-center min-h-screen">
       <div className="flex flex-col justify-center items-center lg:flex-row gap-20 lg:gap-40 mb-10">
-        <div className="flex flex-col max-w-xs md:max-w-xl gap-4 mt-28 lg:mt-0 lg:mb-10">
+        <div className="flex flex-col max-w-xs md:max-w-xl gap-4 mt-20 lg:mt-0 lg:mb-10">
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-orb text-white mb-4">
             Your Dream Ride <span className="text-pink-600">Awaits...</span>
           </h2>
@@ -28,7 +28,7 @@ export default function FiftesHero() {
         </div>
         <Image
           image={bike}
-          className={"max-w-sm md:max-w-2xl lg:max-w-sm rounded-3xl"}
+          className={"max-w-xs md:max-w-sm rounded-3xl"}
           alt={
             "Pink Racer Bike Popping a Wheel E, Photo by Anastasia Shuraeva on Pexels "
           }
