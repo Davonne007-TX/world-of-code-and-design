@@ -13,7 +13,7 @@ export default function TopHeader() {
 
   return (
     <header className="text-white font-serif font-thin w-full p-4">
-      <nav className="cursor-pointer relative">
+      <nav className="cursor-pointer relative mt-2">
         <div className="flex justify-center items-center">
           <Image
             image={plane}
@@ -31,7 +31,7 @@ export default function TopHeader() {
             ))}
           </ul>
 
-          <button className="text-4xl absolute right-0 cursor-pointer">
+          <button className="text-4xl absolute right-0 cursor-pointer mt-2 md:mt-0">
             ☰
           </button>
         </div>
