@@ -13,7 +13,7 @@ const codeCan = "/images/codeCan.webp";
 
 export default function Hero() {
   return (
-    <section className="max-w-xs md:max-w-6xl lg:max-w-7xl flex flex-col text-white mt-20 lg:mt-40">
+    <section className="max-w-xs md:max-w-6xl lg:max-w-7xl flex flex-col text-white mt-10 md:mt-20 lg:mt-40">
       <div className="flex flex-col lg:flex-row">
         <div className="flex flex-col gap-4">
           <h2 className="mr-auto text-3xl md:text-3xl lg:text-5xl font-arc">
@@ -26,7 +26,9 @@ export default function Hero() {
 
           <Button
             btnTxt={"Join us Today"}
-            className={"bg-purple-700 rounded-full p-2 font-bold w-80 mt-4"}
+            className={
+              "bg-purple-700 hover:scale-105 rounded-full p-2 font-bold w-80 mt-4"
+            }
           />
         </div>
         <Image

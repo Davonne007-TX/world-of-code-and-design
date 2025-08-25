@@ -16,7 +16,9 @@ export default function Nav() {
         <nav>
           <ul className="hidden lg:flex gap-8 text-2xl">
             {myNav.map((nav) => (
-              <li key={nav.id}>{nav.link}</li>
+              <li key={nav.id} className="cursor-pointer hover:underline">
+                {nav.link}
+              </li>
             ))}
           </ul>
 
