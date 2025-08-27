@@ -10,7 +10,7 @@ export default function Home() {
         <h1 className="text-white text-4xl md:text-5xl lg:text-6xl font-bold font-glo leading-tight">
           2025 — From Design to{" "}
           <span className="text-pink-500 drop-shadow-[0_2px_4px_rgba(236,72,153,0.5)]">
-            Code 💻
+            Dev 💻
           </span>
         </h1>
 
