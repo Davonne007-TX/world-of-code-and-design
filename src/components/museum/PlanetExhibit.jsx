@@ -3,7 +3,7 @@ import PlanetHero from "./PlanetHero";
 
 export default function PlanetExhibit() {
   return (
-    <main className="">
+    <main>
       <PlanetHeader />
       <PlanetHero />
     </main>

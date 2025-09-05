@@ -19,18 +19,18 @@ export default function NewExhibits() {
   ];
 
   return (
-    <section className="flex flex-col gap-4 md:mt-32 mb-10 ">
+    <section className="flex flex-col gap-4 md:mt-32 mt-8 py-8">
       <h3 className="ml-3 text-2xl md:text-3xl font-cut">
         February Brings New Exhibits...
       </h3>
       {featuredExhibits.map((exhibit) => (
         <div
-          className="bg-purple-400 ml-4 max-w-xs md:max-w-3xl lg:max-w-4xl flex flex-col justify-center items-center rounded-xl p-4 "
+          className="bg-purple-400 ml-4 max-w-xs md:max-w-4xl lg:max-w-4xl flex flex-col justify-center items-center rounded-xl p-4 "
           key={exhibit.id}
         >
           {" "}
           <div className=" max-w-lg flex flex-col md:flex-col lg:flex-row justify-center items-center gap-4">
-            <div className="flex flex-col">
+            <div className="flex flex-col gap-4">
               <h2 className="text-2xl font-cut">{exhibit.exhibitTitle}</h2>
               <p className="text-lg">{exhibit.exhibitDescription}</p>
               <Button
