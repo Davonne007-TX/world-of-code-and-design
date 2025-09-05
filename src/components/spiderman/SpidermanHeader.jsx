@@ -6,7 +6,7 @@ export default function SpidermanHeader() {
     { spidermanLink: "Archives", id: 2 },
     { spidermanLink: "Discord", id: 3 },
     { spidermanLink: "Merch", id: 4 },
-    { spidermanLink: "Connect", id: 4 },
+    { spidermanLink: "Connect", id: 5 },
   ];
 
   const cart = "./images/redCart.png";

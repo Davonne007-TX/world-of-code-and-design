@@ -3,7 +3,7 @@ import Nav from "./Nav";
 
 export default function SpaceExploration() {
   return (
-    <main className="bg-[url('images/earth.jpg')] bg-cover bg-no-repeat shadow-xl bg-center min-h-screen">
+    <main className="bg-[url('images/earth.jpg')] shadow-xl bg-cover min-h-screen bg-center ">
       <Nav />
       <Hero />
     </main>
