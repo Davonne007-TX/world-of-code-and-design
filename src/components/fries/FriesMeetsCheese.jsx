@@ -8,7 +8,7 @@ export default function FriesMeetsCheese() {
     <section className="min-h-screen bg-black">
       <FriesHeader />
       <div className="ml-10">
-        <div className="flex flex-col lg:flex-row gap-10">
+        <div className="flex flex-col lg:flex-row gap-8">
           <div className="flex flex-col">
             <ReuseableCard
               sectionStyles="max-w-3xl mt-10 md:mt-40 text-white"

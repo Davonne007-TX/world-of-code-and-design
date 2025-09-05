@@ -24,29 +24,27 @@ export default function NewExhibits() {
         February Brings New Exhibits...
       </h3>
       {featuredExhibits.map((exhibit) => (
-        <>
-          <section
-            className="bg-purple-400 ml-4 max-w-xs md:max-w-3xl lg:max-w-4xl flex flex-col justify-center items-center rounded-xl p-4 "
-            key={exhibit.id}
-          >
-            {" "}
-            <section className=" max-w-lg flex flex-col md:flex-col lg:flex-row justify-center items-center gap-4">
-              <div className="flex flex-col">
-                <h2 className="text-2xl font-cut">{exhibit.exhibitTitle}</h2>
-                <p className="text-lg">{exhibit.exhibitDescription}</p>
-                <Button
-                  btnTxt={"Learn More → "}
-                  className={"font-cut hover:underline text-lg"}
-                />
-              </div>
-              <img
-                src={exhibit.exhibitImage}
-                alt={exhibit.alt}
-                className="w-80 lg:w-60 rounded-xl"
+        <div
+          className="bg-purple-400 ml-4 max-w-xs md:max-w-3xl lg:max-w-4xl flex flex-col justify-center items-center rounded-xl p-4 "
+          key={exhibit.id}
+        >
+          {" "}
+          <div className=" max-w-lg flex flex-col md:flex-col lg:flex-row justify-center items-center gap-4">
+            <div className="flex flex-col">
+              <h2 className="text-2xl font-cut">{exhibit.exhibitTitle}</h2>
+              <p className="text-lg">{exhibit.exhibitDescription}</p>
+              <Button
+                btnTxt={"Learn More → "}
+                className={"font-cut hover:underline text-lg"}
               />
-            </section>
-          </section>
-        </>
+            </div>
+            <img
+              src={exhibit.exhibitImage}
+              alt={exhibit.alt}
+              className="w-80 lg:w-60 rounded-xl"
+            />
+          </div>
+        </div>
       ))}
     </section>
   );
