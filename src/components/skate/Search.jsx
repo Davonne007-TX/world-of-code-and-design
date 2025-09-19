@@ -6,12 +6,12 @@ export default function Search() {
     <>
       <section className="lg:w-full font-thin mt-10">
         <div className="flex flex-col gap-4">
-          <p className="text-2xl mt-4">{signUp}</p>
+          <p className="text-2xl font-semibold mt-4">{signUp}</p>
 
           <div className="flex flex-col md:flex-row items-center gap-2">
             <input
               type="search"
-              className="text-xl p-2 outline-none w-72 md:w-86 bg-neutral-100 text-black rounded"
+              className="text-xl p-2 font-semibold outline-none w-72 md:w-86 bg-neutral-100 text-black rounded"
               placeholder="Enter E-mail Address"
             />
             <Button
