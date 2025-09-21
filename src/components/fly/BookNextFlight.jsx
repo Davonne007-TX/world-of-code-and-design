@@ -10,14 +10,29 @@ export default function BookNextFlight() {
 
       <label className="flex gap-2 flyLabel">
         Round Trip
-        <input type="radio" value="Round Trip" name="trip-type" />
+        <input
+          type="radio"
+          value="Round Trip"
+          name="trip-type"
+          className="p-2"
+        />
       </label>
       <label className="flyLabel">
-        <input type="text" placeholder="From*" name="current-location" />
+        <input
+          type="text"
+          placeholder="From*"
+          name="current-location"
+          className="p-2"
+        />
       </label>
 
       <label className="flyLabel">
-        <input type="text" placeholder="To*" name="destination" />
+        <input
+          type="text"
+          placeholder="To*"
+          name="destination"
+          className="p-2"
+        />
       </label>
       <label className="flyLabel">
         Departing*
@@ -25,7 +40,7 @@ export default function BookNextFlight() {
           type="date"
           placeholder="Departing"
           name="departing"
-          className="lg:ml-1"
+          className="lg:ml-1 p-2"
         />
       </label>
 
@@ -35,16 +50,26 @@ export default function BookNextFlight() {
           type="date"
           placeholder="Returning"
           name="returning"
-          className="lg:ml-1"
+          className="lg:ml-1 p-2"
         />
       </label>
 
       <label className="flyLabel">
-        <input type="number" placeholder="Bags*" name="bag-quality" />
+        <input
+          type="number"
+          placeholder="Bags*"
+          name="bag-quality"
+          className="p-2"
+        />
       </label>
 
       <label className="flyLabel">
-        <input type="number" placeholder="Passengers*" name="adult-quality" />
+        <input
+          type="number"
+          placeholder="Passengers*"
+          name="adult-quality"
+          className="p-2"
+        />
       </label>
 
       <Button

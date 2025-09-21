@@ -9,7 +9,7 @@ export default function ShamrockTavern() {
    of laughs and live music, we got the vibe that keeps the good times rolling.
    Grab a seat, raise a glass, and lets make some memories!`;
   return (
-    <main className="flex flex-col justify-center itemes-center">
+    <main className="flex flex-col justify-center items-center">
       <TavernHeader />
 
       <TavernHero heroTitle={hour} heroDescription={memories} />

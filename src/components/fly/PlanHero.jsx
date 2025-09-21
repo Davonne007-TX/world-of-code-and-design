@@ -11,12 +11,12 @@ export default function PlanHero() {
             <h3 className="text-6xl md:text-7xl lg:text-8xl ">
               Fly With Us Today
             </h3>
-            <p className="mt-2 text-2xl ml-2 p-2 bg-transparent max-w-md shadow-xl">
+            <p className="mt-2 text-3xl ml-2 p-2 bg-transparent max-w-md shadow-xl">
               {disappointed}
             </p>
           </div>
           <section className="text-black flex flex-col shadow-lg gap-4 bg-white max-w-xs md:max-w-sm lg:max-w-xl p-4 rounded-xl mt-10 md:mt-20">
-            <p className="text-2xl">Plan Your Next Trip</p>
+            <p className="text-3xl">Plan Your Next Trip</p>
             <BookNextFlight />
           </section>
         </div>
