@@ -27,12 +27,7 @@ export default function BookNextFlight() {
       </label>
 
       <label className="flyLabel">
-        <input
-          type="text"
-          placeholder="To*"
-          name="destination"
-          className="p-2"
-        />
+        <input type="text" placeholder="To*" name="destination" className="" />
       </label>
       <label className="flyLabel">
         Departing*
@@ -40,7 +35,7 @@ export default function BookNextFlight() {
           type="date"
           placeholder="Departing"
           name="departing"
-          className="lg:ml-1 p-2"
+          className="lg:ml-1"
         />
       </label>
 

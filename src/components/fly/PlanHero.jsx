@@ -5,9 +5,9 @@ export default function PlanHero() {
     "you won't be disappointed. luxury travel. inexpensive cost";
   return (
     <>
-      <section className="flex flex-col ml-10 mt-20 lg:mt-40 text-white font-serif p-4">
+      <section className="flex flex-col  sm:p-6 md:p-10 lg:mt-40 text-white font-serif p-4">
         <div className="flex flex-col lg:flex-row gap-8">
-          <div className="flex flex-col">
+          <div className="flex flex-col mt-10">
             <h3 className="text-6xl md:text-7xl lg:text-8xl ">
               Fly With Us Today
             </h3>
@@ -15,7 +15,7 @@ export default function PlanHero() {
               {disappointed}
             </p>
           </div>
-          <section className="text-black flex flex-col shadow-lg gap-4 bg-white max-w-xs md:max-w-sm lg:max-w-xl p-4 rounded-xl mt-10 md:mt-20">
+          <section className="text-black flex flex-col shadow-lg gap-4 bg-white p-4 rounded-xl mt-10 md:mt-20">
             <p className="text-3xl">Plan Your Next Trip</p>
             <BookNextFlight />
           </section>
