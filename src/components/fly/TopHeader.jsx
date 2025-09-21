@@ -23,7 +23,7 @@ export default function TopHeader() {
 
           <h1 className="absolute left-10 ml-2 mt-2 lg:mt-0 text-2xl">Soar</h1>
 
-          <ul className="hidden lg:flex justify-between gap-8 items-center text-lg">
+          <ul className="hidden lg:flex justify-between gap-8 items-center text-xl">
             {navLinks.map((link) => (
               <li key={link.id} className="hover:underline ">
                 {link.ourLink}
