@@ -22,7 +22,7 @@ export default function FriesMeetsCheese() {
               paragraphSection="Made fresh every order! Customize your Cheesy Fries with special toppings! Bacon, onions, chili, jalapeños, chicharrones and more! "
               paragraphStyles="text-3xl font-thin text-2xl"
             />
-            <div className="flex flex-col font-thin md:flex-row gap-6 text-xl">
+            <div className="flex flex-col font-thin md:flex-row gap-6 text-2xl">
               <Button
                 btnTxt="Toppings"
                 className="bg-yellow-300 hover:scale-105 cursor-pointer p-2 w-60 rounded-full"
