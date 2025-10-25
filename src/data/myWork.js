@@ -32,4 +32,5 @@ export const myWork = [
   { id: 31, text: "Developer Card", link: "/myCard" },
   { id: 32, text: "Calm Paws", link: "/calmPaws" },
   { id: 33, text: "Fries", link: "/fries" },
+  { id: 34, text: "Super Robot", link: "/robot" },
 ];

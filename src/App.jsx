@@ -57,6 +57,7 @@ const GoBig = React.lazy(() => import("./components/lets-ride/GoBig"));
 const MyCard = React.lazy(() => import("./components/developer-card/MyCard"));
 const CalmPaws = React.lazy(() => import("./components/calm-paws/CalmPaws"));
 const Fries = React.lazy(() => import("./components/fries/FriesMeetsCheese"));
+const SuperRobot = React.lazy(() => import("./components/robot/SuperRobot"));
 
 function App() {
   return (
@@ -104,6 +105,7 @@ function App() {
           <Route path="myCard" element={<MyCard />} />
           <Route path="calmPaws" element={<CalmPaws />} />
           <Route path="fries" element={<Fries />} />
+          <Route path="robot" element={<SuperRobot />} />
         </Routes>
       </Suspense>
     </>

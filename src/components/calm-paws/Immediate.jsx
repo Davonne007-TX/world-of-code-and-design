@@ -19,7 +19,7 @@ const quickActions = [
     description: "Chew toys, toys they love to play with",
     id: 1,
   },
-  {
+  { 
     icon: "🏠",
     title: "Stay indoors",
     description: "Make sure dogs stay indoors, away from fireworks",
