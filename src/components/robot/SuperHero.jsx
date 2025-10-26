@@ -16,7 +16,7 @@ export default function SuperHero() {
           own custom Robot, designed to simplify daily life, one task at a time.
         </p>
 
-        <button className="mt-8 bg-black/80 font-orb text-xl cursor-pointer w-80 p-2 rounded">
+        <button className="mt-8  bg-gradient-to-b from-black via-[#1a1a1a] to-black font-orb text-xl cursor-pointer w-80 p-2 rounded">
           Learn More →
         </button>
       </div>

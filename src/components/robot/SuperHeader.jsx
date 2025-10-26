@@ -14,9 +14,11 @@ export default function SuperHeader() {
             src="./images/robot.png"
             className="text-4xl w-20 drop-shadow-[0_0_10px_#f755c1"
           />
-          <h1 className="text-xl font-press shadow-pink-200">SuperRobo</h1>
+          <h1 className="text-2xl font-press mt-4 shadow-pink-200">
+            SuperRobo
+          </h1>
         </div>
-        <nav className="flex gap-8 text-gray-200 text-lg font-serif ml-8">
+        <nav className="flex gap-8 text-gray-200 mt-4 text-lg font-serif ml-8">
           <ul className="hidden lg:flex gap-8">
             {navItems.map((item) => (
               <li key={item.id}>{item.link}</li>
