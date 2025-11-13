@@ -2,8 +2,8 @@ import Info from "./Info";
 export default function WaxHero() {
   return (
     <section className="mx-auto w-full max-w-xs md:max-w-2xl lg:max-w-5xl mt-12">
-      <div className="flex flex-col lg:flex-row gap-20 mt-10">
-        <div className="flex flex-col gap-8">
+      <div className="flex flex-col lg:flex-row gap-20 ">
+        <div className="flex flex-col gap-8 mt-10">
           <h2 className="font-bold font-glo text-4xl md:text-6xl mt-10">
             Wax on. Wax off. <br />
             Hair Gone.{" "}
@@ -12,9 +12,10 @@ export default function WaxHero() {
             Exclusive Waxing Services ✨{" "}
           </a>
           <p className="text-xl">
-            orem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-            pellentesque ultrices dui, eget tristique lectus aliquet eu. Quisque
-            ultricies bibendum accumsan. Maecenas bibendum ligula est, a.{" "}
+            Hairy Legs? Want your eyebrows flawless? We got you! With our wax
+            you won't need to wax again till 4 weeks! Kiss your hair goodbye.
+            Our custom wax is made just for us and our guests. Enjoy your me
+            time and get Silky Smooth!
           </p>
 
           <div className="flex flex-col md:flex-row font-thin gap-8">
