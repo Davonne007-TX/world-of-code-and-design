@@ -1,3 +1,7 @@
 export default function WaxHero() {
-  return <div></div>;
+  return (
+    <section>
+      <h2>Wax on. Wax off. </h2>
+    </section>
+  );
 }

@@ -18,7 +18,7 @@ export default function WaxHeader() {
         ))}
       </ul>
 
-      <button className="bg-purple-500 p-2 font-lobster text-2xl rounded">
+      <button className="bg-pink-400 p-2 font-lobster text-2xl rounded cursor-pointer hover:scale-105 ">
         Book Appointment
       </button>
     </header>
