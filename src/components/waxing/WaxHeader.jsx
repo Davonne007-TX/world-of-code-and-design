@@ -8,15 +8,19 @@ export default function WaxHeader() {
     { name: "Contact", path: "/contact" },
   ];
   return (
-    <header className="flex justify-between p-4">
-      <h1 className="font-bold tex-3xl">Silky Smooth</h1>
+    <header className="flex justify-between items-center  p-6">
+      <h1 className="font-bold text-4xl font-lobster">Silky Smooth</h1>
       <ul className="flex gap-8">
         {navLinks.map((link) => (
-          <li key={link.id}>{link.name}</li>
+          <li key={link.id} className="text-xl font-thin">
+            {link.name}
+          </li>
         ))}
       </ul>
 
-      <button className="bg-purple-500 p-2">Book</button>
+      <button className="bg-purple-500 p-2 font-lobster text-2xl rounded">
+        Book Appointment
+      </button>
     </header>
   );
 }
