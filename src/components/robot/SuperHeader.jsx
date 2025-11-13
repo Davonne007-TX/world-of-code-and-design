@@ -26,7 +26,7 @@ export default function SuperHeader() {
           </ul>
         </nav>
 
-        <div className="hidden md:flex gap-4 ml-auto text-lg">
+        <div className="hidden md:flex gap-4 ml-auto text-lg mt-4">
           <button className="px-4 py-2 cursor-pointer ">Sign In</button>
           <button className="px-4 py-2 border-1 border-pink-400 cursor-pointer rounded hover:shadow-[0_0_15px_#ec4899] hover:bg-pink-600 transition-all duration-300">
             Get started

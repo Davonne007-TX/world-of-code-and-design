@@ -11,7 +11,7 @@ export default function SuperHero() {
             is here
           </span>
         </h2>
-        <p className="mt-6 text-lg md:text-2xl text-gray-200/90 max-w-xl mx-auto">
+        <p className="mt-4 text-lg md:text-2xl text-gray-200/90 max-w-xl mx-auto">
           Meet <span className="font-bold text-pink-500">SuperRobo,</span> your
           own custom Robot, designed to simplify daily life, one task at a time.
         </p>
