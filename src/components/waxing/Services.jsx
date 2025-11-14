@@ -55,7 +55,7 @@ export default function Services() {
           our exclusive wax, we will give you an experience you will never
           forget.
         </p>
-        <button className="p-2 w-80 font-bold bg-punch rounded-full font-cut mt-4 cursor-pointer text-xl transition-all duration-300 hover:scale-105">
+        <button className="p-2 w-80 font-bold bg-punch rounded-full font-cut cursor-pointer text-xl transition-all duration-300 hover:scale-105">
           View all services
         </button>
       </div>
