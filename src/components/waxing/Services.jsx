@@ -39,12 +39,19 @@ export default function Services() {
       src: "",
       id: 4,
     },
+    {
+      service: "Underarm ",
+      description: "For you and only you, brazilian waxing. ",
+      price: 50,
+      src: "",
+      id: 5,
+    },
   ];
   return (
-    <section className="flex flex-col justify-center items-center mt-40">
+    <section className="flex flex-col justify-center items-center mt-40 bg-pink-100 p-8">
       <h2 className="font-glo text-4xl">Waxing Services</h2>
 
-      <ul className="flex flex-col gap-4">
+      <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-8 gap-10 shadow-md p-8">
         {waxingServices.map((service) => (
           <li key={service.id}>
             <WaxingCard
