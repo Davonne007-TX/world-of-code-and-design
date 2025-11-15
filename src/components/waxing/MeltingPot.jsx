@@ -2,6 +2,7 @@ import WaxHeader from "./WaxHeader";
 import WaxHero from "./WaxHero";
 import Services from "./Services";
 import OurWax from "./OurWax";
+import Packages from "./Packages";
 
 export default function MeltingPot() {
   return (
@@ -10,6 +11,7 @@ export default function MeltingPot() {
       <WaxHero />
       <OurWax />
       <Services />
+      <Packages />
     </main>
   );
 }
