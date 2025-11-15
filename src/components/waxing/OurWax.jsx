@@ -5,7 +5,7 @@ export default function OurWax() {
   is gentle on the skin, removing all the unwanted hair and is more healthy for your skin. Get silky smooth with our custom wax made just for us and for you.`;
   return (
     <section className="flex flex-col justify-center items-center min-h-screen my-20">
-      <div className="flex flex-col justify-center items-center p-8 shadow-md border-white lg:flex-row gap-10">
+      <div className="flex flex-col justify-center items-center p-8 shadow-md border-white lg:flex-row gap-10  border-8 ">
         <div className="flex flex-col justify-center items-center gap-8">
           <img
             src="./images/wax.jpg"
