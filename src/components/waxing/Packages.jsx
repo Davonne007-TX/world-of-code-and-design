@@ -24,7 +24,7 @@ export default function Packages() {
                 <img src={pkg.src} alt={pkg.alt} className="w-10" />
                 <div className="flex flex-col gap-2 ">
                   <h2 className="text-xl font-bold font-serif">{pkg.name} </h2>
-                  <p>
+                  <p className="text-lg">
                     {pkg.description}
                     <a className="hover:text-candy font-semibold cursor-pointer">
                       {" "}

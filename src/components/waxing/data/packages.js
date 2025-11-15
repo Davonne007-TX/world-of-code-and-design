@@ -18,7 +18,7 @@ export const packages = [
   {
     name: "Royalty Package",
     description:
-      "Come get a wax whenever you want! With our Royalty Package you can get unlimited waxing for the times you need it most.",
+      "Come get a wax whenever you want! With our Royalty Package you can get unlimited waxing for the times you need it the most.",
     src: "./images/crown.png",
     alt: "Crown, icon by icons8",
     id: 2,
