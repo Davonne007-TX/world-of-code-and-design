@@ -14,7 +14,7 @@ export default function WaxHeader() {
         {navLinks.map((link) => (
           <li
             key={link.id}
-            className="text-xl font-thin cursor-pointer rounded-2xl hover:bg-linear-to-r from candy to-candy p-2"
+            className="text-xl font-thin cursor-pointer rounded-2xl hover:bg-linear-to-r from-candy to-candy p-2"
           >
             {link.name}
           </li>

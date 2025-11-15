@@ -7,6 +7,7 @@ export default function Services() {
       description: "Shaped and cleaned for a stunning, natural look.",
       price: 10,
       src: "./images/eyebrows1.png",
+      id: 0,
     },
     {
       service: "Full Face",
@@ -25,7 +26,7 @@ export default function Services() {
     },
     {
       service: "Leg Waxing",
-      description: "Soft, smooth legs you'll want to touch.",
+      description: "Legs you'll want to touch.",
       price: 35,
       src: "./images/legs.png",
       id: 3,

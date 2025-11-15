@@ -14,7 +14,7 @@ export default function WaxingCard({
       duration-30 p-4 items-center gap-4"
     >
       <h2 className="font-semibold text-xl font-glo">{service}</h2>
-      <p className="font-thin text-center">{description}</p>
+      <p className="font-thin text-center text-lg">{description}</p>
       <img src={image} className="" alt={alt} />
       <p className="font-semibold">$From {price}</p>
     </section>
