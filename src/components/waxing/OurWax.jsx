@@ -1,10 +1,17 @@
+import { motion } from "motion/react";
 export default function OurWax() {
   const aboutOurWax =
     "Working with beauty industry leaders, our wax is made just for us and our guests. Made with all natural ingredients and no parabens, phthalates, or synthetic fragrances.  ";
   const moreAboutOurWax = `Our wax is a custom butter candy hard wax, that is gentle on the skin, removing all the unwanted hair and is more healthy for your skin. Get silky smooth with our custom wax made just for you and what we can do for you.`;
   return (
     <section className="flex flex-col justify-center items-center min-h-screen my-20">
-      <div className="flex flex-col justify-center items-center p-8 shadow-md border-white lg:flex-row gap-10  border-8 ">
+      <motion.div
+        initial={{ opacity: 0, scale: 0.9 }}
+        whileInView={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 2, ease: "easeOut" }}
+        viewport={{ once: true, amount: 0.3 }}
+        className="flex flex-col justify-center items-center p-8 shadow-md border-white lg:flex-row gap-10  border-8 "
+      >
         <div className="flex flex-col justify-center items-center gap-8">
           <img
             src="./images/wax.jpg"
@@ -18,7 +25,7 @@ export default function OurWax() {
             <p className="text-2xl text-center">{moreAboutOurWax}</p>
           </div>
         </div>
-      </div>
+      </motion.div>
     </section>
   );
 }
