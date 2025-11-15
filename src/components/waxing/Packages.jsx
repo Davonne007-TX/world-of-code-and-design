@@ -10,9 +10,9 @@ export default function Packages() {
           alt="two friends laughing outside, image by baylee gramling on Unsplash"
         />
         <div className="py-8 max-w-xs md:max-w-md flex flex-col gap-4">
-          <h2 className="font-glo text-3xl md:text-4xl ">
+          <h1 className="font-glo text-3xl md:text-4xl ">
             Pick the package that is right for you
-          </h2>
+          </h1>
           <p className="text-xl">
             We offer packages to keep track of your waxing progress and help you
             save money along the way!
@@ -20,19 +20,19 @@ export default function Packages() {
 
           <ul className="flex flex-col gap-8">
             {packages.map((pkg) => (
-              <div className="flex flex-col gap-2" key={pkg.id}>
+              <li className="flex flex-col gap-2" key={pkg.id}>
                 <img src={pkg.src} alt={pkg.alt} className="w-10" />
                 <div className="flex flex-col gap-2 ">
                   <h2 className="text-xl font-bold font-serif">{pkg.name} </h2>
                   <p className="text-lg">
                     {pkg.description}
-                    <a className="hover:text-candy font-semibold cursor-pointer">
+                    <button className="hover:text-candy font-semibold cursor-pointer">
                       {" "}
                       Learn More
-                    </a>
+                    </button>
                   </p>
                 </div>
-              </div>
+              </li>
             ))}
           </ul>
         </div>
