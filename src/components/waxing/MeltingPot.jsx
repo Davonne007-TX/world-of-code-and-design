@@ -8,8 +8,8 @@ export default function MeltingPot() {
     <main className="bg-neutral-100 min-h-screen">
       <WaxHeader />
       <WaxHero />
-      <Services />
       <OurWax />
+      <Services />
     </main>
   );
 }

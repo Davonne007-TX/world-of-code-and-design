@@ -3,7 +3,7 @@ export default function OurWax() {
   is gentle on the skin, removing all the unwanted hair and is more healthy for your skin. Get silly smooth with our custom wax made just for us and for you.  `;
 
   return (
-    <section className="flex flex-col justify-center items-center py-20">
+    <section className="flex flex-col justify-center items-center min-h-screen">
       <div className="flex flex-col justify-center items-center lg:flex-row gap-10">
         <div className="flex flex-col justify-center items-center gap-8">
           <img
@@ -12,9 +12,9 @@ export default function OurWax() {
             className="max-w-xs md:max-w-5xl md:w-[900px] md:h-[250px] object-cover rounded-3xl"
           />
 
-          <div className="max-w-xs md:max-w-xl flex flex-col gap-4 text-center">
+          <div className="max-w-xs md:max-w-2xl p-4 border-white border-2 shadow-md flex flex-col gap-4 text-center">
             <h2 className="font-glo text-4xl">Our Wax</h2>
-            <p className="text-2xl">{aboutOurWax}</p>
+            <p className="text-2xl text-center">{aboutOurWax}</p>
           </div>
         </div>
       </div>

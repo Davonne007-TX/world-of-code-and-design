@@ -47,7 +47,7 @@ export default function Services() {
     },
   ];
   return (
-    <section className="flex flex-col justify-center items-center mt-40 bg-pink-100 p-8">
+    <section className="flex flex-col justify-center items-center  bg-pink-100 p-8">
       <div className="flex flex-col gap-4 justify-center items-center">
         <h2 className="font-glo text-4xl">Waxing Services</h2>
         <p className="max-w-2xl text-center font-thi text-xl">

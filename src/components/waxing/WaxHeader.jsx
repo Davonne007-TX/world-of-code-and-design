@@ -2,8 +2,7 @@ export default function WaxHeader() {
   const navLinks = [
     { name: "About", path: "/about", id: 0 },
     { name: "Services", path: "/services", id: 1 },
-    { name: "Pricing", path: "/pricing", id: 2 },
-    { name: "Gallery", path: "/gallery", id: 3 },
+    { name: "Packages", path: "/pricing", id: 2 },
     { name: "FAQs", path: "/faqs", id: 4 },
     { name: "Contact", path: "/contact", id: 5 },
   ];
