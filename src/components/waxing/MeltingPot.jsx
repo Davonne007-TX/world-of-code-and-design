@@ -3,6 +3,7 @@ import WaxHero from "./WaxHero";
 import Services from "./Services";
 import OurWax from "./OurWax";
 import Packages from "./Packages";
+import Facts from "./Facts";
 
 export default function MeltingPot() {
   return (
@@ -12,6 +13,7 @@ export default function MeltingPot() {
       <OurWax />
       <Services />
       <Packages />
+      <Facts />
     </main>
   );
 }
