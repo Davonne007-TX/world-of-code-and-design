@@ -18,7 +18,7 @@ export default function Services() {
 
       <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-8 gap-10 shadow-md p-8">
         {waxingServices.map((service) => (
-          <li key={service.id}>
+          <li key={service.id} className="hover:">
             <WaxingCard
               service={service.service}
               description={service.description}

@@ -18,7 +18,7 @@ export default function Packages() {
             save money along the way!
           </p> */}
 
-          <ul className="flex flex-col gap-8 mt-8">
+          <ul className="flex flex-col gap-8 mt-4">
             {packages.map((pkg) => (
               <li className="flex flex-col gap-2" key={pkg.id}>
                 <img src={pkg.src} alt={pkg.alt} className="w-10" />

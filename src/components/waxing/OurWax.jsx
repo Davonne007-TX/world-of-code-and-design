@@ -1,7 +1,7 @@
 import { motion } from "motion/react";
 export default function OurWax() {
   const aboutOurWax =
-    "Working with beauty industry leaders, our wax is made just for us and our guests. Made with all natural ingredients and no parabens, phthalates, or synthetic fragrances.  ";
+    "Working with beauty industry leaders, our wax is made just for us and our guests. Made with all natural ingredients and no parabens, phthalates, or synthetic fragrances.";
   const moreAboutOurWax = `Our wax is a custom butter candy hard wax, that is gentle on the skin, removing all the unwanted hair and is more healthy for your skin. Get silky smooth with our custom wax made just for you and what we can do for you.`;
   return (
     <section className="flex flex-col justify-center items-center min-h-screen my-20">

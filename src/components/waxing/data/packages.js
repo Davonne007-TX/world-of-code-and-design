@@ -2,7 +2,7 @@ export const packages = [
   {
     name: "College Package",
     description:
-      "You don't want to go to school with a hairy lip. Get a College Package when you Buy 4 get 4 free.",
+      "You don't want to go to school with a hairy lip. Get a College Package when you Buy 5 get 3 free.",
     src: "./images/graduation.png",
     alt: "Graduation cap, icon by icons9",
     id: 0,
