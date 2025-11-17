@@ -1,6 +1,6 @@
 export default function Info() {
   return (
-    <section className="flex flex-col lg:flex-row items-center gap-8 mt-10 ">
+    <section className="flex items-center gap-4 md:gap-8 mt-10 ">
       <div>
         <div className="text-3xl font-serif font-semibold text-foreground">
           20

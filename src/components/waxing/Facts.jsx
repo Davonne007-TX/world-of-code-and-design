@@ -7,9 +7,11 @@ import { faqs } from "./data/faq";
 
 export default function Facts() {
   return (
-    <section className="max-w-sm md:max-w-2xl lg:max-w-3xl mx-auto ">
+    <section className="max-w-xs md:max-w-2xl lg:max-w-3xl mx-auto ">
       <div className="flex flex-col justify-center items-center">
-        <h2 className="font-glo text-4xl">Frequently Asked Questions</h2>
+        <h2 className="font-glo text-4xl text-center">
+          Frequently Asked Questions
+        </h2>
         <div className="my-10 flex flex-col gap-8">
           {faqs.map((question, id) => (
             <Accordion

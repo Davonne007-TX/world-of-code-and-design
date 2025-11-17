@@ -1,14 +1,14 @@
 import Info from "./Info";
 export default function WaxHero() {
   return (
-    <section className="mx-auto w-full max-w-xs md:max-w-2xl lg:max-w-5xl mt-12">
+    <section className="mx-auto w-full max-w-xs md:max-w-2xl lg:max-w-5xl mt-10">
       <div className="flex flex-col lg:flex-row gap-20 ">
-        <div className="flex flex-col gap-8 mt-10">
-          <h2 className="font-bold font-glo text-4xl md:text-6xl mt-10">
+        <div className="flex flex-col gap-8 mt-8">
+          <h2 className="font-bold font-glo text-4xl md:text-6xl my-8">
             Wax on. Wax off. <br />
             Hair Gone.{" "}
           </h2>
-          <a className="rounded-full p-2 w-60 font-bold text-white  bg-candy">
+          <a className="rounded-full p-2 w-60 font-bold text-white bg-candy">
             Exclusive Waxing Services ✨{" "}
           </a>
           <p className="text-xl">
