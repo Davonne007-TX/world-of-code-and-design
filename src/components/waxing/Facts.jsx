@@ -23,7 +23,12 @@ export default function Facts() {
               }}
             >
               <AccordionSummary
-                expandIcon={<ArrowDropDownIcon className="text-white" />}
+                expandIcon={
+                  <ArrowDropDownIcon
+                    className="text-white"
+                    style={{ fontSize: "24pt" }}
+                  />
+                }
               >
                 <Typography sx={{ fontWeight: "bold", fontSize: "14pt" }}>
                   {question.question}

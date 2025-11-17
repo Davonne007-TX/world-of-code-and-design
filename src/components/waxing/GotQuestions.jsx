@@ -2,7 +2,7 @@ import { motion } from "motion/react";
 
 export default function GotQuestions() {
   return (
-    <div className="flex flex-col justify-center items-center">
+    <section className="flex flex-col justify-center items-center my-20">
       <img
         src="./images/waxpot.jpg"
         className="max-w-xs md:max-w-3xl shadow-lg"
@@ -24,6 +24,6 @@ export default function GotQuestions() {
       >
         We got you covered!
       </motion.p>
-    </div>
+    </section>
   );
 }

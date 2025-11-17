@@ -2,7 +2,7 @@ import { packages } from "./data/packages";
 
 export default function Packages() {
   return (
-    <section className="flex flex-col justify-center items-center my-20 py-20">
+    <section className="flex flex-col justify-center items-center my-20">
       <div className="flex flex-col lg:flex-row justify-center items-center gap-20 ">
         <img
           src="./images/friends.jpg"
