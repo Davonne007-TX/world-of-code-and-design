@@ -1,19 +1,30 @@
-import WaxHeader from "./WaxHeader";
-import WaxHero from "./WaxHero";
-import Services from "./Services";
-import OurWax from "./OurWax";
-import Packages from "./Packages";
-import Facts from "./Facts";
+import { lazy, Suspense } from "react";
+const WaxHeader = lazy(() => import("./WaxHeader"));
+const WaxHero = lazy(() => import("./WaxHero"));
+const Services = lazy(() => import("./Services"));
+const OurWax = lazy(() => import("./OurWax"));
+const Packages = lazy(() => import("./Packages"));
+const Facts = lazy(() => import("./Facts"));
+const GotQuestions = lazy(() => import("./GotQuestions"));
 
 export default function MeltingPot() {
   return (
     <main className="bg-neutral-100 min-h-screen">
-      <WaxHeader />
-      <WaxHero />
-      <OurWax />
-      <Services />
-      <Packages />
-      <Facts />
+      <Suspense
+        fallback={
+          <div className="min-h-screen text-punch font-3xl text-center font-cut">
+            Loading...
+          </div>
+        }
+      >
+        <WaxHeader />
+        <WaxHero />
+        <OurWax />
+        <Services />
+        <Packages />
+        <GotQuestions />
+        <Facts />
+      </Suspense>
     </main>
   );
 }

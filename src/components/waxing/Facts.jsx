@@ -7,8 +7,8 @@ import { faqs } from "./data/faq";
 
 export default function Facts() {
   return (
-    <section className="max-w-xs md:max-w-2xl lg:max-w-3xl mx-auto ">
-      <div className="flex flex-col justify-center items-center">
+    <section className="max-w-xs md:max-w-2xl lg:max-w-3xl mx-auto my-20 ">
+      <div className="flex flex-col justify-center items-center mt-10">
         <h2 className="font-glo text-4xl text-center">
           Frequently Asked Questions
         </h2>
