@@ -1,11 +1,11 @@
 export const faqs = [
   {
     question: "Does it hurt?",
-    answer: "With our wax, it is painless. No worries, we got you.",
+    answer: "With our wax, it is painless. No worries, we got you!",
     id: 0,
   },
   {
-    question: "How old do you have to be?",
+    question: "How old do you have to be to get a wax?",
     answer:
       "Our policy states you can wax by yourself at age 18. Below 18 you need a parent consent form and parent must be present.",
     id: 1,
@@ -13,7 +13,7 @@ export const faqs = [
   {
     question: "What kind of a wax do you use?",
     answer:
-      "We use a butter candy hard wax.  Made with all natural ingredients and no parabens, phthalates, or synthetic fragrances. It is made just for us and exclusively for our guests. It removes all unwanted hair for smoother longer lasting results.  ",
+      "We use a butter candy hard wax. Made with all natural ingredients and no parabens, phthalates, or synthetic fragrances. It is made just for us and exclusively for our guests. It removes all unwanted hair for smoother longer lasting results.  ",
     id: 2,
   },
   {
@@ -23,7 +23,7 @@ export const faqs = [
     id: 3,
   },
   {
-    question: "I have an ingrown, can I still get. wax?",
+    question: "I have an ingrown, can I still get a wax?",
     answer:
       "In most cases yes. If anything, waxing will help lift the ingrown. Be advice if the ingrown is red, swollen, or has pus we will have to reschedule for another time. ",
     id: 4,
@@ -31,7 +31,7 @@ export const faqs = [
 
   {
     question:
-      "What is the difference between a bikini line, full, and brazilian?",
+      "What is the difference between a bikini line, bikini full, and a brazilian?",
     answer:
       "Bikini line, is the sides and along the top, while the bikini full is just the front, and brazilian is everything front to back.",
     id: 5,
@@ -54,5 +54,10 @@ export const faqs = [
     answer:
       "It should be longer than a grain of rice. As long as we can lift the hair, your good to go. If your hair is too short, we will have to reschedule for another day.",
     id: 8,
+  },
+  {
+    question: "Do I need to bring anything for my first time?",
+    answer:
+      "Just you and your ID to fill out your profile and then its waxing time!",
   },
 ];
