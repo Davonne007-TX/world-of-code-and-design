@@ -1,11 +1,14 @@
 import { useState } from "react";
-import { Typography, TextField, Button, Box } from "@mui/material";
+import { TextField, Button, Box } from "@mui/material";
+import { AdapterDayjs } from "@mui/x-date-pickers/AdapterDayjs";
+import { LocalizationProvider } from "@mui/x-date-pickers/LocalizationProvider";
+import { DatePicker } from "@mui/x-date-pickers/DatePicker";
 
 export default function Birthday() {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
-    birthday: "",
+    birthday: null,
     number: "",
   });
 
@@ -26,11 +29,6 @@ export default function Birthday() {
       <h2 className="mt-8 text-4xl md:text-5xl font-glo text-candy text-center">
         Sign up for Exclusive Birthday Offers
       </h2>
-
-      {/* <div className="flex">
-        <img src="./images/pink2.jpg" alt="" className="max-w-md" />
-        <img src="./images/pink.jpg" alt="" className="max-w-md" />
-      </div> */}
       <div className="flex flex-col">
         <Box
           component="form"
@@ -70,17 +68,25 @@ export default function Birthday() {
               background: "white",
             }}
           />
-          <TextField
-            label="Birthday"
-            name="birthday"
-            value={formData.birthday}
-            onChange={handelChange}
-            fullWidth
-            sx={{
-              borderRadius: "12px",
-              background: "white",
-            }}
-          />
+          <LocalizationProvider dateAdapter={AdapterDayjs}>
+            <DatePicker
+              label="Birthday"
+              value={formData.birthday}
+              onChange={(newValue) =>
+                setFormData((prev) => ({ ...prev, birthday: newValue }))
+              }
+              slotProps={{
+                textField: {
+                  fullWidth: true,
+                  sx: {
+                    borderRadius: "12px",
+                    background: "white",
+                  },
+                },
+              }}
+            />
+          </LocalizationProvider>
+
           <Button
             type="submit"
             sx={{
