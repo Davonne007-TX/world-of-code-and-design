@@ -9,7 +9,6 @@ export default function Birthday() {
     name: "",
     email: "",
     birthday: null,
-    number: "",
   });
 
   const handelChange = (e) => {
@@ -26,7 +25,7 @@ export default function Birthday() {
   };
   return (
     <section className="flex flex-col justify-center items-center gap-10  bg-pink-100">
-      <h2 className="mt-8 text-4xl md:text-5xl font-glo text-candy text-center">
+      <h2 className="mt-8 text-3xl md:text-5xl font-glo text-candy text-center">
         Sign up for Exclusive Birthday Offers
       </h2>
       <div className="flex flex-col">
@@ -83,6 +82,12 @@ export default function Birthday() {
                   sx: {
                     borderRadius: "12px",
                     background: "white",
+                  },
+                },
+                paper: {
+                  sx: {
+                    bgcolor: "#ffe6f2",
+                    color: "#ff5fa3",
                   },
                 },
               }}
