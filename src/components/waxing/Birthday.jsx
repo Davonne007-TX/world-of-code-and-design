@@ -18,27 +18,34 @@ export default function Birthday() {
   };
 
   const handleSubmit = (e) => {
-    e.preventDefault;
+    e.preventDefault();
     console.log(formData);
   };
   return (
-    <section className="flex flex-col justify-center items-center gap-10 my-20 bg-pink-100">
+    <section className="flex flex-col justify-center items-center gap-10  bg-pink-100">
       <h2 className="mt-8 text-4xl md:text-5xl font-glo text-candy text-center">
         Sign up for Exclusive Birthday Offers
       </h2>
-      <div className="border-2 scale-110 mb-20 rounded-2xl ">
+
+      {/* <div className="flex">
+        <img src="./images/pink2.jpg" alt="" className="max-w-md" />
+        <img src="./images/pink.jpg" alt="" className="max-w-md" />
+      </div> */}
+      <div className="flex flex-col">
         <Box
           component="form"
+          className="mx-auto"
           onSubmit={handleSubmit}
           sx={{
             display: "flex",
-            borderRadius: 4,
-            backgroundColor: "white",
+            justifyContent: "center",
+            alignItems: "center",
+            flexDirection: { xs: "column", md: "row" },
+            background: "white",
             width: "100%",
-            maxWidth: "900px",
+            maxWidth: { xs: "375px", md: "900px" },
             gap: 2,
-            border: "6px solid candy",
-            p: 4,
+            p: { xs: 2, md: 4 },
           }}
         >
           <TextField
@@ -91,6 +98,10 @@ export default function Birthday() {
             Submit
           </Button>
         </Box>
+        <div className="flex flex-col md:flex-row">
+          <img src="./images/pink2.jpg" alt="" className="max-w-md" />
+          <img src="./images/pink.jpg" alt="" className="max-w-md" />
+        </div>
       </div>
     </section>
   );
