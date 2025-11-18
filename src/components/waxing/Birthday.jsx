@@ -38,6 +38,8 @@ export default function Birthday() {
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
+            borderTopLeftRadius: "20px",
+            borderTopRightRadius: "20px",
             flexDirection: { xs: "column", md: "row" },
             background: "white",
             width: "100%",
