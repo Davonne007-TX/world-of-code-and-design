@@ -22,21 +22,20 @@ export default function Birthday() {
     console.log(formData);
   };
   return (
-    <section className="flex flex-col justify-center items-center gap-8 my-20">
-      <h2 className="mt-8 text-4xl md:text-5xl font-glo">
+    <section className="flex flex-col justify-center items-center gap-10 my-20 bg-pink-100">
+      <h2 className="mt-8 text-4xl md:text-5xl font-glo text-candy text-center">
         Sign up for Exclusive Birthday Offers
       </h2>
-      <div className="border-2 ">
+      <div className="border-2 scale-110 mb-20 rounded-2xl ">
         <Box
           component="form"
           onSubmit={handleSubmit}
           sx={{
             display: "flex",
-            flexDirection: "column",
-            // borderRadius: 4,
+            borderRadius: 4,
+            backgroundColor: "white",
             width: "100%",
-            maxWidth: "500px",
-
+            maxWidth: "900px",
             gap: 2,
             border: "6px solid candy",
             p: 4,
@@ -47,8 +46,10 @@ export default function Birthday() {
             name="name"
             value={formData.name}
             onChange={handelChange}
+            fullWidth
             sx={{
               borderRadius: "12px",
+              background: "white",
             }}
           />
           <TextField
@@ -56,8 +57,10 @@ export default function Birthday() {
             name="email"
             value={formData.email}
             onChange={handelChange}
+            fullWidth
             sx={{
               borderRadius: "12px",
+              background: "white",
             }}
           />
           <TextField
@@ -65,8 +68,10 @@ export default function Birthday() {
             name="birthday"
             value={formData.birthday}
             onChange={handelChange}
+            fullWidth
             sx={{
               borderRadius: "12px",
+              background: "white",
             }}
           />
           <Button
