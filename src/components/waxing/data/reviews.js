@@ -1,7 +1,7 @@
 export const reviews = [
   {
     review:
-      "Amazing! Angela took care of me and made sure my eyebrows were stunning",
+      "Amazing! Angela took care of me and made sure my eyebrows were stunning!",
     name: "Bella Swan",
     src: "./images/bella.jpg",
     alt: "Girl with make up and dark hair with tattoos, image from sobhan joodi on Unsplash",
@@ -9,7 +9,7 @@ export const reviews = [
   },
   {
     review:
-      "I'll definitely will be back! Rosalie was so nice and really knew what she was doing!   ",
+      "I'll definitely be back! Rosalie was so nice and really knew what she was doing!   ",
     name: "Alice Cullen",
     src: "./images/alice.jpg",
     alt: "Girl with make up, short hair, and a hat, image by mahdi chaghari on Unsplash",

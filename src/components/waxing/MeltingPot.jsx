@@ -1,4 +1,5 @@
 import { lazy, Suspense } from "react";
+
 const WaxHeader = lazy(() => import("./WaxHeader"));
 const WaxHero = lazy(() => import("./WaxHero"));
 const Services = lazy(() => import("./Services"));
@@ -7,6 +8,7 @@ const Packages = lazy(() => import("./Packages"));
 const OurRating = lazy(() => import("./OurRating"));
 const Facts = lazy(() => import("./Facts"));
 const GotQuestions = lazy(() => import("./GotQuestions"));
+const Birthday = lazy(() => import("./Birthday"));
 
 export default function MeltingPot() {
   return (
@@ -25,8 +27,8 @@ export default function MeltingPot() {
         <Packages />
         <OurRating />
         <GotQuestions />
-
         <Facts />
+        <Birthday />
       </Suspense>
     </main>
   );
