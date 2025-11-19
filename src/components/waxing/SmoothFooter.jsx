@@ -15,16 +15,26 @@ export default function SmoothFooter() {
   ];
   return (
     <footer className="bg-black flex flex-col justify-center items-center gap-4 p-8">
-      <h2 className="text-candy font-cut text-5xl">Silky Smooth</h2>
-      <p className="text-white text-xl text-center max-w-xl">
-        Premium Waxing Services just for you. Book Your Appointment and get
-        Silky Smooth Today.
+      <h2 className="text-candy font-cut text-5xl font-bold">Silky Smooth</h2>
+      <p className="text-white text-2xl text-center max-w-xl">
+        Premium Waxing Services from head to toe. Book Your Appointment and get
+        Silky Smooth Today with our waxing experts.
       </p>
 
-      <ul className="flex gap-4">
+      <number className="text-white text-xl">123-456-7890</number>
+
+      <ul className="flex gap-4 cursor-pointer">
         {footerSocialMediaLinks.map((mediaLinks) => (
           <img key={mediaLinks.id} src={mediaLinks.src} alt={mediaLinks.alt} />
         ))}
+      </ul>
+
+      <ul className="text-white flex gap-4 text-lg font-thin">
+        <li className=" hover:text-candy">About | </li>
+        <li className=" hover:text-candy">Services | </li>
+        <li className=" hover:text-candy">Packages | </li>
+        <li className=" hover:text-candy">FAQS | </li>
+        <li className=" hover:text-candy">Contact </li>
       </ul>
     </footer>
   );
