@@ -36,6 +36,16 @@ export default function Packages() {
           </ul>
         </div>
       </div>
+      <div className="relative w-fit">
+        <p className="absolute top-60 left-40 md:left-20 text-candy text-2xl md:text-5xl font-bold">
+          I think its time for a wax.
+        </p>
+        <img
+          src="./images/thinking.jpg"
+          alt="Girl thinking about waxing, image by Ayo Ogunseinde on Unsplash"
+          className="max-w-2xl md:max-w-6xl mt-40 "
+        />
+      </div>
     </section>
   );
 }
