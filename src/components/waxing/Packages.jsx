@@ -40,6 +40,10 @@ export default function Packages() {
         <p className="absolute top-60 left-40 md:left-20 text-candy text-2xl md:text-5xl font-bold">
           I think its time for a wax.
         </p>
+
+        <button className="absolute cursor-pointer transition-all duration-300 hover:scale-105 top-80 text-2xl left-20 bg-white text-candy p-2 rounded-full">
+          Book your appointment
+        </button>
         <img
           src="./images/thinking.jpg"
           alt="Girl thinking about waxing, image by Ayo Ogunseinde on Unsplash"

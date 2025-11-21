@@ -26,7 +26,7 @@ export default function Facts() {
                 expandIcon={
                   <ArrowDropDownIcon
                     className="text-white"
-                    style={{ fontSize: "24pt" }}
+                    style={{ fontSize: "28pt" }}
                   />
                 }
               >
