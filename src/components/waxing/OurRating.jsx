@@ -8,7 +8,7 @@ export default function OurRating() {
 
   return (
     <section className="max-w-6xl p-8 mx-auto">
-      <div className="flex flex-col justify-center items-center gap-4 text-center my-10">
+      <div className="flex flex-col justify-center items-center gap-4 mt-24 text-center my-10">
         <h2 className="mt-8 text-3xl md:text-4xl font-bold font-glo">
           What Our Guests Have to Say
         </h2>

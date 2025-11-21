@@ -37,11 +37,11 @@ export default function Packages() {
         </div>
       </div>
       <div className="relative w-fit">
-        <p className="absolute top-60 left-40 md:left-20 text-candy text-2xl md:text-5xl font-bold">
+        <p className="absolute top-160 md:top-60 left-44 md:left-20 text-candy text-3xl md:text-5xl font-bold">
           I think its time for a wax.
         </p>
 
-        <button className="absolute cursor-pointer transition-all duration-300 hover:scale-105 top-80 text-2xl left-20 bg-white text-candy p-2 rounded-full">
+        <button className="absolute top-170 mx-auto left-54 md:left-20 cursor-pointer transition-all duration-300 hover:scale-105 md:top-80 text-2xl bg-candy text-white p-2 rounded-full">
           Book your appointment
         </button>
         <img
