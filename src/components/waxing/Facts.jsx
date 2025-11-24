@@ -30,13 +30,15 @@ export default function Facts() {
                   />
                 }
               >
-                <Typography sx={{ fontWeight: "bold", fontSize: "14pt" }}>
+                <Typography sx={{ fontWeight: "bold", fontSize: "16pt" }}>
                   {question.question}
                 </Typography>
               </AccordionSummary>
 
               <AccordionDetails>
-                <Typography>{question.answer}</Typography>
+                <Typography sx={{ fontSize: "14pt", fontWeight: "thin" }}>
+                  {question.answer}
+                </Typography>
               </AccordionDetails>
             </Accordion>
           ))}

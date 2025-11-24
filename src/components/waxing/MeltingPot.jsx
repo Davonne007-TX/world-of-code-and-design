@@ -1,4 +1,6 @@
 import { lazy, Suspense } from "react";
+import { useRef } from "react";
+
 const WaxHeader = lazy(() => import("./WaxHeader"));
 const WaxHero = lazy(() => import("./WaxHero"));
 const Services = lazy(() => import("./Services"));
@@ -11,16 +13,20 @@ const Birthday = lazy(() => import("./Birthday"));
 const SmoothFooter = lazy(() => import("./SmoothFooter"));
 
 export default function MeltingPot() {
+  const homeSection = useRef(null);
+
+  const scrollToSection = (ref) => {
+    if (ref.current) {
+      ref.current.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <main className="bg-neutral-100 min-h-screen">
-      <Suspense
-        fallback={
-          <div className="min-h-screen text-punch font-3xl text-center font-cut">
-            Loading...
-          </div>
-        }
-      >
-        <WaxHeader />
+      <div ref={homeSection}></div>
+
+      <Suspense fallback={<div>Loading...</div>}>
+        <WaxHeader scrollToSection={scrollToSection} targetRef={homeSection} />
         <WaxHero />
         <OurWax />
         <Services />
@@ -29,7 +35,7 @@ export default function MeltingPot() {
         <GotQuestions />
         <Facts />
         <Birthday />
-        <SmoothFooter />
+        <SmoothFooter scrollToSection={scrollToSection} refs={homeSection} />
       </Suspense>
     </main>
   );

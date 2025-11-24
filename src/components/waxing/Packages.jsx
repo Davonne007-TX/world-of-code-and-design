@@ -2,7 +2,7 @@ import { packages } from "./data/packages";
 
 export default function Packages() {
   return (
-    <section className="flex flex-col justify-center items-center my-10">
+    <section className="flex flex-col justify-center items-center my-20">
       <div className="flex flex-col lg:flex-row justify-center items-center gap-20 ">
         <img
           src="./images/friends.jpg"
@@ -26,7 +26,7 @@ export default function Packages() {
                   <h2 className="text-xl font-bold font-serif">{pkg.name} </h2>
 
                   <p className="text-lg">{pkg.description}</p>
-                  <a className="hover:text-candy font-semibold cursor-pointer">
+                  <a className="hover:text-candy bg-pink-200 rounded  w-30 text-center p-1 font-semibold cursor-pointer">
                     {" "}
                     Learn More
                   </a>
