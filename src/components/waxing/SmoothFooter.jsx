@@ -4,7 +4,7 @@ export default function SmoothFooter({ scrollToSection, refs }) {
   return (
     <footer className="bg-black flex flex-col justify-center items-center gap-8 p-8">
       <h2
-        className="text-candy font-cut text-5xl cursor-pointer p-2 font-bold shadow-punch shadow-xl"
+        className="text-candy font-cut text-5xl text-center cursor-pointer p-2 font-bold shadow-punch shadow-xl"
         onClick={() => scrollToSection(refs)}
       >
         Silky Smooth
