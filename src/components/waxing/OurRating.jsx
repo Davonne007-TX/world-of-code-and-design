@@ -7,7 +7,7 @@ export default function OurRating() {
   const [value, setValue] = useState(5);
 
   return (
-    <section className="max-w-6xl mx-auto my-40">
+    <section className="max-w-6xl mx-auto my-60">
       <div className="flex flex-col justify-center items-center gap-4 text-center ">
         <h2 className="text-3xl md:text-4xl font-bold font-glo">
           What Our Guests Have to Say
