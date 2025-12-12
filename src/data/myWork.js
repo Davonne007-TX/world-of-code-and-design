@@ -20,7 +20,7 @@ export const myWork = [
   { id: 19, text: "Pot of Gold", link: "/gold" },
   { id: 20, text: "Shamrock Tavern", link: "/tavern" },
   { id: 21, text: "AI", link: "/ai" },
-  { id: 22, text: "Windows", link: "/windows" },
+  { id: 22, text: "Windows XP Clone", link: "/windows" },
   { id: 23, text: "Eat Now", link: "/eat" },
   { id: 24, text: "Funky Taco", link: "/funkyTaco" },
   { id: 25, text: "Stay Alert", link: "/tornado" },
