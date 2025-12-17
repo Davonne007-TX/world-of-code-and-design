@@ -59,6 +59,9 @@ const CalmPaws = React.lazy(() => import("./components/calm-paws/CalmPaws"));
 const Fries = React.lazy(() => import("./components/fries/FriesMeetsCheese"));
 const SuperRobot = React.lazy(() => import("./components/robot/SuperRobot"));
 const MeltingPot = React.lazy(() => import("./components/waxing/MeltingPot"));
+const Workshop = React.lazy(() =>
+  import("./components/santa-workshop/Workshop")
+);
 
 function App() {
   return (
@@ -108,6 +111,7 @@ function App() {
           <Route path="fries" element={<Fries />} />
           <Route path="robot" element={<SuperRobot />} />
           <Route path="smooth" element={<MeltingPot />} />
+          <Route path="workshop" element={<Workshop />} />
         </Routes>
       </Suspense>
     </>

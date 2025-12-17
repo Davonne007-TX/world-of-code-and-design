@@ -34,4 +34,5 @@ export const myWork = [
   { id: 33, text: "Fries", link: "/fries" },
   { id: 34, text: "Super Robot", link: "/robot" },
   { id: 34, text: "Silky Smooth", link: "/smooth" },
+  { id: 35, text: "Santa Workshop", link: "/workshop" },
 ];
