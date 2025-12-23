@@ -5,8 +5,6 @@ export default function KarateHeader() {
     { karateLink: "About", id: 1 },
     { karateLink: "Programs", id: 2 },
     { karateLink: "National Tournament", id: 3 },
-    { karateLink: "Gallery", id: 4 },
-    { karateLink: "Locations", id: 5 },
     { karateLink: "Contact", id: 6 },
   ];
 
