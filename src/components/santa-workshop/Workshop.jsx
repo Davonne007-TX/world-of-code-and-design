@@ -1,7 +1,13 @@
+import HeaderWorkshop from "./HeaderWorkshop";
+
 export default function Workshop() {
   return (
-    <div>
-      <h1 className="text-black">testing 123</h1>
-    </div>
+    <main className="flex flex-col justify-center items-center">
+      <HeaderWorkshop />
+      <img
+        src="./images/santa.webp"
+        className="max-w-xl md:max-w-4xl rounded-3xl"
+      />
+    </main>
   );
 }

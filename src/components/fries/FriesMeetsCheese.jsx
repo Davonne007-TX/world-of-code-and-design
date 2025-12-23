@@ -8,10 +8,10 @@ export default function FriesMeetsCheese() {
     <section className="min-h-screen bg-black">
       <FriesHeader />
       <div className="ml-10">
-        <div className="flex flex-col lg:flex-row gap-8">
+        <div className="flex flex-col lg:flex-row justify-center items-center gap-8">
           <div className="flex flex-col">
             <ReuseableCard
-              sectionStyles="max-w-3xl mt-10 md:mt-40 text-white"
+              sectionStyles="max-w-3xl mt-10  text-white"
               heading={
                 <>
                   Best Cheese Fries in{" "}
@@ -35,8 +35,10 @@ export default function FriesMeetsCheese() {
           </div>
           <Image
             image="./images/fries.jpg"
-            className="max-w-md py-10 rounded-3xl transition-all duration-300 shadow-3xl"
             alt="Cheesy Cheese Fries, image by fabio-alves on Unsplash"
+            className="max-w-md rounded-3xl mt-8 border-4 border-yellow-100 bg-gradient-to-br from-amber-300 via-yellow-200 to-amber-500
+            shadow-[0_0_30px_rgba(253,224,71,0.8)]
+  "
           />
         </div>
       </div>
