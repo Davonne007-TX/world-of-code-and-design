@@ -13,7 +13,7 @@ export default function PlanetNav() {
           <li key={links.id}>{links.name}</li>
         ))}
         <button className="bg-blue-400 text-center flex items-center text-white p-2">
-          Take Action
+          Get Started
         </button>
       </ul>
     </header>
